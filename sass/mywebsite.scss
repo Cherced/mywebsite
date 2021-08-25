@@ -50,12 +50,15 @@ header{
     background-image: url('../dist/Img/background--banner.png'); 
     padding-top: 120px;
 }
+
 .main-banner--container #separador {
     margin: 14px auto 26px;
 }
+
 .banner-img--container #git {
     margin: 0 32px;
 }
+
 .banner-text--container h1{
     font-family: $titles;
     font-style: normal;
@@ -109,7 +112,7 @@ header{
     margin: 36px 50px;
 }
 
-.main-intro--container button {
+.main-intro--container .buttonOne {
     background: transparent;
     font-family: $titles;
     font-style: normal;
@@ -124,6 +127,97 @@ header{
     border-top: none;
     border-bottom: none;
 }
+
+//about me
+
+.section-main--three{
+    width: 100%;
+    height: auto;
+    background:#ffffff;
+}
+
+.main-aboutme--containter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-aboutme--containter p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #000000;
+    margin: 0px 62px;
+}
+
+.main-aboutme--containter .buttonTwo {
+    background: transparent;
+    font-family: $titles;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 127.9%;
+    text-align: center;
+    color: black;
+    padding: 10px 45px;
+    border: 8px #000000 solid;
+    margin: 45px auto;    
+}
+
+.main-aboutme--containter .buttonOne {
+    background: transparent;
+    font-family: $titles;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: black;
+    padding: 10px 45px;
+    border-left: #000000 solid;
+    border-right: #000000 solid;
+    border-top: none;
+    border-bottom: none;
+    margin: 50px auto 30px;
+}
+
+.main-aboutme--containter img{
+    margin-bottom: 80px;
+}
+
+.main-skills--container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+    margin-top: -80px;
+}
+
+.main-skills--container img {
+    position: relative;
+    top: 115px;
+    left: 24px;
+}
+
+.main-skills--container h1 {
+    padding: 0 60px 15px;
+}
+
+.main-skills--container p{
+    font-family: 'open sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: justify;
+    color: #000000; 
+}
+
 
 
 
