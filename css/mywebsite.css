@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "MONTSERRAT", "monospace", "RALEWAY", "OPEN SAND";
+}
+
+header {
+  width: 100%;
+  height: 64px;
+  background-color: black;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.nav-container--icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-container--icons #nav {
+  margin-right: 14px;
+  margin-bottom: 50px;
+}
+
+.main-banner--container {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../dist/Img/background--banner.png");
+}
+
+.main-banner--container #separador {
+  margin: 14px auto 26px;
+}
+
+.banner-img--container #git {
+  margin: 0 32px;
+}
+
+.banner-text--container h1 {
+  font-family: "MONTSERRAT", "monospace";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.banner-text--container h2 {
+  font-family: "Advent Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.section-main--one {
+  background: linear-gradient(180deg, #545454 15.21%, rgba(145, 145, 145, 0.255491) 100%, rgba(157, 157, 157, 0.108646) 100%, rgba(166, 166, 166, 0) 140.59%);
+}

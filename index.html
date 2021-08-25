@@ -4,41 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&family=Montserrat:ital,wght@0,500;0,600;0,700;1,200;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/mywebsite.css">
     <title>Camilo Cediel || Portafolio.</title>
 </head>
 <body>
     <header>
-        <div class="menu-button">
-            <span class="menu-button__burger" ></span>
-        </div>
-        <nav class="nav">
-            <ul class="menu-nav wow fadeIn">
-                <li class="menu-nav__item--homeItem">
-                    <a href="#home" class="menu-nav__link">Home</a>
-                </li>
-                <li class="menu-nav__item--proyectsItem">
-                    <a href="#proyects" class="menu-nav__link">My Proyects</a>
-                </li>
-                <li class="menu-nav__item--aboutItem">
-                    <a href="#about" class="menu-nav__link">About Me</a>
-                </li>
-                <li class="menu-nav__item--contactItem">
-                    <a href="#contact" class="menu-nav__link">Contact Me</a>
-                </li>
+        <div class="nav-container--icons">
+            <img src="./dist/Icons/brand.png" alt="brand">
+            <img src="./dist/Icons/Navbar.png" alt="Nav" id="nav">
+        </div>        
+        <nav>            
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
             </ul>
         </nav>
     </header>
-    <div id="home" class="home">
-        <div class="home__hero">
-            <div class="home__image wow fadeIn" data-wow-delay="1s"></div>
-            <div class="hero__text wow fadeIn" data-wow-delay="1s">
-                <h2>Hi! I'm</h2>
-                <h1 class="hero__text-name">
-                    Camilo <span class="hero__text-last">Hernandez</span>
-                </h1>
-                <h2>Front End Developer and Business Manager</h2>
+    <main>
+        <section class="section-main--one">
+            <div class="main-banner--container">
+                <div class="banner-text--container">
+                    <h2>my Name is Camilo</h2>
+                    <h1>I’M A DEVELOPER</h1>
+                </div>
+                <img src="./dist/Icons/separatorWhite 2.png" alt="separador" id="separador">                
+                <div class="banner-img--container">
+                    <img src="./dist/Icons/cib_mail-ru.png" alt="Mail">
+                    <img src="./dist/Icons/ant-design_github-filled.png" alt="GITHUB" id="git">
+                    <img src="./dist/Icons/entypo-social_linkedin-with-circle.png" alt="LINKEDIN">
+                </div>          
             </div>
-        </div>
-    </div>
+        </section>
+        
+        <section>
+
+        </section>
+    </main>
 </body>
 </html>
