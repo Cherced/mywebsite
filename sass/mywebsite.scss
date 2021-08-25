@@ -208,7 +208,7 @@ header{
     padding: 0 60px 15px;
 }
 
-.main-skills--container p{
+.main-skills--container p {
     font-family: 'open sans';
     font-style: normal;
     font-weight: 300;
@@ -217,6 +217,252 @@ header{
     text-align: justify;
     color: #000000; 
 }
+
+.main-skills--tech {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-skills--tech .buttonTwo {
+    background: transparent;
+    font-family: $titles;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 127.9%;
+    text-align: center;
+    color: black;
+    padding: 10px 45px;
+    border: 8px #000000 solid;
+    margin: 45px auto;  
+}
+.main-skills--tech #unic {
+    margin: 25px 0 35px 0;
+}
+
+.main-skills--tech h1 {
+    margin: 17px 0 70px 0;
+}
+
+//Proyects
+
+.section-main--four{
+    width: 100%;
+    height: auto;
+}
+
+.main-proyect--container {
+    display: flex;
+    flex-direction: column;
+}
+
+.proyect-button--container{
+    height: 187.5px;
+    background-image: url('../dist/Img/sectionmain\ 1.png');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.proyect-button--container .buttonTwo {
+    background: transparent;
+    font-family: $titles;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 127.9%;
+    text-align: center;
+    color: black;
+    padding: 10px 45px;
+    border: 8px #000000 solid;
+}
+
+.proyect-nav--container{
+    height: 156px;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.proyect-nav--container  li {
+    display: inline-block;
+    border-bottom: 1px #aaaaaa solid;
+    width: 178px;
+    text-align: center;
+    padding: 10px;
+}
+
+.proyect-carrusel--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.one {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background-image: url('../dist/Img/fullweb.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly       
+ }
+
+ .one p {
+    font-family: $titles;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.095em;    
+    color: #FFFFFF;
+ }
+
+ .one h1{
+     color: #ffffff;
+     font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 127.9%;
+ }
+
+ .one .buttonOne {
+    background: transparent;
+    font-family: $titles;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px 45px;
+    border-left: #FFFFFF solid;
+    border-right: #FFFFFF solid;
+    border-top: none;
+    border-bottom: none;
+    margin: 0px auto 0px;
+ }
+
+ 
+.two {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background-image: url('../dist/Img/Project.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly       
+ }
+
+ .two p {
+    font-family: $titles;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.095em;    
+    color: #FFFFFF;
+ }
+
+ .two h1{
+     color: #ffffff;
+     font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 127.9%;
+ }
+
+ .two .buttonOne {
+    background: transparent;
+    font-family: $titles;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px 45px;
+    border-left: #FFFFFF solid;
+    border-right: #FFFFFF solid;
+    border-top: none;
+    border-bottom: none;
+    margin: 0px auto 0px;
+ }
+
+ 
+.three {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background-image: url('../dist/Img/Project3.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly       
+ }
+
+ .three p {
+    font-family: $titles;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.095em;    
+    color: #FFFFFF;
+ }
+
+ .three h1{
+     color: #ffffff;
+     font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 127.9%;
+ }
+
+ .three .buttonOne {
+    background: transparent;
+    font-family: $titles;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px 45px;
+    border-left: #FFFFFF solid;
+    border-right: #FFFFFF solid;
+    border-top: none;
+    border-bottom: none;
+    margin: 0px auto 0px;
+ }
+
+.footer-proyect--container{
+    width: 100%;
+    height: 60px;
+    background-color: #000000;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFBFB;
+    flex-direction: column;
+    justify-content: center;
+}
+
 
 
 
