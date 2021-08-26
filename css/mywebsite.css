@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "MONTSERRAT", "monospace", "RALEWAY", "OPEN SAND";
+  font-family: "MONTSERRAT", "monospace", "RALEWAY", "OPEN SANS";
 }
 
 header {
@@ -96,7 +96,7 @@ header {
 }
 
 .main-intro--container #p {
-  font-family: "OPEN SAND";
+  font-family: "OPEN SANS";
   font-style: normal;
   font-weight: lighter;
   font-size: 17px;
@@ -478,7 +478,7 @@ header {
 }
 
 .footer-contactme--container p {
-  font-family: "OPEN SAND";
+  font-family: "OPEN SANS";
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
@@ -579,9 +579,9 @@ header {
 }
 
 .section-footer--two p {
-  font-family: "OPEN SAND";
+  font-family: "OPEN SANS";
   font-style: normal;
-  font-weight: bold;
+  font-weight: 300;
   font-size: 14px;
   line-height: 19px;
   text-align: center;

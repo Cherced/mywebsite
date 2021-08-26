@@ -1,6 +1,6 @@
 $titles: 'MONTSERRAT', 'monospace';
 $subTitles: 'RALEWAY';
-$paragraf:'OPEN SAND';
+$paragraf:'OPEN SANS';
 $colorTexto: #ffffff;
 $colorFondoSection: #FDFAFA;
 $colorLinearGradientBanner: linear-gradient(180deg, #545454 15.21%, rgba(145, 145, 145, 0.255491) 100%, rgba(157, 157, 157, 0.108646) 100%, rgba(166, 166, 166, 0) 140.59%);
@@ -596,7 +596,7 @@ header{
 .section-footer--two p {
     font-family: $paragraf;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 300;
     font-size: 14px;
     line-height: 19px;
     text-align: center;
