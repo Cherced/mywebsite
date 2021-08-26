@@ -1,10 +1,19 @@
+//fonts
 $titles: 'MONTSERRAT', 'monospace';
 $subTitles: 'RALEWAY';
 $paragraf:'OPEN SANS';
-$colorTexto: #ffffff;
-$colorFondoSection: #FDFAFA;
+//color`s
+$backgroundHeader: #000000;
+$colorTextOne: #ffffff;
+$colorTextTwo: #000000;
+$colorFondoSectionOne: #FFFFFF;
+$colorFondoSectioneTwo: #000000;
+$titleMarkColor: #000000;
+$lineSideButtonWhite: #FFFFFF;
+$lineSideButtonBlack: #000000;
 $colorLinearGradientBanner: linear-gradient(180deg, #545454 15.21%, rgba(145, 145, 145, 0.255491) 100%, rgba(157, 157, 157, 0.108646) 100%, rgba(166, 166, 166, 0) 140.59%);
 $colorLinearGradientFooter: linear-gradient(0deg, #000000 8.81%, rgba(196, 196, 196, 0) 31.87%);
+$colorInputLetter: #8B8B8B;
 $opacityProyectLayers: linear-gradient(0deg, rgba(2, 2, 2, 0.42), rgba(2, 2, 2, 0.42)), url(IMAGENAOSCURESER);
 $opacityProyectIntro: linear-gradient(0deg, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.62));
 *{
@@ -21,7 +30,7 @@ body{
 header{
     width: 100%;
     height: 64px;
-    background-color: black;
+    background-color: $backgroundHeader;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
@@ -50,30 +59,32 @@ header{
         background-image: url('../dist/Img/background--banner.png');
         background-size: cover; 
         padding-top: 120px;
+        .banner-text--container{
+            h1 {
+                font-family: $titles;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 32px;
+                line-height: 39px;
+                text-align: center;
+                color: $colorTextOne;
+            }
+           h2 {
+                    font-family: 'Advent Pro';
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 25px;
+                    line-height: 30px;
+                    text-align: center;
+                    color: $colorTextOne;
+            }  
+        } 
         #separador {
             margin: 14px auto 26px;
         }
         .banner-img--container #git {
             margin: 0 32px;
-        }
-        .banner-text--container h1{
-            font-family: $titles;
-            font-style: normal;
-            font-weight: 400;
-            font-size: 32px;
-            line-height: 39px;
-            text-align: center;
-            color: #FFFFFF;  
-        }
-        .banner-text--container h2{
-            font-family: 'Advent Pro';
-            font-style: normal;
-            font-weight: normal;
-            font-size: 25px;
-            line-height: 30px;
-            text-align: center;
-            color: #FFFFFF;
-        }
+        }        
     }
 }
 
@@ -91,7 +102,7 @@ header{
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        color: #ffffff;
+        color: $colorTextOne;
         img{
             width: 170px;
             height: 170px;
@@ -115,10 +126,10 @@ header{
             font-size: 15px;
             line-height: 18px;
             text-align: center;
-            color: #ffffff;
+            color: $colorTextOne;
             padding: 10px 45px;
-            border-left: #ffffff solid;
-            border-right: #ffffff solid;
+            border-left: $lineSideButtonWhite solid;
+            border-right: $lineSideButtonWhite solid;
             border-top: none;
             border-bottom: none;
         }
@@ -130,13 +141,13 @@ header{
 .section-main--three{
     width: 100%;
     height: auto;
-    background:#ffffff;
+    background: $colorFondoSectionOne;
     .main-aboutme--containter{
         display: flex;
         flex-direction: column;
         align-items: center;
         p {
-            font-family: Open Sans;
+            font-family: $paragraf;
             font-style: normal;
             font-weight: 300;
             font-size: 12px;
@@ -144,7 +155,7 @@ header{
             display: flex;
             align-items: flex-end;
             text-align: center;
-            color: #000000;
+            color: $colorTextTwo;
             margin: 0px 62px;
         }
         .titleBox {
@@ -155,9 +166,9 @@ header{
             font-size: 14px;
             line-height: 127.9%;
             text-align: center;
-            color: black;
+            color: $colorTextTwo;
             padding: 10px 45px;
-            border: 8px #000000 solid;
+            border: 8px $titleMarkColor solid;
             margin: 45px auto;    
         }
         .button {
@@ -168,10 +179,10 @@ header{
             font-size: 15px;
             line-height: 18px;
             text-align: center;
-            color: black;
+            color: $colorTextTwo;
             padding: 10px 45px;
-            border-left: #000000 solid;
-            border-right: #000000 solid;
+            border-left: $lineSideButtonBlack solid;
+            border-right: $lineSideButtonBlack solid;
             border-top: none;
             border-bottom: none;
             margin: 50px auto 30px;
@@ -195,13 +206,13 @@ header{
             padding: 0 60px 15px;
         }
         p {
-            font-family: 'open sans';
+            font-family: $paragraf;
             font-style: normal;
             font-weight: 300;
             font-size: 13px;
             line-height: 18px;
             text-align: justify;
-            color: #000000; 
+            color: $colorTextTwo; 
         }
     }
     .main-skills--tech {
@@ -216,9 +227,9 @@ header{
             font-size: 14px;
             line-height: 127.9%;
             text-align: center;
-            color: black;
+            color: $colorTextTwo;
             padding: 10px 45px;
-            border: 8px #000000 solid;
+            border: 8px $lineSideButtonBlack solid;
             margin: 45px auto;  
         }
         #unic {
@@ -253,15 +264,15 @@ header{
                 font-size: 14px;
                 line-height: 127.9%;
                 text-align: center;
-                color: black;
+                color: $colorTextTwo;
                 padding: 10px 45px;
-                border: 8px #000000 solid;
+                border: 8px $titleMarkColor solid;
             }
         }
         .proyect-nav--container{
             height: 156px;
-            background-color: #000000;
-            color: #ffffff;
+            background-color: $colorFondoSectioneTwo;
+            color: $colorTextOne;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -298,10 +309,10 @@ header{
             font-size: 10px;
             line-height: 12px;
             letter-spacing: 0.095em;    
-            color: #FFFFFF;
+            color: $colorTextOne;
         }
         h1{
-            color: #ffffff;
+            color: $colorTextOne;
             font-style: normal;
             font-weight: bold;
             font-size: 25px;
@@ -315,10 +326,10 @@ header{
             font-size: 15px;
             line-height: 18px;
             text-align: center;
-            color: #FFFFFF;
+            color: $colorTextOne;
             padding: 10px 45px;
-            border-left: #FFFFFF solid;
-            border-right: #FFFFFF solid;
+            border-left: $lineSideButtonWhite solid;
+            border-right: $lineSideButtonWhite solid;
             border-top: none;
             border-bottom: none;
             margin: 0px auto 0px;
@@ -341,10 +352,10 @@ header{
             font-size: 10px;
             line-height: 12px;
             letter-spacing: 0.095em;    
-            color: #FFFFFF;
+            color: $colorTextOne;
         }
         h1{
-            color: #ffffff;
+            color: $colorTextOne;
             font-style: normal;
            font-weight: bold;
            font-size: 25px;
@@ -358,10 +369,10 @@ header{
             font-size: 15px;
             line-height: 18px;
             text-align: center;
-            color: #FFFFFF;
+            color: $colorTextOne;
             padding: 10px 45px;
-            border-left: #FFFFFF solid;
-            border-right: #FFFFFF solid;
+            border-left: $lineSideButtonWhite solid;
+            border-right: $lineSideButtonWhite solid;
             border-top: none;
             border-bottom: none;
             margin: 0px auto 0px;
@@ -384,10 +395,10 @@ header{
             font-size: 10px;
             line-height: 12px;
             letter-spacing: 0.095em;    
-            color: #FFFFFF;
+            color: $colorTextOne;
         }
         h1 {
-            color: #ffffff;
+            color: $colorTextOne;
             font-style: normal;
            font-weight: bold;
            font-size: 25px;
@@ -401,10 +412,10 @@ header{
             font-size: 15px;
             line-height: 18px;
             text-align: center;
-            color: #FFFFFF;
+            color: $colorTextOne;
             padding: 10px 45px;
-            border-left: #FFFFFF solid;
-            border-right: #FFFFFF solid;
+            border-left: $lineSideButtonWhite solid;
+            border-right: $lineSideButtonWhite solid;
             border-top: none;
             border-bottom: none;
             margin: 0px auto 0px;
@@ -413,8 +424,8 @@ header{
     .footer-proyect--container{
         width: 100%;
         height: 60px;
-        background-color: #000000;
-        font-family: Montserrat;
+        background: $colorFondoSectioneTwo ;
+        font-family: $titles;
         font-style: normal;
         font-weight: 600;
         font-size: 16px;
@@ -422,7 +433,7 @@ header{
         display: flex;
         align-items: center;
         text-align: center;
-        color: #FFFBFB;
+        color: $colorTextOne;
         flex-direction: column;
         justify-content: center;
     }
@@ -446,9 +457,9 @@ header{
             font-size: 14px;
             line-height: 127.9%;
             text-align: center;
-            color: black;
+            color: $colorTextTwo;
             padding: 10px 45px;
-            border: 8px #000000 solid;
+            border: 8px $titleMarkColor solid;
             margin: 45px auto;
         }
         p {
@@ -458,7 +469,7 @@ header{
             font-size: 15px;
             line-height: 20px;
             text-align: center;
-            color: #000000;
+            color: $colorTextTwo;
             margin: 0 42px 40px;
         }
         img {
@@ -467,8 +478,8 @@ header{
         .small {
             width: 243px;
             height: 45px;
-            border-left: 5px black solid;
-            border-bottom: 5px black solid;
+            border-left: 5px $lineSideButtonBlack solid;
+            border-bottom: 5px $lineSideButtonBlack solid;
             border-top: none;
             border-right: none;
             background: transparent;
@@ -479,14 +490,14 @@ header{
             font-size: 12px;
             line-height: 15px;
             letter-spacing: 0.04em;
-            color: #8B8B8B;
+            color: $colorInputLetter;
             padding: 10px;
         }
         .big {
             width: 243px;
             height: 165px;
-            border-left: 5px black solid;
-            border-bottom: 5px black solid;
+            border-left: 5px $lineSideButtonBlack solid;
+            border-bottom: 5px $lineSideButtonBlack solid;
             border-top: none;
             border-right: none;
             background: transparent;
@@ -496,7 +507,7 @@ header{
             font-size: 12px;
             line-height: 15px;
             letter-spacing: 0.04em;
-            color: #8B8B8B;
+            color: $colorInputLetter;
             padding: 10px 10px 125px 10px;
         }
         .button {
@@ -507,10 +518,10 @@ header{
             font-size: 15px;
             line-height: 18px;
             text-align: center;
-            color: #ffffff;
+            color: $colorTextOne;
             padding: 10px 45px;
-            border-left: #ffffff solid;
-            border-right: #ffffff solid;
+            border-left: $lineSideButtonWhite solid;
+            border-right: $lineSideButtonWhite solid;
             border-top: none;
             border-bottom: none;
             margin: 50px auto 25px;
@@ -521,8 +532,8 @@ header{
 .section-footer--two{
     width: 100%;
     height: 289px;
-    background-color: #000000;
-    color: #ffffff;
+    background: $colorFondoSectioneTwo;
+    color: $colorTextOne;
     display: flex;
     flex-direction: column;
     align-items: center;
