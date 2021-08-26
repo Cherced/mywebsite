@@ -1,0 +1,28 @@
+//fonts
+$titles: 'MONTSERRAT', 'monospace';
+$subTitles: 'RALEWAY';
+$paragraf:'OPEN SANS';
+//color`s
+$backgroundHeader: #000000;
+$colorTextOne: #ffffff;
+$colorTextTwo: #000000;
+$colorFondoSectionOne: #FFFFFF;
+$colorFondoSectioneTwo: #000000;
+$titleMarkColor: #000000;
+$lineSideButtonWhite: #FFFFFF;
+$lineSideButtonBlack: #000000;
+$colorLinearGradientBanner: linear-gradient(180deg, #545454 15.21%, rgba(145, 145, 145, 0.255491) 100%, rgba(157, 157, 157, 0.108646) 100%, rgba(166, 166, 166, 0) 140.59%);
+$colorLinearGradientFooter: linear-gradient(0deg, #000000 8.81%, rgba(196, 196, 196, 0) 31.87%);
+$colorInputLetter: #8B8B8B;
+$opacityProyectLayers: linear-gradient(0deg, rgba(2, 2, 2, 0.42), rgba(2, 2, 2, 0.42)), url(IMAGENAOSCURESER);
+$opacityProyectIntro: linear-gradient(0deg, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.62));
+//variables de inicio de navegador
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: $titles, $subTitles, $paragraf;
+}
