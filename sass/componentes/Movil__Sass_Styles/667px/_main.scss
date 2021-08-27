@@ -2,23 +2,38 @@
 .section-main--one{
     width: 100%;
     background: $colorLinearGradientBanner;
+    .banner-pic--container {
+        display: block;
+        .me{
+            position: absolute;
+            top: -6px;
+            left: -2px;    
+            z-index: 1; 
+        }               
+        .greyPoligon{
+            position: absolute;
+            width: 667px;
+            top: 64px;
+            z-index: 0;              
+        }
+        .opacityRectangle {
+            position: absolute;
+            bottom: 190px;
+        }
+    }
     .main-banner--container{
         height: 600px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-end;
+        align-items: flex-end;
         background-image: url('../dist/Img/background--banner.png');
         background-size: cover; 
         padding-top: 120px;
-        .banner-pic--container {
-            display: block;
-            position: absolute;
-            top: -6px;
-            left: -2px;
-        }
         .banner-text--containerTwo{
             display: block;
+            z-index: 3;
+            margin: 0 76px 33px 0;
             h2 {
                 font-family: $subTitles;
                 font-style: normal;
@@ -58,9 +73,16 @@
         #separador {
             display: none;
         }
-        .banner-img--container #git {
-            margin: 0 32px;
-        }        
+        .banner-img--container {
+            display: flex;
+            position: absolute;
+            flex-direction: column;
+            align-items: center;
+            bottom:215px;
+            #git {
+                margin: 32px 10px;
+            }      
+        } 
     }
 }
 
