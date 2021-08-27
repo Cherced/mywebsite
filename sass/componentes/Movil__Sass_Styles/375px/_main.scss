@@ -1,5 +1,3 @@
-
-
 //banner
 .section-main--one{
     width: 100%;
@@ -42,6 +40,16 @@
     }
 }
 
+.banner-pic--container{
+    display: none;
+}
+.banner-text--containerTwo{
+    display: none;
+}
+.banner-geometry-container {
+    display: none;
+}
+
 //intro
 
 .section-main--two{
@@ -73,19 +81,7 @@
             margin: 36px 50px;
         }
         .button {
-            background: transparent;
-            font-family: $titles;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 15px;
-            line-height: 18px;
-            text-align: center;
-            color: $colorTextOne;
-            padding: 10px 45px;
-            border-left: $lineSideButtonWhite solid;
-            border-right: $lineSideButtonWhite solid;
-            border-top: none;
-            border-bottom: none;
+            @include whiteButton;
         }
     }
 }
@@ -100,6 +96,11 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        .titleBox {
+            @include titleBoxBlack;
+            padding: 10px 45px;  
+            margin: 45px auto;  
+        }
         p {
             font-family: $paragraf;
             font-style: normal;
@@ -112,34 +113,8 @@
             color: $colorTextTwo;
             margin: 0px 62px;
         }
-        .titleBox {
-            background: transparent;
-            font-family: $titles;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 14px;
-            line-height: 127.9%;
-            text-align: center;
-            color: $colorTextTwo;
-            padding: 10px 45px;
-            border: 8px $titleMarkColor solid;
-            margin: 45px auto;    
-        }
         .button {
-            background: transparent;
-            font-family: $titles;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 15px;
-            line-height: 18px;
-            text-align: center;
-            color: $colorTextTwo;
-            padding: 10px 45px;
-            border-left: $lineSideButtonBlack solid;
-            border-right: $lineSideButtonBlack solid;
-            border-top: none;
-            border-bottom: none;
-            margin: 50px auto 30px;
+            @include blackButton;        
         }
         img{
             margin-bottom: 80px;
@@ -174,17 +149,9 @@
         flex-direction: column;
         align-items: center;
         .titleBox {
-            background: transparent;
-            font-family: $titles;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 14px;
-            line-height: 127.9%;
-            text-align: center;
-            color: $colorTextTwo;
-            padding: 10px 45px;
-            border: 8px $lineSideButtonBlack solid;
-            margin: 45px auto;  
+            @include titleBoxBlack;
+            margin: 45px auto; 
+            padding: 10px 45px; 
         }
         #unic {
             margin: 25px 0 35px 0;
@@ -211,16 +178,8 @@
             align-items: center;
             justify-content: center;
             .titleBox {
-                background: transparent;
-                font-family: $titles;
-                font-style: normal;
-                font-weight: bold;
-                font-size: 14px;
-                line-height: 127.9%;
-                text-align: center;
-                color: $colorTextTwo;
+                @include titleBoxBlack;
                 padding: 10px 45px;
-                border: 8px $titleMarkColor solid;
             }
         }
         .proyect-nav--container{
@@ -273,20 +232,7 @@
             line-height: 127.9%;
         }
         .button {
-            background: transparent;
-            font-family: $titles;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 15px;
-            line-height: 18px;
-            text-align: center;
-            color: $colorTextOne;
-            padding: 10px 45px;
-            border-left: $lineSideButtonWhite solid;
-            border-right: $lineSideButtonWhite solid;
-            border-top: none;
-            border-bottom: none;
-            margin: 0px auto 0px;
+            @include whiteButton;
         }  
     }
     .two {
@@ -316,20 +262,7 @@
            line-height: 127.9%;
         }
         .button {
-            background: transparent;
-            font-family: $titles;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 15px;
-            line-height: 18px;
-            text-align: center;
-            color: $colorTextOne;
-            padding: 10px 45px;
-            border-left: $lineSideButtonWhite solid;
-            border-right: $lineSideButtonWhite solid;
-            border-top: none;
-            border-bottom: none;
-            margin: 0px auto 0px;
+            @include whiteButton;
         }       
     }
     .three {
@@ -359,20 +292,7 @@
            line-height: 127.9%;
         }
         .button {
-            background: transparent;
-            font-family: $titles;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 15px;
-            line-height: 18px;
-            text-align: center;
-            color: $colorTextOne;
-            padding: 10px 45px;
-            border-left: $lineSideButtonWhite solid;
-            border-right: $lineSideButtonWhite solid;
-            border-top: none;
-            border-bottom: none;
-            margin: 0px auto 0px;
+            @include whiteButton;
         }       
     }
     .footer-proyect--container{

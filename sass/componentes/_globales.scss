@@ -16,6 +16,89 @@ $colorLinearGradientFooter: linear-gradient(0deg, #000000 8.81%, rgba(196, 196, 
 $colorInputLetter: #8B8B8B;
 $opacityProyectLayers: linear-gradient(0deg, rgba(2, 2, 2, 0.42), rgba(2, 2, 2, 0.42)), url(IMAGENAOSCURESER);
 $opacityProyectIntro: linear-gradient(0deg, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.62));
+//mixins:
+@mixin whiteButton {
+    background: transparent;
+    font-family: $titles;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: $colorTextOne;
+    padding: 10px 45px;
+    border-left: $lineSideButtonWhite solid;
+    border-right: $lineSideButtonWhite solid;
+    border-top: none;
+    border-bottom: none;
+}
+
+@mixin blackButton {
+    background: transparent;
+    font-family: $titles;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: $colorTextTwo;
+    padding: 10px 45px;
+    border-left: $lineSideButtonBlack solid;
+    border-right: $lineSideButtonBlack solid;
+    border-top: none;
+    border-bottom: none;
+    margin: 50px auto 30px;
+}
+
+@mixin titleBoxBlack {
+    background: transparent;
+    font-family: $titles;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 127.9%;
+    text-align: center;
+    color: $colorTextTwo;            
+    border: 8px $titleMarkColor solid;
+}
+
+@mixin smalLabel {
+    width: 243px;
+    height: 45px;
+    border-left: 5px $lineSideButtonBlack solid;
+    border-bottom: 5px $lineSideButtonBlack solid;
+    border-top: none;
+    border-right: none;
+    background: transparent;
+    margin-bottom: 45px;
+    font-family: $titles;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.04em;
+    color: $colorInputLetter;
+    padding: 10px;
+}
+
+@mixin bigLabel {
+    width: 243px;
+    height: 165px;
+    border-left: 5px $lineSideButtonBlack solid;
+    border-bottom: 5px $lineSideButtonBlack solid;
+    border-top: none;
+    border-right: none;
+    background: transparent;
+    font-family: $titles;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.04em;
+    color: $colorInputLetter;
+    padding: 10px 10px 125px 10px;
+}
+
 //variables de inicio de navegador
 *{
     box-sizing: border-box;
