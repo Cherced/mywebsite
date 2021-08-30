@@ -54,9 +54,9 @@ header {
       -ms-flex-align: center;
           align-items: center;
   background-image: url("../dist/Img/background--banner.png");
-  background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-top: 120px;
 }
 .section-main--one .main-banner--container .banner-text--container h1 {
@@ -297,6 +297,9 @@ header {
 .section-main-four .main-proyect--container .proyect-button--container {
   height: 187.5px;
   background-image: url("../dist/Img/sectionmain1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -366,6 +369,8 @@ header {
   height: 200px;
   text-align: center;
   background-image: url("../dist/Img/fullweb.png");
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -417,6 +422,8 @@ header {
   height: 200px;
   text-align: center;
   background-image: url("../dist/Img/Project.png");
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -468,6 +475,8 @@ header {
   height: 200px;
   text-align: center;
   background-image: url("../dist/Img/Project3.png");
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;

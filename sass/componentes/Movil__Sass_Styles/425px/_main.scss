@@ -211,9 +211,7 @@
         .proyect-button--container{
             height: 187.5px;
             background-image: url('../dist/Img/sectionmain1.png');
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
+            @include backgroundStrech;
             display: flex;
             flex-direction: column;
             align-items: center;
