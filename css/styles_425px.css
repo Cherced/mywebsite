@@ -38,26 +38,23 @@ header {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(15.21%, #545454), color-stop(100%, rgba(145, 145, 145, 0.255491)), color-stop(100%, rgba(157, 157, 157, 0.108646)), color-stop(140.59%, rgba(166, 166, 166, 0)));
   background: linear-gradient(180deg, #545454 15.21%, rgba(145, 145, 145, 0.255491) 100%, rgba(157, 157, 157, 0.108646) 100%, rgba(166, 166, 166, 0) 140.59%);
 }
-.section-main--one .banner-pic--container {
+.section-main--one .banner-pic--container425px {
   display: block;
 }
-.section-main--one .banner-pic--container .me {
+.section-main--one .banner-pic--container425px .me {
   position: absolute;
-  max-width: 425px;
+  max-width: 469px;
   top: -6px;
   left: -2px;
   z-index: 1;
 }
-.section-main--one .banner-pic--container .greyPoligon {
+.section-main--one .banner-pic--container425px .greyPoligon {
   position: absolute;
   z-index: 0;
 }
-.section-main--one .banner-pic--container .opacityRectangle {
+.section-main--one .banner-pic--container425px .opacityRectangle {
   position: absolute;
-  max-width: 425px;
-  height: 230px;
   z-index: 3;
-  bottom: -52px;
 }
 .section-main--one .main-banner--container {
   height: 600px;
@@ -82,6 +79,8 @@ header {
 }
 .section-main--one .main-banner--container .banner-text--containerTwo {
   display: block;
+  position: relative;
+  top: 130px;
   z-index: 3;
   margin: 0 111px 10px 0;
 }
@@ -131,7 +130,7 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: absolute;
+  position: relative;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -139,7 +138,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  bottom: -40px;
+  bottom: 16px;
   z-index: 3;
 }
 .section-main--one .main-banner--container .banner-img--container #git {
