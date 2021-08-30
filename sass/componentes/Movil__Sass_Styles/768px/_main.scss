@@ -1,25 +1,29 @@
 //banner
 .section-main--one{
     width: 100%;
-    background: $colorLinearGradientBanner;     
+    background: $colorLinearGradientBanner;
     .banner-pic--container425px {
+        display: none;
+    }
+    .banner-pic--container768px {
         display: block;
         .me{
-            position: absolute;
-            max-width: 469px;
-            top: -6px;
-            left: -2px;    
+            position: absolute;            
+            top: -7px;
+            left: 18px;    
             z-index: 1; 
         }               
         .greyPoligon{
             position: absolute;
+            right: -3px;
             z-index: 0;              
         }
         .opacityRectangle{
             position: absolute;
             z-index: 3;
         }
-    }
+        
+    }    
     .main-banner--container{
         height: 600px;
         display: flex;
@@ -68,7 +72,7 @@
                 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
             }
         }
-       .banner-text--container{
+        .banner-text--container{
             display: none;
         } 
         #separador {
@@ -95,19 +99,22 @@
     height: auto;
     background-image: url('../dist/Img/bannerImg375.png');
     @include backgroundStrech;
+    background-size: auto;
     .main-intro--container{
         height: 547px;
         background: $opacityProyectIntro;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: flex-start;
+        justify-content: space-around;
         color: $colorTextOne;
         img{
             width: 170px;
             height: 170px;
             margin: -30px;
             filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.4));
+            position: relative;
+            right: 280px
         }
         #p {
             font-family:$paragraf;
@@ -116,7 +123,8 @@
             font-size: 17px;
             line-height: 20px;
             text-align: justify;
-            margin: 36px 50px;
+            margin: -30px 236px;
+            padding: 10px;
         }
         .button {
             margin-top: 10px;
