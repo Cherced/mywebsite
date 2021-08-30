@@ -9,7 +9,9 @@
         justify-content: center;
         align-items: center;
         background-image: url('../dist/Img/background--banner.png');
-        background-size: cover; 
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center; 
         padding-top: 120px;
         .banner-text--container{
             h1 {

@@ -49,13 +49,13 @@ header {
 }
 .section-main--one .banner-pic--container .greyPoligon {
   position: absolute;
-  width: 667px;
-  top: 64px;
   z-index: 0;
 }
 .section-main--one .banner-pic--container .opacityRectangle {
   position: absolute;
-  bottom: 190px;
+  height: 230px;
+  z-index: 3;
+  bottom: -52px;
 }
 .section-main--one .main-banner--container {
   height: 600px;
@@ -73,13 +73,15 @@ header {
       -ms-flex-align: end;
           align-items: flex-end;
   background-image: url("../dist/Img/background--banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   padding-top: 120px;
 }
 .section-main--one .main-banner--container .banner-text--containerTwo {
   display: block;
   z-index: 3;
-  margin: 0 76px 33px 0;
+  margin: 0 111px 10px 0;
 }
 .section-main--one .main-banner--container .banner-text--containerTwo h2 {
   font-family: "RALEWAY";
@@ -135,16 +137,19 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  bottom: 215px;
+  bottom: -40px;
+  z-index: 3;
 }
 .section-main--one .main-banner--container .banner-img--container #git {
-  margin: 32px 10px;
+  margin: 30px 10px;
 }
 
 .section-main--two {
   width: 100%;
   height: auto;
   background-image: url("../dist/Img/bannerImg375.png");
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 .section-main--two .main-intro--container {
@@ -183,6 +188,7 @@ header {
   margin: 36px 50px;
 }
 .section-main--two .main-intro--container .button {
+  margin-top: 10px;
   background: transparent;
   font-family: "MONTSERRAT", "monospace";
   font-style: normal;
@@ -342,6 +348,9 @@ header {
 .section-main-four .main-proyect--container .proyect-button--container {
   height: 187.5px;
   background-image: url("../dist/Img/sectionmain1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -411,6 +420,8 @@ header {
   height: 200px;
   text-align: center;
   background-image: url("../dist/Img/fullweb.png");
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -462,6 +473,8 @@ header {
   height: 200px;
   text-align: center;
   background-image: url("../dist/Img/Project.png");
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -513,6 +526,8 @@ header {
   height: 200px;
   text-align: center;
   background-image: url("../dist/Img/Project3.png");
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;

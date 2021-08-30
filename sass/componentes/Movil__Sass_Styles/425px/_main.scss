@@ -12,13 +12,13 @@
         }               
         .greyPoligon{
             position: absolute;
-            width: 667px;
-            top: 64px;
             z-index: 0;              
         }
-        .opacityRectangle {
+        .opacityRectangle{
             position: absolute;
-            bottom: 190px;
+            height: 230px;
+            z-index: 3;
+            bottom: -52px;
         }
     }
     .main-banner--container{
@@ -28,12 +28,12 @@
         justify-content: flex-end;
         align-items: flex-end;
         background-image: url('../dist/Img/background--banner.png');
-        background-size: cover; 
+        @include backgroundStrech; 
         padding-top: 120px;
         .banner-text--containerTwo{
             display: block;
             z-index: 3;
-            margin: 0 76px 33px 0;
+            margin: 0 111px 10px 0;
             h2 {
                 font-family: $subTitles;
                 font-style: normal;
@@ -78,9 +78,10 @@
             position: absolute;
             flex-direction: column;
             align-items: center;
-            bottom:215px;
+            bottom: -40px;
+            z-index: 3;
             #git {
-                margin: 32px 10px;
+                margin: 30px 10px;
             }      
         } 
     }
@@ -92,7 +93,7 @@
     width: 100%;
     height: auto;
     background-image: url('../dist/Img/bannerImg375.png');
-    background-size: cover;
+    @include backgroundStrech;
     .main-intro--container{
         height: 547px;
         background: $opacityProyectIntro;
@@ -117,6 +118,7 @@
             margin: 36px 50px;
         }
         .button {
+            margin-top: 10px;
             @include whiteButton;
         }
     }
@@ -209,6 +211,9 @@
         .proyect-button--container{
             height: 187.5px;
             background-image: url('../dist/Img/sectionmain1.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -246,7 +251,7 @@
         height: 200px;
         text-align: center;
         background-image: url('../dist/Img/fullweb.png');
-        background-size: cover;
+        @include backgroundStrech;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -276,7 +281,7 @@
         height: 200px;
         text-align: center;
         background-image: url('../dist/Img/Project.png');
-        background-size: cover;
+        @include backgroundStrech;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -306,7 +311,7 @@
         height: 200px;
         text-align: center;
         background-image: url('../dist/Img/Project3.png');
-        background-size: cover;
+        @include backgroundStrech;
         display: flex;
         flex-direction: column;
         align-items: center;

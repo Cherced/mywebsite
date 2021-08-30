@@ -99,6 +99,12 @@ $opacityProyectIntro: linear-gradient(0deg, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0
     padding: 10px 10px 125px 10px;
 }
 
+@mixin backgroundStrech {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 //variables de inicio de navegador
 *{
     box-sizing: border-box;
