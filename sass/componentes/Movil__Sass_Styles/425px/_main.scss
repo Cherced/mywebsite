@@ -6,6 +6,7 @@
         display: block;
         .me{
             position: absolute;
+            max-width: 425px;
             top: -6px;
             left: -2px;    
             z-index: 1; 
@@ -16,6 +17,7 @@
         }
         .opacityRectangle{
             position: absolute;
+            max-width: 425px;
             height: 230px;
             z-index: 3;
             bottom: -52px;

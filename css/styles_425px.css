@@ -43,6 +43,7 @@ header {
 }
 .section-main--one .banner-pic--container .me {
   position: absolute;
+  max-width: 425px;
   top: -6px;
   left: -2px;
   z-index: 1;
@@ -53,6 +54,7 @@ header {
 }
 .section-main--one .banner-pic--container .opacityRectangle {
   position: absolute;
+  max-width: 425px;
   height: 230px;
   z-index: 3;
   bottom: -52px;
