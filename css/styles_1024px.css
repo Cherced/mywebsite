@@ -35,35 +35,19 @@ header {
 
 .section-main--one {
   width: 100%;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(15.21%, #545454), color-stop(100%, rgba(145, 145, 145, 0.255491)), color-stop(100%, rgba(157, 157, 157, 0.108646)), color-stop(140.59%, rgba(166, 166, 166, 0)));
-  background: linear-gradient(180deg, #545454 15.21%, rgba(145, 145, 145, 0.255491) 100%, rgba(157, 157, 157, 0.108646) 100%, rgba(166, 166, 166, 0) 140.59%);
+  height: auto;
+  background: none;
 }
 .section-main--one .banner-pic--container425px {
   display: none;
 }
-.section-main--one .main-banner--container1024px {
+.section-main--one .banner-pic--container768px {
   display: none;
 }
-.section-main--one .banner-pic--container768px {
-  display: block;
-}
-.section-main--one .banner-pic--container768px .me {
-  position: absolute;
-  top: -7px;
-  left: 18px;
-  z-index: 1;
-}
-.section-main--one .banner-pic--container768px .greyPoligon {
-  position: absolute;
-  right: -3px;
-  z-index: 0;
-}
-.section-main--one .banner-pic--container768px .opacityRectangle {
-  position: absolute;
-  z-index: 3;
-}
 .section-main--one .main-banner--container {
-  height: 600px;
+  display: none;
+}
+.section-main--one .main-banner--container1024px {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -71,31 +55,28 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  background-image: url("../dist/Img/background--banner.png");
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 2261px;
+  background-image: url("../dist/Img/Banner1024px/Component4.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 120px;
 }
-.section-main--one .main-banner--container .banner-text--containerTwo {
-  display: block;
+.section-main--one .main-banner--container1024px .banner-text--container1024px {
   position: relative;
-  top: 130px;
-  z-index: 3;
-  margin: 0 111px 10px 0;
-}
-.section-main--one .main-banner--container .banner-text--containerTwo h2 {
+  top: 327px;
   font-family: "RALEWAY";
+}
+.section-main--one .main-banner--container1024px .banner-text--container1024px h2 {
   font-style: normal;
   font-weight: bold;
-  font-size: 20px;
-  line-height: 23px;
+  font-size: 40px;
+  line-height: 47px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -104,66 +85,40 @@ header {
           align-items: flex-end;
   text-align: center;
   color: #ffffff;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.section-main--one .main-banner--container .banner-text--containerTwo h1 {
-  font-family: "RALEWAY";
+.section-main--one .main-banner--container1024px .banner-text--container1024px h1 {
   font-style: normal;
   font-weight: bold;
-  font-size: 30px;
-  line-height: 35px;
+  font-size: 80px;
+  line-height: 94px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-align: center;
   color: #ffffff;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.section-main--one .main-banner--container .banner-text--containerTwo p {
-  margin-top: 5px;
-  font-family: "RALEWAY";
+.section-main--one .main-banner--container1024px .banner-text--container1024px p {
   font-style: normal;
   font-weight: 800;
-  font-size: 12px;
-  line-height: 14px;
-  text-align: start;
-  color: #ffffff;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  color: #919191;
 }
-.section-main--one .main-banner--container .banner-text--container {
-  display: none;
+.section-main--one .main-banner--container1024px .banner-text--container1024px .banner-img--container {
+  margin: 30px 0;
 }
-.section-main--one .main-banner--container #separador {
-  display: none;
+.section-main--one .main-banner--container1024px .banner-text--container1024px .banner-img--container img {
+  width: 40px;
+  height: 40px;
 }
-.section-main--one .main-banner--container .banner-img--container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  bottom: 16px;
-  z-index: 3;
+.section-main--one .main-banner--container1024px .banner-text--container1024px .banner-img--container #git {
+  margin: 0 30px;
 }
-.section-main--one .main-banner--container .banner-img--container #git {
-  margin: 30px 10px;
-}
-
-.section-main--two {
-  width: 100%;
-  height: auto;
-  background-image: url("../dist/Img/bannerImg375.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-size: auto;
-}
-.section-main--two .main-intro--container {
-  height: 547px;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.62)), to(rgba(0, 0, 0, 0.62)));
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.62));
+.section-main--one .main-banner--container1024px .main-intro--container1024px {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -174,31 +129,25 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  color: #ffffff;
+  padding-top: 1100px;
 }
-.section-main--two .main-intro--container img {
-  width: 170px;
-  height: 170px;
-  margin: -30px;
-  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.4));
-          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.4));
+.section-main--one .main-banner--container1024px .main-intro--container1024px img {
   position: relative;
-  right: 280px;
+  left: -400px;
+  top: -13px;
 }
-.section-main--two .main-intro--container #p {
+.section-main--one .main-banner--container1024px .main-intro--container1024px #p1 {
   font-family: "OPEN SANS";
   font-style: normal;
-  font-weight: lighter;
-  font-size: 17px;
-  line-height: 20px;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
   text-align: justify;
-  margin: -30px 236px;
-  padding: 10px;
+  color: #ffffff;
+  margin: 30px 50px;
 }
-.section-main--two .main-intro--container .button {
-  margin-top: 10px;
+.section-main--one .main-banner--container1024px .main-intro--container1024px .button {
+  margin-top: 40px;
   background: transparent;
   font-family: "MONTSERRAT", "monospace";
   font-style: normal;
@@ -212,6 +161,10 @@ header {
   border-right: #FFFFFF solid;
   border-top: none;
   border-bottom: none;
+}
+
+.section-main--two {
+  display: none;
 }
 
 .section-main--three {

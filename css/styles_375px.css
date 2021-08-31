@@ -83,10 +83,16 @@ header {
 .section-main--one .main-banner--container .banner-img--container #git {
   margin: 0 32px;
 }
+
 .banner-pic--container425px {
   display: none;
 }
+
 .banner-pic--container768px {
+  display: none;
+}
+
+.main-banner--container1024px {
   display: none;
 }
 

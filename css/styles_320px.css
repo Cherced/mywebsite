@@ -74,6 +74,9 @@ header {
 .banner-pic--container768px{
   display: none;
 }
+.main-banner--container1024px{
+  display: none;
+}
 .banner-text--containerTwo{
   display: none;
 }
