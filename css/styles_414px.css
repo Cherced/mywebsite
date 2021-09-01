@@ -39,6 +39,12 @@ header {
   background: linear-gradient(180deg, #545454 15.21%, rgba(145, 145, 145, 0.255491) 100%, rgba(157, 157, 157, 0.108646) 100%, rgba(166, 166, 166, 0) 140.59%);
 }
 .section-main--one .main-banner--container {
+  display: none;
+}
+.section-main--one .main-banner--container394 {
+  display: none;
+}
+.section-main--one .main-banner--container414 {
   height: 896px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -60,7 +66,7 @@ header {
   background-size: cover;
   padding-top: 120px;
 }
-.section-main--one .main-banner--container .banner-text--container h1 {
+.section-main--one .main-banner--container414 .banner-text--container h1 {
   font-family: "MONTSERRAT", "monospace";
   font-style: normal;
   font-weight: 400;
@@ -69,7 +75,7 @@ header {
   text-align: center;
   color: #ffffff;
 }
-.section-main--one .main-banner--container .banner-text--container h2 {
+.section-main--one .main-banner--container414 .banner-text--container h2 {
   font-family: "Advent Pro";
   font-style: normal;
   font-weight: normal;
@@ -78,11 +84,15 @@ header {
   text-align: center;
   color: #ffffff;
 }
-.section-main--one .main-banner--container #separador {
+.section-main--one .main-banner--container414 .separador {
   margin: 14px auto 26px;
 }
-.section-main--one .main-banner--container .banner-img--container #git {
+.section-main--one .main-banner--container414 .banner-img--container .git {
   margin: 0 32px;
+}
+
+.main-banner--containe {
+  display: none;
 }
 
 .banner-pic--container425px {

@@ -39,7 +39,13 @@ header {
   background: linear-gradient(180deg, #545454 15.21%, rgba(145, 145, 145, 0.255491) 100%, rgba(157, 157, 157, 0.108646) 100%, rgba(166, 166, 166, 0) 140.59%);
 }
 .section-main--one .main-banner--container {
-  height: 600px;
+  display: none;
+}
+.section-main--one .main-banner--container414 {
+  display: none;
+}
+.section-main--one .main-banner--container394 {
+  height: 896px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -47,25 +53,20 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url("../dist/Img/Polygon320px.png");
-  background-size: cover;
-  background-position-y: 20px;
+  padding-bottom: 20px;
+  background-image: url("../dist/Img/Banner414px/Component3.png");
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   padding-top: 120px;
 }
-.main-banner--container394{
-  display: none;
-}
-.main-banner--container414{
-  display: none;
-}
-.section-main--one .main-banner--container .banner-text--container h1 {
+.section-main--one .main-banner--container394 .banner-text--container h1 {
   font-family: "MONTSERRAT", "monospace";
   font-style: normal;
   font-weight: 400;
@@ -74,22 +75,7 @@ header {
   text-align: center;
   color: #ffffff;
 }
-.banner-pic--container425px{
-  display: none;
-}
-.banner-pic--container768px{
-  display: none;
-}
-.main-banner--container1024px{
-  display: none;
-}
-.banner-text--containerTwo{
-  display: none;
-}
-.banner-geometry-container {
-  display: none;
-}
-.section-main--one .main-banner--container .banner-text--container h2 {
+.section-main--one .main-banner--container394 .banner-text--container h2 {
   font-family: "Advent Pro";
   font-style: normal;
   font-weight: normal;
@@ -98,11 +84,27 @@ header {
   text-align: center;
   color: #ffffff;
 }
-.section-main--one .main-banner--container .separador {
+.section-main--one .main-banner--container394 .separador {
   margin: 14px auto 26px;
 }
-.section-main--one .main-banner--container .banner-img--container .git {
+.section-main--one .main-banner--container394 .banner-img--container .git {
   margin: 0 32px;
+}
+
+.main-banner--containe {
+  display: none;
+}
+
+.banner-pic--container425px {
+  display: none;
+}
+
+.banner-pic--container768px {
+  display: none;
+}
+
+.main-banner--container1024px {
+  display: none;
 }
 
 .banner-text--containerTwo {
@@ -113,10 +115,7 @@ header {
   width: 100%;
   height: auto;
   background-image: url("../dist/Img/bannerImg375.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: black;
+  background-size: cover;
 }
 .section-main--two .main-intro--container {
   height: 547px;
@@ -151,7 +150,7 @@ header {
   font-size: 17px;
   line-height: 20px;
   text-align: justify;
-  margin: 36px 30px;
+  margin: 36px 50px;
 }
 .section-main--two .main-intro--container .button {
   background: transparent;
@@ -313,6 +312,9 @@ header {
 .section-main-four .main-proyect--container .proyect-button--container {
   height: 187.5px;
   background-image: url("../dist/Img/sectionmain1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -360,7 +362,7 @@ header {
 .section-main-four .main-proyect--container .proyect-nav--container li {
   display: inline-block;
   border-bottom: 1px #aaaaaa solid;
-  width: 145px;
+  width: 178px;
   text-align: center;
   padding: 10px;
 }
@@ -382,6 +384,8 @@ header {
   height: 200px;
   text-align: center;
   background-image: url("../dist/Img/fullweb.png");
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -433,6 +437,8 @@ header {
   height: 200px;
   text-align: center;
   background-image: url("../dist/Img/Project.png");
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -484,6 +490,8 @@ header {
   height: 200px;
   text-align: center;
   background-image: url("../dist/Img/Project3.png");
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;

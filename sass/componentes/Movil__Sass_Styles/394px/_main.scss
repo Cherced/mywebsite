@@ -2,103 +2,64 @@
 .section-main--one{
     width: 100%;
     background: $colorLinearGradientBanner;
-    .banner-pic--container425px {
-        display: none;
-    }
-    .main-banner--container1024px{
-        display: none;
-    }
-    .banner-pic--container768px {
-        display: block;
-        .me{
-            position: absolute;            
-            top: -7px;
-            left: 18px;    
-            z-index: 1; 
-        }               
-        .greyPoligon{
-            position: absolute;
-            right: -3px;
-            z-index: 0;              
-        }
-        .opacityRectangle{
-            position: absolute;
-            z-index: 3;
-        }
-        
-    }
-    .main-banner--container394{
+    .main-banner--container{
         display: none;
     }
     .main-banner--container414{
         display: none;
-    }    
-    .main-banner--container{
-        height: 600px;
+    }
+    .main-banner--container394{
+        height: 896px;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        align-items: flex-end;
-        background-image: url('../dist/Img/background--banner.png');
-        @include backgroundStrech; 
+        align-items: center;
+        padding-bottom: 20px;
+        background-image: url('../dist/Img/Banner414px/Component3.png');
+        @include backgroundStrech;
         padding-top: 120px;
-        .banner-text--containerTwo{
-            display: block;
-            position: relative;
-            top: 130px;
-            z-index: 3;
-            margin: 0 111px 10px 0;
-            h2 {
-                font-family: $subTitles;
+        .banner-text--container{
+            h1 {
+                font-family: $titles;
                 font-style: normal;
-                font-weight: bold;
-                font-size: 20px;
-                line-height: 23px;
-                display: flex;
-                align-items: flex-end;
+                font-weight: 400;
+                font-size: 32px;
+                line-height: 39px;
                 text-align: center;
                 color: $colorTextOne;
-                text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
             }
-            h1 {
-                font-family: $subTitles;
-                font-style: normal;
-                font-weight: bold;
-                font-size: 30px;
-                line-height: 35px;
-                color: $colorTextOne;
-                text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-            }
-            p {
-                margin-top: 5px;
-                font-family: $subTitles;
-                font-style: normal;
-                font-weight: 800;
-                font-size: 12px;
-                line-height: 14px;
-                text-align: start;
-                color: $colorTextOne;
-                text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-            }
-        }
-        .banner-text--container{
-            display: none;
+           h2 {
+                    font-family: 'Advent Pro';
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 25px;
+                    line-height: 30px;
+                    text-align: center;
+                    color: $colorTextOne;
+            }  
         } 
         .separador {
-            display: none;
+            margin: 14px auto 26px;
         }
-        .banner-img--container {
-            display: flex;
-            position: relative;
-            flex-direction: column;
-            align-items: center;
-            bottom: 16px;
-            z-index: 3;
-            .git {
-                margin: 30px 10px;
-            }      
-        } 
+        .banner-img--container .git {
+            margin: 0 32px;
+        }        
     }
+}
+.main-banner--containe{
+    display: none;
+}
+.banner-pic--container425px{
+    display: none;
+}
+.banner-pic--container768px{
+    display: none;
+}
+.main-banner--container1024px{
+    display: none;
+}
+.banner-text--containerTwo{
+    display: none;
 }
 
 //intro
@@ -107,23 +68,20 @@
     width: 100%;
     height: auto;
     background-image: url('../dist/Img/bannerImg375.png');
-    @include backgroundStrech;
-    background-size: auto;
+    background-size: cover;
     .main-intro--container{
         height: 547px;
         background: $opacityProyectIntro;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
+        justify-content: flex-start;
         color: $colorTextOne;
         img{
             width: 170px;
             height: 170px;
             margin: -30px;
             filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.4));
-            position: relative;
-            right: 280px
         }
         #p {
             font-family:$paragraf;
@@ -132,11 +90,9 @@
             font-size: 17px;
             line-height: 20px;
             text-align: justify;
-            margin: -30px 236px;
-            padding: 10px;
+            margin: 36px 50px;
         }
         .button {
-            margin-top: 10px;
             @include whiteButton;
         }
     }
@@ -267,7 +223,7 @@
         height: 200px;
         text-align: center;
         background-image: url('../dist/Img/fullweb.png');
-        @include backgroundStrech;
+        @include backgroundStrech;        
         display: flex;
         flex-direction: column;
         align-items: center;

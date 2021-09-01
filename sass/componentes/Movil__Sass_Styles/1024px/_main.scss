@@ -12,6 +12,12 @@
     .main-banner--container{
         display: none;
     }
+    .main-banner--container394{
+        display: none;
+    }
+    .main-banner--container414{
+        display: none;
+    }
     .main-banner--container1024px {
         display: flex;
         flex-direction: column;
@@ -58,7 +64,7 @@
                     width: 40px;
                     height: 40px;
                 }
-                #git{
+                .git{
                     margin: 0 30px;
                 }
             }

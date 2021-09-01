@@ -2,6 +2,12 @@
 .section-main--one{
     width: 100%;
     background: $colorLinearGradientBanner;
+    .main-banner--container394{
+        display: none;
+    }
+    .main-banner--container414{
+        display: none;
+    }
     .main-banner--container{
         height: 600px;
         display: flex;
@@ -31,10 +37,10 @@
                     color: $colorTextOne;
             }  
         } 
-        #separador {
+        .separador {
             margin: 14px auto 26px;
         }
-        .banner-img--container #git {
+        .banner-img--container .git {
             margin: 0 32px;
         }        
     }

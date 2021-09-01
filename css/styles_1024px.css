@@ -47,6 +47,12 @@ header {
 .section-main--one .main-banner--container {
   display: none;
 }
+.section-main--one .main-banner--container394 {
+  display: none;
+}
+.section-main--one .main-banner--container414 {
+  display: none;
+}
 .section-main--one .main-banner--container1024px {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -115,7 +121,7 @@ header {
   width: 40px;
   height: 40px;
 }
-.section-main--one .main-banner--container1024px .banner-text--container1024px .banner-img--container #git {
+.section-main--one .main-banner--container1024px .banner-text--container1024px .banner-img--container .git {
   margin: 0 30px;
 }
 .section-main--one .main-banner--container1024px .main-intro--container1024px {

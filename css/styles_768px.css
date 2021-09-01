@@ -62,6 +62,12 @@ header {
   position: absolute;
   z-index: 3;
 }
+.section-main--one .main-banner--container394 {
+  display: none;
+}
+.section-main--one .main-banner--container414 {
+  display: none;
+}
 .section-main--one .main-banner--container {
   height: 600px;
   display: -webkit-box;
@@ -129,7 +135,7 @@ header {
 .section-main--one .main-banner--container .banner-text--container {
   display: none;
 }
-.section-main--one .main-banner--container #separador {
+.section-main--one .main-banner--container .separador {
   display: none;
 }
 .section-main--one .main-banner--container .banner-img--container {
@@ -147,7 +153,7 @@ header {
   bottom: 16px;
   z-index: 3;
 }
-.section-main--one .main-banner--container .banner-img--container #git {
+.section-main--one .main-banner--container .banner-img--container .git {
   margin: 30px 10px;
 }
 
