@@ -1,0 +1,706 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "MONTSERRAT", "monospace", "RALEWAY", "OPEN SANS";
+}
+
+header {
+  width: 100%;
+  height: 64px;
+  background-color: #000000;
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.nav-container--icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.nav-container--icons #nav {
+  margin-right: 14px;
+  margin-bottom: 50px;
+}
+
+.section-main--one {
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(15.21%, #545454), color-stop(100%, rgba(145, 145, 145, 0.255491)), color-stop(100%, rgba(157, 157, 157, 0.108646)), color-stop(140.59%, rgba(166, 166, 166, 0)));
+  background: linear-gradient(180deg, #545454 15.21%, rgba(145, 145, 145, 0.255491) 100%, rgba(157, 157, 157, 0.108646) 100%, rgba(166, 166, 166, 0) 140.59%);
+}
+.section-main--one .main-banner--container {
+  height: 896px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 20px;
+  background-image: url("../dist/Img/Banner414px/Component3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 120px;
+}
+.section-main--one .main-banner--container .banner-text--container h1 {
+  font-family: "MONTSERRAT", "monospace";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #ffffff;
+}
+.section-main--one .main-banner--container .banner-text--container h2 {
+  font-family: "Advent Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+.section-main--one .main-banner--container #separador {
+  margin: 14px auto 26px;
+}
+.section-main--one .main-banner--container .banner-img--container #git {
+  margin: 0 32px;
+}
+
+.banner-pic--container425px {
+  display: none;
+}
+
+.banner-pic--container768px {
+  display: none;
+}
+
+.main-banner--container1024px {
+  display: none;
+}
+
+.banner-text--containerTwo {
+  display: none;
+}
+
+.section-main--two {
+  width: 100%;
+  height: auto;
+  background-image: url("../dist/Img/bannerImg375.png");
+  background-size: cover;
+}
+.section-main--two .main-intro--container {
+  height: 547px;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.62)), to(rgba(0, 0, 0, 0.62)));
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.62));
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  color: #ffffff;
+}
+.section-main--two .main-intro--container img {
+  width: 170px;
+  height: 170px;
+  margin: -30px;
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.4));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.4));
+}
+.section-main--two .main-intro--container #p {
+  font-family: "OPEN SANS";
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: justify;
+  margin: 36px 50px;
+}
+.section-main--two .main-intro--container .button {
+  background: transparent;
+  font-family: "MONTSERRAT", "monospace";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 45px;
+  border-left: #FFFFFF solid;
+  border-right: #FFFFFF solid;
+  border-top: none;
+  border-bottom: none;
+}
+
+.section-main--three {
+  width: 100%;
+  height: auto;
+  background: #FFFFFF;
+}
+.section-main--three .main-aboutme--containter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.section-main--three .main-aboutme--containter .titleBox {
+  background: transparent;
+  font-family: "MONTSERRAT", "monospace";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 127.9%;
+  text-align: center;
+  color: #000000;
+  border: 8px #000000 solid;
+  padding: 10px 45px;
+  margin: 45px auto;
+}
+.section-main--three .main-aboutme--containter p {
+  font-family: "OPEN SANS";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-align: center;
+  color: #000000;
+  margin: 0px 62px;
+}
+.section-main--three .main-aboutme--containter .button {
+  background: transparent;
+  font-family: "MONTSERRAT", "monospace";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #000000;
+  padding: 10px 45px;
+  border-left: #000000 solid;
+  border-right: #000000 solid;
+  border-top: none;
+  border-bottom: none;
+  margin: 50px auto 30px;
+}
+.section-main--three .main-aboutme--containter img {
+  margin-bottom: 80px;
+}
+.section-main--three .main-skills--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 10px;
+  margin-top: -80px;
+}
+.section-main--three .main-skills--container img {
+  position: relative;
+  top: 115px;
+  left: 24px;
+}
+.section-main--three .main-skills--container h1 {
+  padding: 0 60px 15px;
+}
+.section-main--three .main-skills--container p {
+  font-family: "OPEN SANS";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: justify;
+  color: #000000;
+}
+.section-main--three .main-skills--tech {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.section-main--three .main-skills--tech .titleBox {
+  background: transparent;
+  font-family: "MONTSERRAT", "monospace";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 127.9%;
+  text-align: center;
+  color: #000000;
+  border: 8px #000000 solid;
+  margin: 45px auto;
+  padding: 10px 45px;
+}
+.section-main--three .main-skills--tech #unic {
+  margin: 25px 0 35px 0;
+}
+.section-main--three .main-skills--tech h1 {
+  margin: 17px 0 70px 0;
+}
+
+.section-main-four {
+  width: 100%;
+  height: auto;
+}
+.section-main-four .main-proyect--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.section-main-four .main-proyect--container .proyect-button--container {
+  height: 187.5px;
+  background-image: url("../dist/Img/sectionmain1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.section-main-four .main-proyect--container .proyect-button--container .titleBox {
+  background: transparent;
+  font-family: "MONTSERRAT", "monospace";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 127.9%;
+  text-align: center;
+  color: #000000;
+  border: 8px #000000 solid;
+  padding: 10px 45px;
+}
+.section-main-four .main-proyect--container .proyect-nav--container {
+  height: 156px;
+  background-color: #000000;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.section-main-four .main-proyect--container .proyect-nav--container li {
+  display: inline-block;
+  border-bottom: 1px #aaaaaa solid;
+  width: 178px;
+  text-align: center;
+  padding: 10px;
+}
+
+.proyect-carrusel--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.proyect-carrusel--container .one {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  background-image: url("../dist/Img/fullweb.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.proyect-carrusel--container .one p {
+  font-family: "MONTSERRAT", "monospace";
+  font-style: italic;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.095em;
+  color: #ffffff;
+}
+.proyect-carrusel--container .one h1 {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 127.9%;
+}
+.proyect-carrusel--container .one .button {
+  background: transparent;
+  font-family: "MONTSERRAT", "monospace";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 45px;
+  border-left: #FFFFFF solid;
+  border-right: #FFFFFF solid;
+  border-top: none;
+  border-bottom: none;
+}
+.proyect-carrusel--container .two {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  background-image: url("../dist/Img/Project.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.proyect-carrusel--container .two p {
+  font-family: "MONTSERRAT", "monospace";
+  font-style: italic;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.095em;
+  color: #ffffff;
+}
+.proyect-carrusel--container .two h1 {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 127.9%;
+}
+.proyect-carrusel--container .two .button {
+  background: transparent;
+  font-family: "MONTSERRAT", "monospace";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 45px;
+  border-left: #FFFFFF solid;
+  border-right: #FFFFFF solid;
+  border-top: none;
+  border-bottom: none;
+}
+.proyect-carrusel--container .three {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  background-image: url("../dist/Img/Project3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.proyect-carrusel--container .three p {
+  font-family: "MONTSERRAT", "monospace";
+  font-style: italic;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.095em;
+  color: #ffffff;
+}
+.proyect-carrusel--container .three h1 {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 127.9%;
+}
+.proyect-carrusel--container .three .button {
+  background: transparent;
+  font-family: "MONTSERRAT", "monospace";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 45px;
+  border-left: #FFFFFF solid;
+  border-right: #FFFFFF solid;
+  border-top: none;
+  border-bottom: none;
+}
+.proyect-carrusel--container .footer-proyect--container {
+  width: 100%;
+  height: 60px;
+  background: #000000;
+  font-family: "MONTSERRAT", "monospace";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #ffffff;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-footer--one {
+  width: 100%;
+  height: auto;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(8.81%, #000000), color-stop(31.87%, rgba(196, 196, 196, 0)));
+  background: linear-gradient(0deg, #000000 8.81%, rgba(196, 196, 196, 0) 31.87%);
+}
+.section-footer--one .footer-contactme--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.section-footer--one .footer-contactme--container .titleBox {
+  background: transparent;
+  font-family: "MONTSERRAT", "monospace";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 127.9%;
+  text-align: center;
+  color: #000000;
+  border: 8px #000000 solid;
+  margin: 45px auto;
+  padding: 10px 45px;
+}
+.section-footer--one .footer-contactme--container p {
+  font-family: "OPEN SANS";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  margin: 0 42px 40px;
+}
+.section-footer--one .footer-contactme--container img {
+  margin: 0px auto 65px;
+}
+.section-footer--one .footer-contactme--container .small {
+  width: 243px;
+  height: 45px;
+  border-left: 5px #000000 solid;
+  border-bottom: 5px #000000 solid;
+  border-top: none;
+  border-right: none;
+  background: transparent;
+  margin-bottom: 45px;
+  font-family: "MONTSERRAT", "monospace";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.04em;
+  color: #8B8B8B;
+  padding: 10px;
+}
+.section-footer--one .footer-contactme--container .big {
+  width: 243px;
+  height: 165px;
+  border-left: 5px #000000 solid;
+  border-bottom: 5px #000000 solid;
+  border-top: none;
+  border-right: none;
+  background: transparent;
+  font-family: "MONTSERRAT", "monospace";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.04em;
+  color: #8B8B8B;
+  padding: 10px 10px 125px 10px;
+}
+.section-footer--one .footer-contactme--container .button {
+  background: transparent;
+  font-family: "MONTSERRAT", "monospace";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 45px;
+  border-left: #FFFFFF solid;
+  border-right: #FFFFFF solid;
+  border-top: none;
+  border-bottom: none;
+  margin: 50px auto 25px;
+}
+
+.section-footer--two {
+  width: 100%;
+  height: 289px;
+  background: #000000;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-top: none;
+}
+.section-footer--two h1 {
+  font-family: "MONTSERRAT", "monospace";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 0.18538em;
+}
+.section-footer--two .footer-socialmedia--container {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.section-footer--two .footer-socialmedia--container img {
+  margin: 0 15px;
+}
+.section-footer--two p {
+  font-family: "OPEN SANS";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+}
