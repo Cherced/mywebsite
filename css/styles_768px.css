@@ -38,10 +38,19 @@ header {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(15.21%, #545454), color-stop(100%, rgba(145, 145, 145, 0.255491)), color-stop(100%, rgba(157, 157, 157, 0.108646)), color-stop(140.59%, rgba(166, 166, 166, 0)));
   background: linear-gradient(180deg, #545454 15.21%, rgba(145, 145, 145, 0.255491) 100%, rgba(157, 157, 157, 0.108646) 100%, rgba(166, 166, 166, 0) 140.59%);
 }
+.section-main--one .main-banner--container1024px {
+  display: none;
+}
+.section-main--one .banner-pic--container834px {
+  display: none;
+}
 .section-main--one .banner-pic--container425px {
   display: none;
 }
-.section-main--one .main-banner--container1024px {
+.section-main--one .main-banner--container414 {
+  display: none;
+}
+.section-main--one .main-banner--container394 {
   display: none;
 }
 .section-main--one .banner-pic--container768px {
@@ -61,12 +70,6 @@ header {
 .section-main--one .banner-pic--container768px .opacityRectangle {
   position: absolute;
   z-index: 3;
-}
-.section-main--one .main-banner--container394 {
-  display: none;
-}
-.section-main--one .main-banner--container414 {
-  display: none;
 }
 .section-main--one .main-banner--container {
   height: 600px;

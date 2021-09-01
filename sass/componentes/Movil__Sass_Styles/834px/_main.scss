@@ -2,7 +2,11 @@
 .section-main--one{
     width: 100%;
     background: $colorLinearGradientBanner;
+    
     .main-banner--container1024px{
+        display: none;
+    }
+    .banner-pic--container768px{
         display: none;
     }
     .banner-pic--container425px {
@@ -14,33 +18,18 @@
     .main-banner--container394{
         display: none;
     }       
-    .banner-pic--container768px {
+    .banner-pic--container834px {
         display: block;
-        .me{
-            position: absolute;            
-            top: -7px;
-            left: 18px;    
-            z-index: 1; 
-        }               
-        .greyPoligon{
-            position: absolute;
-            right: -3px;
-            z-index: 0;              
-        }
-        .opacityRectangle{
-            position: absolute;
-            z-index: 3;
-        }
-        
-    }   
+            
+    }
+    
     .main-banner--container{
-        height: 600px;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
         align-items: flex-end;
-        background-image: url('../dist/Img/background--banner.png');
-        @include backgroundStrech; 
+        background-image: url('../dist/Img/Banner834px/frame1.png');   
+        @include backgroundStrech;
         padding-top: 120px;
         .banner-text--containerTwo{
             display: block;
