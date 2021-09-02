@@ -59,12 +59,6 @@ header {
   background-repeat: no-repeat;
   padding-top: 120px;
 }
-.main-banner--container394{
-  display: none;
-}
-.main-banner--container414{
-  display: none;
-}
 .section-main--one .main-banner--container .banner-text--container h1 {
   font-family: "MONTSERRAT", "monospace";
   font-style: normal;
@@ -74,19 +68,7 @@ header {
   text-align: center;
   color: #ffffff;
 }
-.banner-pic--container425px{
-  display: none;
-}
-.banner-pic--container768px{
-  display: none;
-}
 .main-banner--container1024px{
-  display: none;
-}
-.banner-text--containerTwo{
-  display: none;
-}
-.banner-geometry-container {
   display: none;
 }
 .section-main--one .main-banner--container .banner-text--container h2 {

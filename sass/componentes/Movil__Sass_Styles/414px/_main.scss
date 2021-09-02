@@ -2,14 +2,11 @@
 .section-main--one{
     width: 100%;
     background: $colorLinearGradientBanner;
+    .main-banner--container1024px{
+        display: none;
+    }
     .main-banner--container{
-        display: none;
-    }
-    .main-banner--container394{
-        display: none;
-    }
-    .main-banner--container414{
-        height: 833px;
+        height: 851px;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
@@ -45,18 +42,6 @@
             margin: 0 32px;
         }        
     }
-}
-.main-banner--containe{
-    display: none;
-}
-.banner-pic--container425px{
-    display: none;
-}
-.banner-pic--container768px{
-    display: none;
-}
-.main-banner--container1024px{
-    display: none;
 }
 .banner-text--containerTwo{
     display: none;

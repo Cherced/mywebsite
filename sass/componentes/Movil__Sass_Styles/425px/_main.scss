@@ -1,46 +1,24 @@
 //banner
 .section-main--one{
     width: 100%;
-    background: $colorLinearGradientBanner;     
-    .banner-pic--container425px {
-        display: block;
-        .me{
-            position: absolute;
-            max-width: 469px;
-            top: -6px;
-            left: -2px;    
-            z-index: 1; 
-        }               
-        .greyPoligon{
-            position: absolute;
-            z-index: 0;              
-        }
-        .opacityRectangle{
-            position: absolute;
-            z-index: 3;
-        }
-    }
-    .main-banner--container394{
+    background: $colorLinearGradientBanner;
+    .main-banner--container1024px{
         display: none;
-    }
-    .main-banner--container414{
-        display: none;
-    }
+    }     
     .main-banner--container{
-        height: 600px;
+        height: 832px;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
         align-items: flex-end;
-        background-image: url('../dist/Img/background--banner.png');
+        background-image: url('../dist/Img/Banner425px/frame2.png');
         @include backgroundStrech; 
         padding-top: 120px;
         .banner-text--containerTwo{
             display: block;
             position: relative;
-            top: 130px;
-            z-index: 3;
-            margin: 0 111px 10px 0;
+            top: 145px;
+            margin: 0 127px 10px 0;
             h2 {
                 font-family: $subTitles;
                 font-style: normal;
@@ -76,20 +54,16 @@
         }
        .banner-text--container{
             display: none;
+        }
+        .separador{
+            display: none;
         } 
-        .separador {
-            display: none;
-        }
-        .main-banner--container1024px{
-            display: none;
-        }
         .banner-img--container {
             display: flex;
             position: relative;
             flex-direction: column;
             align-items: center;
-            bottom: 16px;
-            z-index: 3;
+            bottom: 0;
             .git {
                 margin: 30px 10px;
             }      

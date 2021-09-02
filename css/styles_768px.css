@@ -41,36 +41,6 @@ header {
 .section-main--one .main-banner--container1024px {
   display: none;
 }
-.section-main--one .banner-pic--container834px {
-  display: none;
-}
-.section-main--one .banner-pic--container425px {
-  display: none;
-}
-.section-main--one .main-banner--container414 {
-  display: none;
-}
-.section-main--one .main-banner--container394 {
-  display: none;
-}
-.section-main--one .banner-pic--container768px {
-  display: block;
-}
-.section-main--one .banner-pic--container768px .me {
-  position: absolute;
-  top: -7px;
-  left: 18px;
-  z-index: 1;
-}
-.section-main--one .banner-pic--container768px .greyPoligon {
-  position: absolute;
-  right: -3px;
-  z-index: 0;
-}
-.section-main--one .banner-pic--container768px .opacityRectangle {
-  position: absolute;
-  z-index: 3;
-}
 .section-main--one .main-banner--container {
   height: 600px;
   display: -webkit-box;
@@ -86,7 +56,7 @@ header {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  background-image: url("../dist/Img/background--banner.png");
+  background-image: url("../dist/Img/Banner768px/frame2.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

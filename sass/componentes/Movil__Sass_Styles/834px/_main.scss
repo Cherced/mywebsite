@@ -2,27 +2,9 @@
 .section-main--one{
     width: 100%;
     background: $colorLinearGradientBanner;
-    
     .main-banner--container1024px{
         display: none;
     }
-    .banner-pic--container768px{
-        display: none;
-    }
-    .banner-pic--container425px {
-        display: none;
-    }
-    .main-banner--container414{
-        display: none;
-    } 
-    .main-banner--container394{
-        display: none;
-    }       
-    .banner-pic--container834px {
-        display: block;
-            
-    }
-    
     .main-banner--container{
         display: flex;
         flex-direction: column;

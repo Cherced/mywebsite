@@ -4,34 +4,6 @@
     background: $colorLinearGradientBanner;
     .main-banner--container1024px{
         display: none;
-    }
-    .banner-pic--container425px {
-        display: none;
-    }
-    .main-banner--container414{
-        display: none;
-    } 
-    .main-banner--container394{
-        display: none;
-    }       
-    .banner-pic--container768px {
-        display: block;
-        .me{
-            position: absolute;            
-            top: -7px;
-            left: 18px;    
-            z-index: 1; 
-        }               
-        .greyPoligon{
-            position: absolute;
-            right: -3px;
-            z-index: 0;              
-        }
-        .opacityRectangle{
-            position: absolute;
-            z-index: 3;
-        }
-        
     }   
     .main-banner--container{
         height: 600px;
@@ -39,7 +11,7 @@
         flex-direction: column;
         justify-content: flex-end;
         align-items: flex-end;
-        background-image: url('../dist/Img/background--banner.png');
+        background-image: url('../dist/Img/Banner768px/frame2.png');
         @include backgroundStrech; 
         padding-top: 120px;
         .banner-text--containerTwo{
