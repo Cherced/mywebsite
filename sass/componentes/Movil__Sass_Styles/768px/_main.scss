@@ -133,8 +133,8 @@
             font-family: $paragraf;
             font-style: normal;
             font-weight: 300;
-            font-size: 12px;
-            line-height: 16px;
+            font-size: 14px;
+            line-height: 19px;
             display: flex;
             align-items: flex-end;
             text-align: center;
@@ -232,7 +232,8 @@
  
 .proyect-carrusel--container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     .one {
         width: 100%;
@@ -265,7 +266,7 @@
         }  
     }
     .two {
-        width: 100%;
+        width: 50%;
         height: 200px;
         text-align: center;
         background-image: url('../dist/Img/Project.png');
@@ -295,7 +296,7 @@
         }       
     }
     .three {
-        width: 100%;
+        width: 50%;
         height: 200px;
         text-align: center;
         background-image: url('../dist/Img/Project3.png');
