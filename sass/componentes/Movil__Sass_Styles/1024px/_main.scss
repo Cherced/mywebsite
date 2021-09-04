@@ -11,7 +11,8 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
-        height: 2261px;
+        height: 2121px;
+        width: 1024px;
         background-image: url('../dist/Img/Banner1024px/Component4.png');
         @include backgroundStrech;
         .banner-text--container1024px{
@@ -61,11 +62,11 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            padding-top: 1100px;
+            padding-top: 1140px;
             img{
                 position: relative;
                 left: -400px;
-                top: -13px;
+                top: 10px;
             }
             #p1{
                 font-family: $paragraf;
@@ -75,7 +76,7 @@
                 line-height: 33px;
                 text-align: justify;
                 color: $colorTextOne;
-                margin: 30px 50px;  
+                margin: 40px 60px; 
             }
             .button{
                 margin-top: 40px;
@@ -112,8 +113,8 @@
             font-family: $paragraf;
             font-style: normal;
             font-weight: 300;
-            font-size: 12px;
-            line-height: 16px;
+            font-size: 18px;
+            line-height: 20px;
             display: flex;
             align-items: flex-end;
             text-align: center;
@@ -135,13 +136,14 @@
         margin-top: 10px;
         margin-top: -80px;
         .des{
-            
+            width: 50%;
+            margin: 40px 10% 0 25%;
         }
         .dev{
-            
+            width: 50%;
         }
         .mant{
-            
+            width: 50%;
         }
         img {
             position: relative;
@@ -226,7 +228,7 @@
     flex-wrap: wrap;
     align-items: center;
     .one {
-        width: 100%;
+        width: 35%;
         height: 200px;
         text-align: center;
         background-image: url('../dist/Img/fullweb.png');
@@ -256,7 +258,7 @@
         }  
     }
     .two {
-        width: 100%;
+        width: 65%;
         height: 200px;
         text-align: center;
         background-image: url('../dist/Img/Project.png');
@@ -286,7 +288,97 @@
         }       
     }
     .three {
-        width: 100%;
+        width: 50%;
+        height: 200px;
+        text-align: center;
+        background-image: url('../dist/Img/Project3.png');
+        @include backgroundStrech;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        p {
+            font-family: $titles;
+            font-style: italic;
+            font-weight: 600;
+            font-size: 10px;
+            line-height: 12px;
+            letter-spacing: 0.095em;    
+            color: $colorTextOne;
+        }
+        h1 {
+            color: $colorTextOne;
+            font-style: normal;
+           font-weight: bold;
+           font-size: 25px;
+           line-height: 127.9%;
+        }
+        .button {
+            @include whiteButton;
+        }       
+    }
+    .four {
+        width: 50%;
+        height: 200px;
+        text-align: center;
+        background-image: url('../dist/Img/Project3.png');
+        @include backgroundStrech;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        p {
+            font-family: $titles;
+            font-style: italic;
+            font-weight: 600;
+            font-size: 10px;
+            line-height: 12px;
+            letter-spacing: 0.095em;    
+            color: $colorTextOne;
+        }
+        h1 {
+            color: $colorTextOne;
+            font-style: normal;
+           font-weight: bold;
+           font-size: 25px;
+           line-height: 127.9%;
+        }
+        .button {
+            @include whiteButton;
+        }       
+    }
+    .five {
+        width: 65%;
+        height: 200px;
+        text-align: center;
+        background-image: url('../dist/Img/Project3.png');
+        @include backgroundStrech;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        p {
+            font-family: $titles;
+            font-style: italic;
+            font-weight: 600;
+            font-size: 10px;
+            line-height: 12px;
+            letter-spacing: 0.095em;    
+            color: $colorTextOne;
+        }
+        h1 {
+            color: $colorTextOne;
+            font-style: normal;
+           font-weight: bold;
+           font-size: 25px;
+           line-height: 127.9%;
+        }
+        .button {
+            @include whiteButton;
+        }       
+    }
+    .six {
+        width: 35%;
         height: 200px;
         text-align: center;
         background-image: url('../dist/Img/Project3.png');

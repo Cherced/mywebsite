@@ -1,117 +1,97 @@
 //banner
 .section-main--one{
     width: 100%;
-    background: $colorLinearGradientBanner;
-    .main-banner--container1024px{
-        display: none;
-    }   
+    height: auto;
+    background:none;
     .main-banner--container{
-        height: 600px;
+        display: none;
+    }
+    .main-banner--container1024px {
         display: flex;
         flex-direction: column;
-        justify-content: flex-end;
-        align-items: flex-end;
-        background-image: url('../dist/Img/Banner768px/Frame2.png');
-        @include backgroundStrech; 
-        padding-top: 120px;
-        .banner-text--containerTwo{
-            display: block;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 1096px;
+        width: 1920px;
+        background-image: url('../dist/Img/Banner1920px/Frame1.png');
+        @include backgroundStrech;
+        .banner-text--container1024px{
             position: relative;
-            top: 130px;
-            z-index: 3;
-            margin: 0 111px 10px 0;
-            h2 {
-                font-family: $subTitles;
+            top: 327px;
+            font-family: $subTitles;
+            h2{
                 font-style: normal;
                 font-weight: bold;
-                font-size: 20px;
-                line-height: 23px;
+                font-size: 40px;
+                line-height: 47px;
                 display: flex;
                 align-items: flex-end;
                 text-align: center;
-                color: $colorTextOne;
-                text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                color: $colorTextOne;  
             }
-            h1 {
-                font-family: $subTitles;
+            h1{
                 font-style: normal;
                 font-weight: bold;
-                font-size: 30px;
-                line-height: 35px;
-                color: $colorTextOne;
-                text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                font-size: 80px;
+                line-height: 94px;
+                display: flex;
+                align-items: flex-end;
+                text-align: center;
+                color: $colorTextOne;  
             }
-            p {
-                margin-top: 5px;
-                font-family: $subTitles;
+            p{
                 font-style: normal;
                 font-weight: 800;
-                font-size: 12px;
-                line-height: 14px;
-                text-align: start;
-                color: $colorTextOne;
-                text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                font-size: 25px;
+                line-height: 29px;
+                text-align: center;
+                color: #919191; 
+            }
+            .banner-img--container{
+                margin: 30px 0;
+                img{
+                    width: 40px;
+                    height: 40px;
+                }
+                .git{
+                    margin: 0 30px;
+                }
             }
         }
-        .banner-text--container{
-            display: none;
-        } 
-        .separador {
-            display: none;
-        }
-        .banner-img--container {
+        .main-intro--container1024px{
             display: flex;
-            position: relative;
             flex-direction: column;
             align-items: center;
-            bottom: 16px;
-            z-index: 3;
-            .git {
-                margin: 30px 10px;
-            }      
-        } 
-    }
+            padding-top: 1100px;
+            img{
+                position: relative;
+                left: -400px;
+                top: 10px;
+            }
+            #p1{
+                font-family: $paragraf;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 24px;
+                line-height: 33px;
+                text-align: justify;
+                color: $colorTextOne;
+                margin: 30px 50px;  
+            }
+            .button{
+                margin-top: 40px;
+                @include whiteButton;
+            }
+        }        
+    } 
+    
 }
+
 
 //intro
 
 .section-main--two{
-    width: 100%;
-    height: auto;
-    background-image: url('../dist/Img/bannerImg375.png');
-    @include backgroundStrech;
-    background-size: auto;
-    .main-intro--container{
-        height: 547px;
-        background: $opacityProyectIntro;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        color: $colorTextOne;
-        img{
-            width: 170px;
-            height: 170px;
-            margin: -30px;
-            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.4));
-            position: relative;
-            right: 280px
-        }
-        #p {
-            font-family:$paragraf;
-            font-style: normal;
-            font-weight: lighter;
-            font-size: 17px;
-            line-height: 20px;
-            text-align: justify;
-            margin: -30px 236px;
-            padding: 10px;
-        }
-        .button {
-            margin-top: 10px;
-            @include whiteButton;
-        }
-    }
+    display: none;
 }
 
 //about me
@@ -133,8 +113,8 @@
             font-family: $paragraf;
             font-style: normal;
             font-weight: 300;
-            font-size: 14px;
-            line-height: 19px;
+            font-size: 12px;
+            line-height: 16px;
             display: flex;
             align-items: flex-end;
             text-align: center;
@@ -150,10 +130,20 @@
     }
     .main-skills--container{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
         align-items: flex-start;
         margin-top: 10px;
         margin-top: -80px;
+        .des{
+            
+        }
+        .dev{
+            
+        }
+        .mant{
+            
+        }
         img {
             position: relative;
             top: 115px;
@@ -173,6 +163,7 @@
         }
     }
     .main-skills--tech {
+        margin-top: 20px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -266,7 +257,7 @@
         }  
     }
     .two {
-        width: 50%;
+        width: 100%;
         height: 200px;
         text-align: center;
         background-image: url('../dist/Img/Project.png');
@@ -296,7 +287,7 @@
         }       
     }
     .three {
-        width: 50%;
+        width: 100%;
         height: 200px;
         text-align: center;
         background-image: url('../dist/Img/Project3.png');
@@ -356,37 +347,7 @@
         }       
     }
     .five {
-        width: 50%;
-        height: 200px;
-        text-align: center;
-        background-image: url('../dist/Img/Project3.png');
-        @include backgroundStrech;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-        p {
-            font-family: $titles;
-            font-style: italic;
-            font-weight: 600;
-            font-size: 10px;
-            line-height: 12px;
-            letter-spacing: 0.095em;    
-            color: $colorTextOne;
-        }
-        h1 {
-            color: $colorTextOne;
-            font-style: normal;
-           font-weight: bold;
-           font-size: 25px;
-           line-height: 127.9%;
-        }
-        .button {
-            @include whiteButton;
-        }       
-    }
-    .six {
-        width: 50%;
+        width: 100%;
         height: 200px;
         text-align: center;
         background-image: url('../dist/Img/Project3.png');

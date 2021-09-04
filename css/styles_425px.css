@@ -561,6 +561,165 @@ header {
   border-top: none;
   border-bottom: none;
 }
+.proyect-carrusel--container .four {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  background-image: url("../dist/Img/Project3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.proyect-carrusel--container .four p {
+  font-family: "MONTSERRAT", "monospace";
+  font-style: italic;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.095em;
+  color: #ffffff;
+}
+.proyect-carrusel--container .four h1 {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 127.9%;
+}
+.proyect-carrusel--container .four .button {
+  background: transparent;
+  font-family: "MONTSERRAT", "monospace";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 45px;
+  border-left: #FFFFFF solid;
+  border-right: #FFFFFF solid;
+  border-top: none;
+  border-bottom: none;
+}
+.proyect-carrusel--container .five {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  background-image: url("../dist/Img/Project3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.proyect-carrusel--container .five p {
+  font-family: "MONTSERRAT", "monospace";
+  font-style: italic;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.095em;
+  color: #ffffff;
+}
+.proyect-carrusel--container .five h1 {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 127.9%;
+}
+.proyect-carrusel--container .five .button {
+  background: transparent;
+  font-family: "MONTSERRAT", "monospace";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 45px;
+  border-left: #FFFFFF solid;
+  border-right: #FFFFFF solid;
+  border-top: none;
+  border-bottom: none;
+}
+.proyect-carrusel--container .six {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  background-image: url("../dist/Img/Project3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.proyect-carrusel--container .six p {
+  font-family: "MONTSERRAT", "monospace";
+  font-style: italic;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.095em;
+  color: #ffffff;
+}
+.proyect-carrusel--container .six h1 {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 127.9%;
+}
+.proyect-carrusel--container .six .button {
+  background: transparent;
+  font-family: "MONTSERRAT", "monospace";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 45px;
+  border-left: #FFFFFF solid;
+  border-right: #FFFFFF solid;
+  border-top: none;
+  border-bottom: none;
+}
 .proyect-carrusel--container .footer-proyect--container {
   width: 100%;
   height: 60px;

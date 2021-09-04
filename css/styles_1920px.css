@@ -55,9 +55,9 @@ header {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  height: 2121px;
-  width: 1024px;
-  background-image: url("../dist/Img/Banner1024px/Component4.png");
+  height: 1096px;
+  width: 1920px;
+  background-image: url("../dist/Img/Banner1920px/Frame1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -124,7 +124,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 1140px;
+  padding-top: 1100px;
 }
 .section-main--one .main-banner--container1024px .main-intro--container1024px img {
   position: relative;
@@ -139,7 +139,7 @@ header {
   line-height: 33px;
   text-align: justify;
   color: #ffffff;
-  margin: 40px 60px;
+  margin: 30px 50px;
 }
 .section-main--one .main-banner--container1024px .main-intro--container1024px .button {
   margin-top: 40px;
@@ -196,8 +196,8 @@ header {
   font-family: "OPEN SANS";
   font-style: normal;
   font-weight: 300;
-  font-size: 18px;
-  line-height: 20px;
+  font-size: 12px;
+  line-height: 16px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -242,16 +242,6 @@ header {
           align-items: flex-start;
   margin-top: 10px;
   margin-top: -80px;
-}
-.section-main--three .main-skills--container .des {
-  width: 50%;
-  margin: 40px 10% 0 25%;
-}
-.section-main--three .main-skills--container .dev {
-  width: 50%;
-}
-.section-main--three .main-skills--container .mant {
-  width: 50%;
 }
 .section-main--three .main-skills--container img {
   position: relative;
@@ -389,7 +379,7 @@ header {
           align-items: center;
 }
 .proyect-carrusel--container .one {
-  width: 35%;
+  width: 100%;
   height: 200px;
   text-align: center;
   background-image: url("../dist/Img/fullweb.png");
@@ -442,7 +432,7 @@ header {
   border-bottom: none;
 }
 .proyect-carrusel--container .two {
-  width: 65%;
+  width: 100%;
   height: 200px;
   text-align: center;
   background-image: url("../dist/Img/Project.png");
@@ -495,7 +485,7 @@ header {
   border-bottom: none;
 }
 .proyect-carrusel--container .three {
-  width: 50%;
+  width: 100%;
   height: 200px;
   text-align: center;
   background-image: url("../dist/Img/Project3.png");
@@ -548,7 +538,7 @@ header {
   border-bottom: none;
 }
 .proyect-carrusel--container .four {
-  width: 50%;
+  width: 100%;
   height: 200px;
   text-align: center;
   background-image: url("../dist/Img/Project3.png");
@@ -601,7 +591,7 @@ header {
   border-bottom: none;
 }
 .proyect-carrusel--container .five {
-  width: 65%;
+  width: 100%;
   height: 200px;
   text-align: center;
   background-image: url("../dist/Img/Project3.png");
@@ -639,59 +629,6 @@ header {
   line-height: 127.9%;
 }
 .proyect-carrusel--container .five .button {
-  background: transparent;
-  font-family: "MONTSERRAT", "monospace";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 18px;
-  text-align: center;
-  color: #ffffff;
-  padding: 10px 45px;
-  border-left: #FFFFFF solid;
-  border-right: #FFFFFF solid;
-  border-top: none;
-  border-bottom: none;
-}
-.proyect-carrusel--container .six {
-  width: 35%;
-  height: 200px;
-  text-align: center;
-  background-image: url("../dist/Img/Project3.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-.proyect-carrusel--container .six p {
-  font-family: "MONTSERRAT", "monospace";
-  font-style: italic;
-  font-weight: 600;
-  font-size: 10px;
-  line-height: 12px;
-  letter-spacing: 0.095em;
-  color: #ffffff;
-}
-.proyect-carrusel--container .six h1 {
-  color: #ffffff;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 25px;
-  line-height: 127.9%;
-}
-.proyect-carrusel--container .six .button {
   background: transparent;
   font-family: "MONTSERRAT", "monospace";
   font-style: normal;

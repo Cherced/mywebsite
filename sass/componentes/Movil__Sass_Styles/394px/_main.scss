@@ -304,6 +304,96 @@
             @include whiteButton;
         }       
     }
+    .four {
+        width: 100%;
+        height: 200px;
+        text-align: center;
+        background-image: url('../dist/Img/Project3.png');
+        @include backgroundStrech;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        p {
+            font-family: $titles;
+            font-style: italic;
+            font-weight: 600;
+            font-size: 10px;
+            line-height: 12px;
+            letter-spacing: 0.095em;    
+            color: $colorTextOne;
+        }
+        h1 {
+            color: $colorTextOne;
+            font-style: normal;
+           font-weight: bold;
+           font-size: 25px;
+           line-height: 127.9%;
+        }
+        .button {
+            @include whiteButton;
+        }       
+    }
+    .five {
+        width: 100%;
+        height: 200px;
+        text-align: center;
+        background-image: url('../dist/Img/Project3.png');
+        @include backgroundStrech;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        p {
+            font-family: $titles;
+            font-style: italic;
+            font-weight: 600;
+            font-size: 10px;
+            line-height: 12px;
+            letter-spacing: 0.095em;    
+            color: $colorTextOne;
+        }
+        h1 {
+            color: $colorTextOne;
+            font-style: normal;
+           font-weight: bold;
+           font-size: 25px;
+           line-height: 127.9%;
+        }
+        .button {
+            @include whiteButton;
+        }       
+    }
+    .six {
+        width: 100%;
+        height: 200px;
+        text-align: center;
+        background-image: url('../dist/Img/Project3.png');
+        @include backgroundStrech;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        p {
+            font-family: $titles;
+            font-style: italic;
+            font-weight: 600;
+            font-size: 10px;
+            line-height: 12px;
+            letter-spacing: 0.095em;    
+            color: $colorTextOne;
+        }
+        h1 {
+            color: $colorTextOne;
+            font-style: normal;
+           font-weight: bold;
+           font-size: 25px;
+           line-height: 127.9%;
+        }
+        .button {
+            @include whiteButton;
+        }       
+    }
     .footer-proyect--container{
         width: 100%;
         height: 60px;
