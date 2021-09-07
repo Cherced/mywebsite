@@ -56,7 +56,6 @@ header {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   height: 2121px;
-  width: 1024px;
   background-image: url("../dist/Img/Banner1024px/Component4.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -265,8 +264,8 @@ header {
   font-family: "OPEN SANS";
   font-style: normal;
   font-weight: 300;
-  font-size: 13px;
-  line-height: 18px;
+  font-size: 18px;
+  line-height: 20px;
   text-align: justify;
   color: #000000;
 }
@@ -767,7 +766,7 @@ header {
   font-family: "OPEN SANS";
   font-style: normal;
   font-weight: 300;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 20px;
   text-align: center;
   color: #000000;

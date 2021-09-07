@@ -56,7 +56,6 @@ header {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   height: 1198px;
-  width: 1440px;
   background-image: url("../dist/Img/Banner1440px/Component4.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -64,7 +63,8 @@ header {
 }
 .section-main--one .main-banner--container1024px .banner-text--container1024px {
   position: relative;
-  top: 327px;
+  top: -20px;
+  left: 300px;
   font-family: "RALEWAY";
 }
 .section-main--one .main-banner--container1024px .banner-text--container1024px h2 {
@@ -124,12 +124,12 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 1100px;
+  padding-top: 300px;
 }
 .section-main--one .main-banner--container1024px .main-intro--container1024px img {
   position: relative;
-  left: -400px;
-  top: -13px;
+  left: 485px;
+  top: -5px;
 }
 .section-main--one .main-banner--container1024px .main-intro--container1024px #p1 {
   font-family: "OPEN SANS";
@@ -196,8 +196,8 @@ header {
   font-family: "OPEN SANS";
   font-style: normal;
   font-weight: 300;
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 18px;
+  line-height: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -255,8 +255,8 @@ header {
   font-family: "OPEN SANS";
   font-style: normal;
   font-weight: 300;
-  font-size: 13px;
-  line-height: 18px;
+  font-size: 18px;
+  line-height: 20px;
   text-align: justify;
   color: #000000;
 }
@@ -379,7 +379,7 @@ header {
           align-items: center;
 }
 .proyect-carrusel--container .one {
-  width: 100%;
+  width: 50%;
   height: 200px;
   text-align: center;
   background-image: url("../dist/Img/fullweb.png");
@@ -432,7 +432,7 @@ header {
   border-bottom: none;
 }
 .proyect-carrusel--container .two {
-  width: 100%;
+  width: 50%;
   height: 200px;
   text-align: center;
   background-image: url("../dist/Img/Project.png");
@@ -538,7 +538,7 @@ header {
   border-bottom: none;
 }
 .proyect-carrusel--container .four {
-  width: 100%;
+  width: 50%;
   height: 200px;
   text-align: center;
   background-image: url("../dist/Img/Project3.png");
@@ -591,7 +591,7 @@ header {
   border-bottom: none;
 }
 .proyect-carrusel--container .five {
-  width: 100%;
+  width: 50%;
   height: 200px;
   text-align: center;
   background-image: url("../dist/Img/Project3.png");
@@ -757,7 +757,7 @@ header {
   font-family: "OPEN SANS";
   font-style: normal;
   font-weight: 300;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 20px;
   text-align: center;
   color: #000000;

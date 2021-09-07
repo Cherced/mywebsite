@@ -12,12 +12,12 @@
         align-items: center;
         justify-content: space-evenly;
         height: 1198px;
-        width: 1440px;
         background-image: url('../dist/Img/Banner1440px/Component4.png');
         @include backgroundStrech;
         .banner-text--container1024px{
             position: relative;
-            top: 327px;
+            top: -20px;
+            left: 300px;
             font-family: $subTitles;
             h2{
                 font-style: normal;
@@ -62,11 +62,11 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            padding-top: 1100px;
+            padding-top: 300px;
             img{
                 position: relative;
-                left: -400px;
-                top: -13px;
+                left: 485px;
+                top: -5px;
             }
             #p1{
                 font-family: $paragraf;
@@ -113,8 +113,8 @@
             font-family: $paragraf;
             font-style: normal;
             font-weight: 300;
-            font-size: 12px;
-            line-height: 16px;
+            font-size: 18px;
+            line-height: 20px;
             display: flex;
             align-items: flex-end;
             text-align: center;
@@ -156,8 +156,8 @@
             font-family: $paragraf;
             font-style: normal;
             font-weight: 300;
-            font-size: 13px;
-            line-height: 18px;
+            font-size: 18px;
+            line-height: 20px;
             text-align: justify;
             color: $colorTextTwo; 
         }
@@ -227,7 +227,7 @@
     flex-wrap: wrap;
     align-items: center;
     .one {
-        width: 100%;
+        width: 50%;
         height: 200px;
         text-align: center;
         background-image: url('../dist/Img/fullweb.png');
@@ -257,7 +257,7 @@
         }  
     }
     .two {
-        width: 100%;
+        width: 50%;
         height: 200px;
         text-align: center;
         background-image: url('../dist/Img/Project.png');
@@ -317,7 +317,7 @@
         }       
     }
     .four {
-        width: 100%;
+        width: 50%;
         height: 200px;
         text-align: center;
         background-image: url('../dist/Img/Project3.png');
@@ -347,7 +347,7 @@
         }       
     }
     .five {
-        width: 100%;
+        width: 50%;
         height: 200px;
         text-align: center;
         background-image: url('../dist/Img/Project3.png');

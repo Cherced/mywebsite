@@ -12,12 +12,12 @@
         align-items: center;
         justify-content: space-evenly;
         height: 1096px;
-        width: 1920px;
         background-image: url('../dist/Img/Banner1920px/Frame1.png');
         @include backgroundStrech;
         .banner-text--container1024px{
             position: relative;
-            top: 327px;
+            top: 125px;
+            left: 590px;
             font-family: $subTitles;
             h2{
                 font-style: normal;
@@ -62,11 +62,9 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            padding-top: 1100px;
+            padding-top: 100px;
             img{
-                position: relative;
-                left: -400px;
-                top: 10px;
+               display: none;
             }
             #p1{
                 font-family: $paragraf;
@@ -76,10 +74,10 @@
                 line-height: 33px;
                 text-align: justify;
                 color: $colorTextOne;
-                margin: 30px 50px;  
+                margin: 285px 40px 40px 750px;
             }
             .button{
-                margin-top: 40px;
+                margin-left: -272px;
                 @include whiteButton;
             }
         }        
@@ -113,8 +111,8 @@
             font-family: $paragraf;
             font-style: normal;
             font-weight: 300;
-            font-size: 12px;
-            line-height: 16px;
+            font-size: 18px;
+            line-height: 20px;
             display: flex;
             align-items: flex-end;
             text-align: center;
@@ -156,8 +154,8 @@
             font-family: $paragraf;
             font-style: normal;
             font-weight: 300;
-            font-size: 13px;
-            line-height: 18px;
+            font-size: 18px;
+            line-height: 20px;
             text-align: justify;
             color: $colorTextTwo; 
         }
@@ -227,7 +225,7 @@
     flex-wrap: wrap;
     align-items: center;
     .one {
-        width: 100%;
+        width: 50%;
         height: 200px;
         text-align: center;
         background-image: url('../dist/Img/fullweb.png');
@@ -257,7 +255,7 @@
         }  
     }
     .two {
-        width: 100%;
+        width: 50%;
         height: 200px;
         text-align: center;
         background-image: url('../dist/Img/Project.png');
@@ -287,7 +285,7 @@
         }       
     }
     .three {
-        width: 100%;
+        width: 75%;
         height: 200px;
         text-align: center;
         background-image: url('../dist/Img/Project3.png');
@@ -317,7 +315,7 @@
         }       
     }
     .four {
-        width: 100%;
+        width: 25%;
         height: 200px;
         text-align: center;
         background-image: url('../dist/Img/Project3.png');
@@ -347,7 +345,37 @@
         }       
     }
     .five {
-        width: 100%;
+        width: 25%;
+        height: 200px;
+        text-align: center;
+        background-image: url('../dist/Img/Project3.png');
+        @include backgroundStrech;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        p {
+            font-family: $titles;
+            font-style: italic;
+            font-weight: 600;
+            font-size: 10px;
+            line-height: 12px;
+            letter-spacing: 0.095em;    
+            color: $colorTextOne;
+        }
+        h1 {
+            color: $colorTextOne;
+            font-style: normal;
+           font-weight: bold;
+           font-size: 25px;
+           line-height: 127.9%;
+        }
+        .button {
+            @include whiteButton;
+        }       
+    }
+    .six {
+        width: 75%;
         height: 200px;
         text-align: center;
         background-image: url('../dist/Img/Project3.png');

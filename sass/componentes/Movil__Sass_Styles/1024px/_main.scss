@@ -12,7 +12,6 @@
         align-items: center;
         justify-content: space-evenly;
         height: 2121px;
-        width: 1024px;
         background-image: url('../dist/Img/Banner1024px/Component4.png');
         @include backgroundStrech;
         .banner-text--container1024px{
@@ -157,8 +156,8 @@
             font-family: $paragraf;
             font-style: normal;
             font-weight: 300;
-            font-size: 13px;
-            line-height: 18px;
+            font-size: 18px;
+            line-height: 20px;
             text-align: justify;
             color: $colorTextTwo; 
         }
