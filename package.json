@@ -1,0 +1,19 @@
+{
+  "name": "mywebsite",
+  "version": "1.0.0",
+  "description": "my portfolio i hope you like! ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cherced/mywesite.git"
+  },
+  "author": "CHERCED",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cherced/mywesite/issues"
+  },
+  "homepage": "https://github.com/Cherced/mywesite#readme"
+}
