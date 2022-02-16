@@ -1,0 +1,40 @@
+{
+  "name": "mywebsite",
+  "version": "1.0.0",
+  "description": "this is my landing page, i buld that with alot of improvemnt, i going to apply the SPA principle, and with that use vanillaJS, so we will buld and deploy with webpack babel and all of can help us to the compatibility and the responsive desing thanks for reading",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cherced/mywebsite.git"
+  },
+  "keywords": [
+    "webpack",
+    "html",
+    "vanillaJS",
+    "javascript",
+    "CSS",
+    "SASS",
+    "yeAHH"
+  ],
+  "author": "CHERCED",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cherced/mywebsite/issues"
+  },
+  "homepage": "https://github.com/Cherced/mywebsite#readme",
+  "dependencies": {
+    "@babel/core": "^7.7.5",
+    "babel-loader": "^8.0.6",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.1.1"
+  }
+}
