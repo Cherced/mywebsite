@@ -55,3 +55,11 @@
         background-image: url("/galery/Img/secondBanner.png");
     }
 }
+
+@media screen and (min-width: 393px) {
+    .main-banner--container {
+        background-image: url("/galery/Img/Banner414px/Component3.png");
+        justify-content:flex-end;
+        padding: 5px;
+    }
+}

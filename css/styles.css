@@ -266,3 +266,12 @@ li:active {
     background-image: url("/galery/Img/secondBanner.png");
   }
 }
+@media screen and (min-width: 393px) {
+  .main-banner--container {
+    background-image: url("/galery/Img/Banner414px/Component3.png");
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding: 5px;
+  }
+}
