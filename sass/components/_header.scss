@@ -1,0 +1,117 @@
+//barra de navegacion PENDIENTE HACER EL HOVER DE MENU//
+
+header {
+    width: 100%;
+    height: 64px;
+}
+
+// styling for mobile devices
+.menu {
+    background-color: $backgroundHeader;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.25);
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu span>i>img {
+    margin-right: 15px;
+}
+
+.menu>.logo>img {
+    margin-top: 55px;
+}
+
+.btn_menu {
+    cursor: pointer;
+    display: none;
+}
+
+// order of menu_items
+
+.menu_items {
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.menu_items li {
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+.menu_items li a {
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    text-transform: uppercase;
+    color: $colorTextOne;
+}
+
+.menu_items li:hover,
+li:active {
+    @include BackgroundBlackWitheAnimated;
+    background-size: 645px 40px;
+}
+
+// media queries
+
+ul.show {
+    top: 64px;
+}
+
+@media screen and (max-width: 952px) {
+    .menu_items li a {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .btn_menu {
+        display: inline-flex;
+    }
+
+    .menu_items {
+        position: fixed;
+        width: 100vw;
+        height: calc(100vh - 64px);
+        background-color: $backgroundHeader;
+        top: -100vh;
+        text-align: center;
+        transition: all .4s;
+        flex-direction: column;
+    }
+
+    .menu_items li {
+        margin: 30px 0 0 0;
+        padding: 10px 0;
+        line-height: 30px;
+    }
+
+    .menu_items li:hover {
+        background: none;
+    }
+
+    .menu_items li a {
+        font-size: 20px;
+       
+        font-weight: bold;
+    }
+    .menu_items li a:hover {
+        @include BackgroundBlackWitheAnimated;
+    }
+}
+
+@media screen and (max-width: 768px) and (orientation: landscape) {
+    .menu_items li{
+        margin: 5px 0 0 0;
+    }
+    .menu_items{
+        overflow: scroll;
+        height: calc(100% - 64px);
+    }    
+}
+    

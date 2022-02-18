@@ -45,16 +45,19 @@ body {
     0% {
         opacity: 1;
         visibility: visible;
+        overflow: hidden;
     }
 
     95% {
         opacity: 1;
         visibility: visible;
+        overflow: hidden;
     }
 
     100% {
         opacity: 0;
         visibility: hidden;
+        overflow: visible;
     }
 }
 
