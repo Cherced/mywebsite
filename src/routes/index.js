@@ -10,7 +10,7 @@ const router = async () => {
     const header = null || document.getElementById("header");
     const banner = null || document.getElementById("banner");
     header.innerHTML = await Header();
-    // banner.innerHTML = await Banner();
+    banner.innerHTML = await Banner();
 }
 
 export default router;

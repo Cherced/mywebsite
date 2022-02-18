@@ -55,13 +55,10 @@ header {
 li:active {
     @include BackgroundBlackWitheAnimated;
     background-size: 645px 40px;
+    border-radius: 40px;
 }
 
 // media queries
-
-ul.show {
-    top: 64px;
-}
 
 @media screen and (max-width: 952px) {
     .menu_items li a {
@@ -73,7 +70,6 @@ ul.show {
     .btn_menu {
         display: inline-flex;
     }
-
     .menu_items {
         position: fixed;
         width: 100vw;
@@ -97,21 +93,22 @@ ul.show {
 
     .menu_items li a {
         font-size: 20px;
-       
+
         font-weight: bold;
     }
+
     .menu_items li a:hover {
         @include BackgroundBlackWitheAnimated;
     }
 }
 
 @media screen and (max-width: 768px) and (orientation: landscape) {
-    .menu_items li{
+    .menu_items li {
         margin: 5px 0 0 0;
     }
-    .menu_items{
+
+    .menu_items {
         overflow: scroll;
         height: calc(100% - 64px);
-    }    
+    }
 }
-    
