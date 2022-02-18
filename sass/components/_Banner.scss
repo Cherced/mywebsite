@@ -1,0 +1,57 @@
+//banner mobile 
+.section-main--one{
+    width: 100%;
+    height: 100vh;
+    @include BackgroundBlackWitheAnimated;
+    background-size: 400% 400%;
+}
+// close the second banner text
+.banner-text--containerTwo{
+    display: none;
+}
+// styles for first banner text
+.main-banner--container {
+    width: 100%;
+    height: 100vh;
+    background-image: url("/galery/Img/firstBanner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h1 {
+        font-family: $titles;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+        color: $colorTextOne;
+    }
+   h2 {
+            font-family: 'Advent Pro';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 25px;
+            line-height: 30px;
+            text-align: center;
+            color: $colorTextOne;
+    }  
+ 
+}
+
+.separador{
+    margin: 20px 0;
+}
+
+.git{
+    margin: 0 20px;
+}
+
+@media screen and (min-width: 374px) {
+    .main-banner--container {
+        background-image: url("/galery/Img/secondBanner.png");
+    }
+}

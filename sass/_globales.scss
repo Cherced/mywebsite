@@ -110,9 +110,9 @@ $opacityProyectIntro: linear-gradient(0deg, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0
 
 @mixin BackgroundBlackWitheAnimated {
     background: linear-gradient(339deg, #0b0e0d, #dadada);
-    -webkit-animation: AnimationName 5s ease infinite;
-    -moz-animation: AnimationName 5s ease infinite;
-    animation: AnimationName 5s ease infinite;
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 20s ease infinite;
     
 @-webkit-keyframes AnimationName {
     0% {
