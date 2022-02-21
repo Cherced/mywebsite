@@ -50,6 +50,14 @@
         </div>
       </section>
     </div>
-    <script type="text/javascript" src="main.js"></script>
-  </body>
+  <script type="text/javascript" src="main.js"></script></body>
+  <script>
+    function showMenu() {
+      document.getElementById("otroModo").classList.toggle("show");
+    }
+    addEventListener("DOMContentLoaded", ()=>{
+      const btn_menu = document.querySelector(".btn_menu");
+      btn_menu.addEventListener("click", showMenu);
+    })
+  </script>
 </html>
