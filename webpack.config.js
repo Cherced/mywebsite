@@ -1,6 +1,8 @@
 const path = require('path'); //Nos permite acceder a donde estámos en las carpetas. Ya sea en local o en la nube. es de node 
 const HtmlWebpackPlugin = require('html-webpack-plugin'); //Archivo necesario para trabajar con HTML.
 const CopyWebpackPlugin = require('copy-webpack-plugin'); //Archivo necesario para trabajar con css.
+const MiniCssExtractPlugin = require('mini-css-extract-plugin'); //Archivo necesario para trabajar con css.
+
 
 module.exports = {  //Aquí se encuentra toda la configuración de lo que va a suceder. Modulo para exportar.
     entry: './src/index.js', //Punto de entrada con su dirección.Aquí vive el código inicial y de aquí parte al desarrollo.
@@ -19,6 +21,16 @@ module.exports = {  //Aquí se encuentra toda la configuración de lo que va a s
                 use: {
                     loader: 'babel-loader',    //Utilizar un loader como configuración establecida.
                 }
+            },
+            {
+                test: /\.(c|sc|sa)ss$/,
+                use: [
+                    {
+                        loader: MiniCssExtractPlugin.loader
+                    },
+                    'css-loader',
+                    'sass-loader'
+                ]
             }
         ]
     },
@@ -33,6 +45,9 @@ module.exports = {  //Aquí se encuentra toda la configuración de lo que va a s
         new CopyWebpackPlugin([{
             from: './src/styles/styles.css',    
             to: ''
-        }])
+        }]),
+            new MiniCssExtractPlugin({
+                filename: 'styles.css'
+            })
     ]
 }

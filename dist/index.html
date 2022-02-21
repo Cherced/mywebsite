@@ -51,15 +51,5 @@
       </section>
     </div>
     <script type="text/javascript" src="main.js"></script>
-    <script>
-      addEventListener("click", function (e) {
-        let target = e.target;
-        if (target.matches(".btn_menu")) {
-          showMenu();
-        } else if (!target.matches(".menu_items a")) {
-          document.querySelector(".menu_items").classList.remove("show");
-        }
-      });
-    </script>
   </body>
 </html>
