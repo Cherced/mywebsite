@@ -43,7 +43,7 @@ module.exports = {  //Aquí se encuentra toda la configuración de lo que va a s
             }
         ),
         new CopyWebpackPlugin([{
-            from: './src/styles/styles.css',    
+            from: './css/styles.css',    
             to: ''
         }]),
             new MiniCssExtractPlugin({
