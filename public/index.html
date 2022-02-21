@@ -51,4 +51,13 @@
       </section>
     </div>
   </body>
+  <script>
+    function showMenu() {
+      document.getElementById("otroModo").classList.toggle("show");
+    }
+    addEventListener("DOMContentLoaded", ()=>{
+      const btn_menu = document.querySelector(".btn_menu");
+      btn_menu.addEventListener("click", showMenu);
+    })
+  </script>
 </html>

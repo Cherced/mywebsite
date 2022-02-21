@@ -58,6 +58,9 @@ li:active {
     border-radius: 40px;
 }
 
+ul.show{
+    top: 64px;
+}
 // media queries
 
 @media screen and (max-width: 952px) {
