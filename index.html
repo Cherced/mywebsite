@@ -28,186 +28,82 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,600&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="./css/styles_320px.css"
-      media="screen and (min-width:320px)"
-    />
-    <link
-      rel="stylesheet"
-      href="./css/styles_375px.css"
-      media="screen and (min-width:375px)"
-    />
-    <link
-      rel="stylesheet"
-      href="./css/styles_394px.css"
-      media="screen and (min-width:394px)"
-    />
-    <link
-      rel="stylesheet"
-      href="./css/styles_414px.css"
-      media="screen and (min-width:414px)"
-    />
-    <link
-      rel="stylesheet"
-      href="./css/styles_425px.css"
-      media="screen and (min-width:425px)"
-    />
-    <link
-      rel="stylesheet"
-      href="./css/styles_768px.css"
-      media="screen and (min-width:768px)"
-    />
-    <link
-      rel="stylesheet"
-      href="./css/styles_834px.css"
-      media="screen and (min-width:834px)"
-    />
-    <link
-      rel="stylesheet"
-      href="./css/styles_1024px.css"
-      media="screen and (min-width:1024px)"
-    />
-    <link
-      rel="stylesheet"
-      href="./css/styles_1440px.css"
-      media="screen and (min-width:1440px)"
-    />
-    <link
-      rel="stylesheet"
-      href="./css/styles_1920px.css"
-      media="screen and (min-width:1920px)"
-    />
     <title>Camilo Cediel || Portafolio.</title>
-    <script>
-      addEventListener("DOMContentLoaded", () => {
-            const btn_menu = document.querySelector(".btn_menu");
-            if (btn_menu) {
-                btn_menu.addEventListener("click", () => {
-                    const menu_items = document.querySelector(".menu_items");
-                    menu_items.classList.toggle("show");
-                });
-            }
-
-        });
-    </script>
-    <style>
-      header {
-        width: 100%;
-        height: 64px;
-      }
-
-      .menu {
-        background-color: black;
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-        box-shadow: 5px 0 10px rgba(0, 0, 0, 0.25);
-        height: 64px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-      }
-
-      .menu span > i > img {
-        margin-right: 15px;
-      }
-
-      .menu > .logo > img {
-        margin-top: 55px;
-      }
-
-      .btn_menu {
-        cursor: pointer;
-        display: none;
-      }
-
-      .menu_items {
-        display: flex;
-        list-style: none;
-        margin-right: 30px;
-      }
-
-      .menu_items li {
-        border-radius: 3px;
-        margin: 0 5px;
-      }
-
-      .menu_items li a {
-        padding: 7px 13px;
-        text-decoration: none;
-        font-size: 18px;
-        display: block;
-        text-transform: uppercase;
-        color: white;
-      }
-
-      .menu_items li:hover,
-      li:active {
-        background-color: blue;
-        background-size: 645px 40px;
-      }
-
-      ul.show {
-        top: 64px;
-      }
-
-      @media screen and (max-width: 952px) {
-        .menu_items li a {
-          font-size: 16px;
-        }
-      }
-
-      @media screen and (max-width: 768px) {
-        .btn_menu {
-          display: inline-flex;
-        }
-
-        .menu_items {
-          position: fixed;
-          width: 100vw;
-          height: calc(100vh - 64px);
-          background-color: black;
-          top: -100vh;
-          text-align: center;
-          transition: all 0.4s;
-          flex-direction: column;
-        }
-
-        .menu_items li {
-          margin: 30px 0 0 0;
-          padding: 10px 0;
-          line-height: 30px;
-        }
-
-        .menu_items li:hover {
-          background: none;
-        }
-
-        .menu_items li a {
-          font-size: 20px;
-
-          font-weight: bold;
-        }
-        .menu_items li a:hover {
-          @include BackgroundBlackWitheAnimated;
-        }
-      }
-
-      @media screen and (max-width: 768px) and (orientation: landscape) {
-        .menu_items li {
-          margin: 5px 0 0 0;
-        }
-        .menu_items {
-          overflow: scroll;
-          height: calc(100% - 64px);
-        }
-      }
-    </style>
-    <script>
-     
-    </script>
   </head>
+  <style>
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      font-family: "MONTSERRAT", "monospace", "RALEWAY", "OPEN SANS";
+    }
+    .aviso {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 50px;
+      background: linear-gradient(
+        45deg,
+        #3706fd,
+        #d5d108,
+        #121210,
+        #632a5b,
+        #df1f1f
+      );
+      background-size: 1000% 1000%;
+
+      -webkit-animation: aviso 0s ease infinite;
+      -moz-animation: aviso 0s ease infinite;
+      animation: aviso 0s ease infinite;
+    }
+
+    @-webkit-keyframes aviso {
+      0% {
+        background-position: 82% 0%;
+      }
+      50% {
+        background-position: 19% 100%;
+      }
+      100% {
+        background-position: 82% 0%;
+      }
+    }
+    @-moz-keyframes aviso {
+      0% {
+        background-position: 82% 0%;
+      }
+      50% {
+        background-position: 19% 100%;
+      }
+      100% {
+        background-position: 82% 0%;
+      }
+    }
+    @keyframes aviso {
+      0% {
+        background-position: 82% 0%;
+      }
+      50% {
+        background-position: 19% 100%;
+      }
+      100% {
+        background-position: 82% 0%;
+      }
+    }
+  </style>
   <body>
-    <header>
+    <div class="aviso">
+      <h1>Building in another Process, for take a look on :</h1>
+      <h1>
+        <a href="https://tender-almeida-a6c78e.netlify.app/"> CLICK HERE!</a>
+      </h1>
+    </div>
+    <!-- <header>
       <nav class="menu">
         <label class="logo"
           ><img src="./galery/Icons/brand.png" alt="brand"
@@ -489,6 +385,6 @@
         </div>
         <p><strong>@2021 Camilo Hernandez</strong> All Rights Reserved.</p>
       </section>
-    </footer>
+    </footer> -->
   </body>
 </html>
