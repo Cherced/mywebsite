@@ -2,10 +2,7 @@ const path = require('path'); //Nos permite acceder a donde estámos en las carp
 const HtmlWebpackPlugin = require('html-webpack-plugin'); //Archivo necesario para trabajar con HTML.
 const CopyWebpackPlugin = require('copy-webpack-plugin'); //Archivo necesario para trabajar con css.
 const MiniCssExtractPlugin = require('mini-css-extract-plugin'); //Archivo necesario para trabajar con css.
-const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
-const TerserPlugin = require('terser-webpack-plugin');
 const Dotenv = require('dotenv-webpack');
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = { //Aquí se encuentra toda la configuración de lo que va a suceder. Modulo para exportar.
     entry: './src/index.js', //Punto de entrada con su dirección.Aquí vive el código inicial y de aquí parte al desarrollo.
@@ -14,6 +11,8 @@ module.exports = { //Aquí se encuentra toda la configuración de lo que va a su
         filename: '[name].[contenthash].js',
         assetModuleFilename: 'assets/image/[hash][ext][query]'
     },
+    mode: 'development',
+    watch: true,
     resolve: {
         extensions: ['.js'],
         alias: {
@@ -83,13 +82,17 @@ module.exports = { //Aquí se encuentra toda la configuración de lo que va a su
             ]
         }),
         // new Dotenv(),
-        new CleanWebpackPlugin(),
     ],
-    optimization: {
-        minimize: true,
-        minimizer: [
-            new CssMinimizerPlugin(),
-            new TerserPlugin(),
-        ]
-    }
+    devServer: {
+        static: 
+        {
+          directory: path.join(__dirname, "dist"),
+          watch: true,
+        },
+        watchFiles: path.join(__dirname, "./**"), //observa los cambios en todos nuestros archivos y actualiza el navegador
+        compress: true,
+        historyApiFallback: true,
+        port: 3006,
+        open: true, //Hace que se abra en el navegador
+      },
 }

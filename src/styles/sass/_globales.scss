@@ -1,3 +1,164 @@
+//fonts
+$titles: 'MONTSERRAT',
+'monospace';
+$subTitles: 'RALEWAY';
+$paragraf:'OPEN SANS';
+//color`s
+$backgroundHeader: #000000;
+$colorTextOne: #ffffff;
+$colorTextTwo: #000000;
+$colorFondoSectionOne: #FFFFFF;
+$colorFondoSectioneTwo: #000000;
+$titleMarkColor: #000000;
+$lineSideButtonWhite: #FFFFFF;
+$lineSideButtonBlack: #000000;
+$colorLinearGradientBanner: linear-gradient(180deg, #545454 15.21%, rgba(145, 145, 145, 0.255491) 100%, rgba(157, 157, 157, 0.108646) 100%, rgba(166, 166, 166, 0) 140.59%);
+$colorLinearGradientFooter: linear-gradient(0deg, #000000 8.81%, rgba(196, 196, 196, 0) 31.87%);
+$colorInputLetter: #8B8B8B;
+$opacityProyectLayers: linear-gradient(0deg, rgba(2, 2, 2, 0.42), rgba(2, 2, 2, 0.42)),
+url(IMAGENAOSCURESER);
+$opacityProyectIntro: linear-gradient(0deg, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.62));
+
+//mixins:
+@mixin whiteButton {
+    background: transparent;
+    font-family: $titles;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: $colorTextOne;
+    padding: 10px 45px;
+    border-left: $lineSideButtonWhite solid;
+    border-right: $lineSideButtonWhite solid;
+    border-top: none;
+    border-bottom: none;
+}
+
+@mixin blackButton {
+    background: transparent;
+    font-family: $titles;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: $colorTextTwo;
+    padding: 10px 45px;
+    border-left: $lineSideButtonBlack solid;
+    border-right: $lineSideButtonBlack solid;
+    border-top: none;
+    border-bottom: none;
+    margin: 50px auto 30px;
+}
+
+@mixin titleBoxBlack {
+    background: transparent;
+    font-family: $titles;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 127.9%;
+    text-align: center;
+    color: $colorTextTwo;
+    border: 8px $titleMarkColor solid;
+}
+
+@mixin smalLabel {
+    width: 243px;
+    height: 45px;
+    border-left: 5px $lineSideButtonBlack solid;
+    border-bottom: 5px $lineSideButtonBlack solid;
+    border-top: none;
+    border-right: none;
+    background: transparent;
+    margin-bottom: 45px;
+    font-family: $titles;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.04em;
+    color: $colorInputLetter;
+    padding: 10px;
+}
+
+@mixin bigLabel {
+    width: 243px;
+    height: 165px;
+    border-left: 5px $lineSideButtonBlack solid;
+    border-bottom: 5px $lineSideButtonBlack solid;
+    border-top: none;
+    border-right: none;
+    background: transparent;
+    font-family: $titles;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.04em;
+    color: $colorInputLetter;
+    padding: 10px 10px 125px 10px;
+}
+
+@mixin backgroundStrech {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@mixin BackgroundBlackWitheAnimated {
+    background: linear-gradient(339deg, #0b0e0d, #dadada);
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 20s ease infinite;
+
+    @-webkit-keyframes AnimationName {
+        0% {
+            background-position: 50% 0%
+        }
+
+        50% {
+            background-position: 51% 100%
+        }
+
+        100% {
+            background-position: 50% 0%
+        }
+    }
+
+    @-moz-keyframes AnimationName {
+        0% {
+            background-position: 50% 0%
+        }
+
+        50% {
+            background-position: 51% 100%
+        }
+
+        100% {
+            background-position: 50% 0%
+        }
+    }
+
+    @keyframes AnimationName {
+        0% {
+            background-position: 50% 0%
+        }
+
+        50% {
+            background-position: 51% 100%
+        }
+
+        100% {
+            background-position: 50% 0%
+        }
+    }
+}
+
+
+//variables de inicio de navegador
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,26 +166,19 @@
 }
 
 body {
-    text-align: center;
-    background-color: #eee;
+    font-family: $titles, $subTitles, $paragraf;
 }
 
-.page {
+// animaciones // launch
+.start {
     height: 100vh;
     width: 100%;
     position: relative;
 }
 
-.Banner {
+.start-page {
     position: absolute;
     z-index: 1;
-    display: grid;
-    grid-template-columns: 55% 45%;
-    grid-template-rows: 20% 50% 30%;
-    grid-template-areas:
-        "nav        aside"
-        "section    aside"
-        "footer     aside";
     height: 100%;
     width: 100%;
 }
@@ -100,33 +254,23 @@ body {
 
 .loader>.dot:nth-child(2) {
     z-index: 11;
-
     width: 150px;
     height: 90px;
-
     margin-top: -45px;
     margin-left: -75px;
-
     border-radius: 3px;
-
     background-color: #666;
-
     animation-name: dot2;
 }
 
 .loader>.dot:nth-child(3) {
     z-index: 12;
-
     width: 40px;
     height: 20px;
-
     margin-top: 50px;
     margin-left: -20px;
-
     border-radius: 0 0 5px 5px;
-
     background-color: gray;
-
     animation-name: dot3;
 }
 
@@ -225,7 +369,7 @@ body {
 }
 
 /* 
-atomStyle  */
+ atomStyle  */
 
 @keyframes atom {
     from {

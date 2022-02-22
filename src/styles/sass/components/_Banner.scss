@@ -13,7 +13,7 @@
 .main-banner--container {
     width: 100%;
     height: 100vh;
-    background-image: url("/galery/Img/firstBanner.png");
+    background-image: url("/src/assets/image/Img/firstBanner.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -64px;
@@ -52,13 +52,13 @@
 
 @media screen and (min-width: 374px) {
     .main-banner--container {
-        background-image: url("/galery/Img/secondBanner.png");
+        background-image: url("/src/assets/image/Img/secondBanner.png");
     }
 }
 
 @media screen and (min-width: 393px) {
     .main-banner--container {
-        background-image: url("/galery/Img/Banner414px/Component3.png");
+        background-image: url("/src/assets/image/Img/Banner414px/Component3.png");
         justify-content:flex-end;
         padding: 5px;
     }

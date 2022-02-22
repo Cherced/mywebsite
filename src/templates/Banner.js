@@ -1,3 +1,8 @@
+import separator  from "/src/assets/image/separatorWhite2.png";
+import mail from "/src/assets/image/cib_mail-ru.png";
+import github from "/src/assets/image/ant-design_github-filled.png";
+import linkedin from "/src/assets/image/entypo-social_linkedin-with-circle.png";
+
 const Banner = () => {
     const view = `
     <section class="section-main--one">
@@ -11,11 +16,11 @@ const Banner = () => {
             <h1>Camilo Hernandez</h1>
             <p>Front-end Developer / Business Manager</p>
         </div>
-        <img src="./galery/Icons/separatorWhite 2.png" alt="separador" class="separador">                
+        <img src="${separator}" alt="separador" class="separador">                
         <div class="banner-img--container">
-            <img src="./galery/Icons/cib_mail-ru.png" alt="Mail">
-            <img src="./galery/Icons/ant-design_github-filled.png" alt="GITHUB" class="git">
-            <img src="./galery/Icons/entypo-social_linkedin-with-circle.png" alt="LINKEDIN">
+            <a href="mailto:chernandezcediel@gmail.com"><img src="${mail}" alt="Mail"></a>
+            <a href="https://github.com/Cherced"><img src="${github}" alt="GITHUB" class="git"></a>
+            <a href="www.linkedin.com/in/cherced"><img src="${linkedin}" alt="LINKEDIN"></a>        
         </div>                    
     </div>
 </section>`;
