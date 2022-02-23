@@ -12,7 +12,6 @@ module.exports = { //Aquí se encuentra toda la configuración de lo que va a su
         assetModuleFilename: 'assets/image/[hash][ext][query]'
     },
     mode: 'development',
-    watch: true,
     resolve: {
         extensions: ['.js'],
         alias: {

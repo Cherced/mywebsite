@@ -52,12 +52,21 @@
     </div>
   </body>
   <script>
+    function showResume() {
+      console.log("showResume");
+      document.getElementById("resume").classList.toggle("show2");
+    }
     function showMenu() {
       document.getElementById("otroModo").classList.toggle("show");
     }
-    addEventListener("DOMContentLoaded", ()=>{
+    addEventListener("DOMContentLoaded", () => {
       const btn_menu = document.querySelector(".btn_menu");
-      btn_menu.addEventListener("click", showMenu);
-    })
+      const resume = document.querySelector(".resume");
+      if (btn_menu) {
+        btn_menu.addEventListener("click", showMenu);
+      } else if (resume) {
+        resume.addEventListener("click", showResume);
+      }
+    });
   </script>
 </html>

@@ -1,14 +1,16 @@
 //banner mobile 
-.section-main--one{
+.section-main--one {
     width: 100%;
     height: 100vh;
     @include BackgroundBlackWitheAnimated;
     background-size: 400% 400%;
 }
+
 // close the second banner text
-.banner-text--containerTwo{
+.banner-text--containerTwo {
     display: none;
 }
+
 // styles for first banner text
 .main-banner--container {
     width: 100%;
@@ -21,6 +23,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
     h1 {
         font-family: $titles;
         font-style: normal;
@@ -30,23 +33,24 @@
         text-align: center;
         color: $colorTextOne;
     }
-   h2 {
-            font-family: 'Advent Pro';
-            font-style: normal;
-            font-weight: normal;
-            font-size: 25px;
-            line-height: 30px;
-            text-align: center;
-            color: $colorTextOne;
-    }  
- 
+
+    h2 {
+        font-family: 'Advent Pro';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+        color: $colorTextOne;
+    }
+
 }
 
-.separador{
+.separador {
     margin: 20px 0;
 }
 
-.git{
+.git {
     margin: 0 20px;
 }
 
@@ -59,7 +63,143 @@
 @media screen and (min-width: 393px) {
     .main-banner--container {
         background-image: url("/src/assets/image/Img/Banner414px/Component3.png");
-        justify-content:flex-end;
+        justify-content: flex-end;
         padding: 5px;
     }
 }
+
+@media screen and (min-width: 415px) {
+    .main-banner--container {
+        background-image: url("/src/assets/image/Img/Banner425px/Frame2.png");
+        flex-direction: row;
+        align-items: end;
+        justify-content: space-between;
+    }
+
+    .separador {
+        display: none;
+    }
+
+    .banner-text--containerOne {
+        display: none;
+    }
+
+    .banner-text--containerTwo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-end;
+        padding: 20px;
+
+        h1 {
+            font-family: $titles;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 39px;
+            text-align: center;
+            color: $colorTextOne;
+        }
+
+        h2 {
+            font-family: 'Advent Pro';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 25px;
+            line-height: 30px;
+            text-align: center;
+            color: $colorTextOne;
+        }
+
+        p {
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 12px;
+            line-height: 14px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+    }
+
+    .banner-img--container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding: 10px;
+
+
+        .git {
+            margin: 20px 0;
+        }
+    }
+}
+
+
+@media screen and (min-width: 667px) {
+    .main-banner--container {
+        background-image: url("/src/assets/image/Img/Banner768px/Frame2.png");
+        flex-direction: row;
+        align-items: end;
+        justify-content: space-between;
+    }
+
+    .separador {
+        display: none;
+    }
+
+    .banner-text--containerOne {
+        display: none;
+    }
+
+    .banner-text--containerTwo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-end;
+        padding: 20px;
+
+        h1 {
+            font-family: $titles;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 39px;
+            text-align: center;
+            color: $colorTextOne;
+        }
+
+        h2 {
+            font-family: 'Advent Pro';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 25px;
+            line-height: 30px;
+            text-align: center;
+            color: $colorTextOne;
+        }
+
+        p {
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 12px;
+            line-height: 14px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+    }
+
+    .banner-img--container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding: 10px;
+
+
+        .git {
+            margin: 20px 0;
+        }
+    }
+}
+
