@@ -1,7 +1,7 @@
 //banner mobile 
 .section-main--one {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     @include BackgroundBlackWitheAnimated;
     background-size: 400% 400%;
 }
@@ -32,6 +32,7 @@
         line-height: 39px;
         text-align: center;
         color: $colorTextOne;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
 
     h2 {
@@ -42,12 +43,14 @@
         line-height: 30px;
         text-align: center;
         color: $colorTextOne;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
 
 }
 
 .separador {
     margin: 20px 0;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .git {
@@ -61,14 +64,15 @@
 }
 
 @media screen and (min-width: 393px) {
+
     .main-banner--container {
         background-image: url("/src/assets/image/Img/Banner414px/Component3.png");
         justify-content: flex-end;
-        padding: 5px;
+        padding-bottom: 95px;
     }
 }
 
-@media screen and (min-width: 415px) {
+@media screen and (min-width: 413px) {
     .main-banner--container {
         background-image: url("/src/assets/image/Img/Banner425px/Frame2.png");
         flex-direction: row;
@@ -99,6 +103,7 @@
             line-height: 39px;
             text-align: center;
             color: $colorTextOne;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         }
 
         h2 {
@@ -109,6 +114,7 @@
             line-height: 30px;
             text-align: center;
             color: $colorTextOne;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         }
 
         p {
@@ -119,6 +125,7 @@
             line-height: 14px;
             text-align: center;
             color: #FFFFFF;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         }
     }
 
@@ -135,13 +142,21 @@
     }
 }
 
+@media screen and (min-width: 449px) {
+    .main-banner--container {
+        background-image: url("/src/assets/image/Img/Banner425px/Frame2.png");
+        padding-bottom: 95px;
+    }
+}
+    
 
-@media screen and (min-width: 667px) {
+
+@media screen and (min-width: 665px) {
     .main-banner--container {
         background-image: url("/src/assets/image/Img/Banner768px/Frame2.png");
         flex-direction: row;
         align-items: end;
-        justify-content: space-between;
+        justify-content: flex-end;
     }
 
     .separador {
@@ -167,6 +182,7 @@
             line-height: 39px;
             text-align: center;
             color: $colorTextOne;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         }
 
         h2 {
@@ -177,6 +193,7 @@
             line-height: 30px;
             text-align: center;
             color: $colorTextOne;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         }
 
         p {
@@ -187,6 +204,7 @@
             line-height: 14px;
             text-align: center;
             color: #FFFFFF;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         }
     }
 
@@ -203,3 +221,8 @@
     }
 }
 
+@media screen and (min-width: 832px) {
+    .main-banner--container {
+        background-image: url("/src/assets/image/Img/Banner834px/Frame1.png");
+}
+}
