@@ -462,12 +462,12 @@ div.show2 {
   top: 64px;
 }
 
-@media screen and (max-width: 952px) {
+@media screen and (max-width: 952px) and (min-height: 675px) {
   .menu_items li a {
     font-size: 16px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 834px) {
   .btn_menu {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -588,10 +588,130 @@ div.show2 {
   .menu_items li {
     margin: 5px 0 0 0;
   }
+}
+@media screen and (max-height: 670px) {
+  .btn_menu {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+
+  .resume {
+    position: fixed;
+    width: 100vw;
+    height: calc(100vh - 64px);
+    background-color: #000000;
+    background-image: url("/src/assets/image/Img/bannerImg375.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: -100vh;
+    text-align: center;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color: #ffffff;
+  }
+  .resume p {
+    font-family: "open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 20px;
+    text-align: justify;
+    padding: 105px 40px 40px 40px;
+    margin-top: 50px;
+  }
+  .resume .button {
+    margin-top: 20px;
+    background: transparent;
+    font-family: "MONTSERRAT", "monospace";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px 45px;
+    border-left: #FFFFFF solid;
+    border-right: #FFFFFF solid;
+    border-top: none;
+    border-bottom: none;
+  }
+  .resume img {
+    display: none;
+  }
 
   .menu_items {
-    overflow: scroll;
-    height: calc(100% - 64px);
+    position: fixed;
+    width: 100vw;
+    height: calc(100vh - 64px);
+    background-color: #000000;
+    top: -100vh;
+    text-align: center;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .menu_items li {
+    margin: 30px 0 0 0;
+    padding: 10px 0;
+    line-height: 30px;
+  }
+
+  .menu_items li:hover {
+    background: none;
+  }
+
+  .menu_items li a {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .menu_items li a:hover {
+    background: linear-gradient(339deg, #0b0e0d, #dadada);
+    -webkit-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 20s ease infinite;
+  }
+  @-webkit-keyframes AnimationName {
+    0% {
+      background-position: 50% 0%;
+    }
+    50% {
+      background-position: 51% 100%;
+    }
+    100% {
+      background-position: 50% 0%;
+    }
+  }
+  @keyframes AnimationName {
+    0% {
+      background-position: 50% 0%;
+    }
+    50% {
+      background-position: 51% 100%;
+    }
+    100% {
+      background-position: 50% 0%;
+    }
+  }
+}
+@media screen and (max-width: 768px) and (orientation: landscape) {
+  .menu_items li {
+    margin: 5px 0 0 0;
   }
 }
 .section-main--one {
@@ -685,7 +805,13 @@ div.show2 {
     background-image: url("/src/assets/image/Img/secondBanner.png");
   }
 }
-@media screen and (min-width: 393px) {
+@media screen and (min-width: 374px) and (min-height: 812px) {
+  .main-banner--container {
+    background-image: url("/src/assets/image/Img/secondBanner.2.png");
+    height: 100vh;
+  }
+}
+@media screen and (min-width: 390px) {
   .main-banner--container {
     background-image: url("/src/assets/image/Img/Banner414px/Component3.png");
     -webkit-box-pack: end;
@@ -694,7 +820,14 @@ div.show2 {
     padding-bottom: 95px;
   }
 }
-@media screen and (min-width: 413px) {
+@media screen and (min-width: 414px) and (max-height: 736px) {
+  .main-banner--container {
+    background-image: url("/src/assets/image/Img/Banner414px/Component3.5.png");
+    height: 672px;
+    padding-bottom: 10px;
+  }
+}
+@media screen and (min-width: 424px) {
   .main-banner--container {
     background-image: url("/src/assets/image/Img/Banner425px/Frame2.png");
     -webkit-box-orient: horizontal;
@@ -787,7 +920,25 @@ div.show2 {
     padding-bottom: 95px;
   }
 }
-@media screen and (min-width: 665px) {
+@media screen and (min-width: 511px) {
+  .main-banner--container {
+    background-image: url("/src/assets/image/Img/Banner512px/512px.png");
+    padding-bottom: 95px;
+  }
+  .main-banner--container .banner-text--containerTwo {
+    padding: 0 0 30px 35px;
+  }
+  .main-banner--container .banner-img--container {
+    padding-right: 25px;
+    margin-bottom: 15px;
+  }
+}
+@media screen and (min-width: 600px) {
+  .main-banner--container {
+    background-image: url("/src/assets/image/Img/Banner600px/600px.png");
+  }
+}
+@media screen and (min-width: 664px) {
   .main-banner--container {
     background-image: url("/src/assets/image/Img/Banner768px/Frame2.png");
     -webkit-box-orient: horizontal;
@@ -800,6 +951,13 @@ div.show2 {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
+  }
+  .main-banner--container .banner-text--containerTwo {
+    padding: 0;
+  }
+  .main-banner--container .banner-img--container {
+    margin: 0;
+    padding: 5px 15px 0 20px;
   }
 
   .separador {
@@ -824,7 +982,6 @@ div.show2 {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    padding: 20px;
   }
   .banner-text--containerTwo h1 {
     font-family: "MONTSERRAT", "monospace";
@@ -868,7 +1025,6 @@ div.show2 {
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
-    padding: 10px;
   }
   .banner-img--container .git {
     margin: 20px 0;
@@ -877,5 +1033,10 @@ div.show2 {
 @media screen and (min-width: 832px) {
   .main-banner--container {
     background-image: url("/src/assets/image/Img/Banner834px/Frame1.png");
+  }
+}
+@media screen and (min-width: 1023px) {
+  .main-banner--container {
+    background-image: url("/src/assets/image/Img/Banner1024px/Component4.png");
   }
 }

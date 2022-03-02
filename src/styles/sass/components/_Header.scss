@@ -65,16 +65,15 @@ ul.show{
 div.show2{
     top: 64px;
 }
-
 // media queries
 
-@media screen and (max-width: 952px) {
+@media screen and (max-width: 952px) and (min-height: 675px) {
     .menu_items li a {
         font-size: 16px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 834px) {
 
     .btn_menu {
         display: inline-flex;
@@ -147,9 +146,85 @@ div.show2{
     .menu_items li {
         margin: 5px 0 0 0;
     }
+}
 
+
+//controling resumeMenu
+
+@media screen and (max-height: 670px) {
+    .btn_menu {
+        display: inline-flex;
+    }
+    .resume{
+        position: fixed;
+        width: 100vw;
+        height: calc(100vh - 64px);
+        background-color: $backgroundHeader;
+        background-image: url("/src/assets/image/Img/bannerImg375.png");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        top: -100vh;
+        text-align: center;
+        transition: all 0.5s;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color : $colorTextOne;
+        p{
+            font-family: 'open Sans', sans-serif;
+            font-size: 15px;
+            font-weight: normal;
+            font-style: normal;
+            line-height: 20px;
+            text-align: justify;
+            padding: 105px 40px 40px 40px;
+            margin-top: 50px;
+        }
+        .button{
+            margin-top: 20px;
+            @include whiteButton;
+        }
+        img{
+            display: none;
+        }
+
+    }
     .menu_items {
-        overflow: scroll;
-        height: calc(100% - 64px);
+        position: fixed;
+        width: 100vw;
+        height: calc(100vh - 64px);
+        background-color: $backgroundHeader;
+        top: -100vh;
+        text-align: center;
+        transition: all .4s;
+        flex-direction: column;
+    }
+
+    .menu_items li {
+        margin: 30px 0 0 0;
+        padding: 10px 0;
+        line-height: 30px;
+    }
+
+    .menu_items li:hover {
+        background: none;
+    }
+
+    .menu_items li a {
+        font-size: 20px;
+
+        font-weight: bold;
+    }
+
+    .menu_items li a:hover {
+        @include BackgroundBlackWitheAnimated;
     }
 }
+
+@media screen and (max-width: 768px) and (orientation: landscape) {
+    .menu_items li {
+        margin: 5px 0 0 0;
+    }
+}
+

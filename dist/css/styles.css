@@ -467,7 +467,7 @@ div.show2 {
     font-size: 16px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 834px) {
   .btn_menu {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -588,11 +588,6 @@ div.show2 {
   .menu_items li {
     margin: 5px 0 0 0;
   }
-
-  .menu_items {
-    overflow: scroll;
-    height: calc(100% - 64px);
-  }
 }
 .section-main--one {
   width: 100%;
@@ -685,7 +680,7 @@ div.show2 {
     background-image: url("/src/assets/image/Img/secondBanner.png");
   }
 }
-@media screen and (min-width: 393px) {
+@media screen and (min-width: 390px) {
   .main-banner--container {
     background-image: url("/src/assets/image/Img/Banner414px/Component3.png");
     -webkit-box-pack: end;
@@ -694,7 +689,14 @@ div.show2 {
     padding-bottom: 95px;
   }
 }
-@media screen and (min-width: 415px) {
+@media screen and (min-width: 414px) and (max-height: 736px) {
+  .main-banner--container {
+    background-image: url("/src/assets/image/Img/Banner414px/Component3.5.png");
+    height: 672px;
+    padding-bottom: 10px;
+  }
+}
+@media screen and (min-width: 424px) {
   .main-banner--container {
     background-image: url("/src/assets/image/Img/Banner425px/Frame2.png");
     -webkit-box-orient: horizontal;
@@ -781,7 +783,31 @@ div.show2 {
     margin: 20px 0;
   }
 }
-@media screen and (min-width: 667px) {
+@media screen and (min-width: 449px) {
+  .main-banner--container {
+    background-image: url("/src/assets/image/Img/Banner425px/Frame2.png");
+    padding-bottom: 95px;
+  }
+}
+@media screen and (min-width: 511px) {
+  .main-banner--container {
+    background-image: url("/src/assets/image/Img/Banner512px/512px.png");
+    padding-bottom: 95px;
+  }
+  .main-banner--container .banner-text--containerTwo {
+    padding: 0 0 30px 35px;
+  }
+  .main-banner--container .banner-img--container {
+    padding-right: 25px;
+    margin-bottom: 15px;
+  }
+}
+@media screen and (min-width: 600px) {
+  .main-banner--container {
+    background-image: url("/src/assets/image/Img/Banner600px/600px.png");
+  }
+}
+@media screen and (min-width: 664px) {
   .main-banner--container {
     background-image: url("/src/assets/image/Img/Banner768px/Frame2.png");
     -webkit-box-orient: horizontal;
@@ -791,8 +817,16 @@ div.show2 {
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: end;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .main-banner--container .banner-text--containerTwo {
+    padding: 0;
+  }
+  .main-banner--container .banner-img--container {
+    margin: 0;
+    padding: 5px 15px 0 20px;
   }
 
   .separador {
@@ -817,7 +851,6 @@ div.show2 {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    padding: 20px;
   }
   .banner-text--containerTwo h1 {
     font-family: "MONTSERRAT", "monospace";
@@ -861,9 +894,18 @@ div.show2 {
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
-    padding: 10px;
   }
   .banner-img--container .git {
     margin: 20px 0;
+  }
+}
+@media screen and (min-width: 832px) {
+  .main-banner--container {
+    background-image: url("/src/assets/image/Img/Banner834px/Frame1.png");
+  }
+}
+@media screen and (min-width: 1023px) {
+  .main-banner--container {
+    background-image: url("/src/assets/image/Img/Banner1024px/Component4.png");
   }
 }

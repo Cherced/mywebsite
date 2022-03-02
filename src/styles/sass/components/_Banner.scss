@@ -63,7 +63,14 @@
     }
 }
 
-@media screen and (min-width: 393px) {
+@media screen and (min-width: 374px) and (min-height: 812px) {
+    .main-banner--container {
+        background-image: url("/src/assets/image/Img/secondBanner.2.png");
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width: 390px) {
 
     .main-banner--container {
         background-image: url("/src/assets/image/Img/Banner414px/Component3.png");
@@ -72,7 +79,15 @@
     }
 }
 
-@media screen and (min-width: 413px) {
+@media screen and (min-width: 414px) and (max-height: 736px) {
+    .main-banner--container {
+        background-image: url("/src/assets/image/Img/Banner414px/Component3.5.png");
+        height: 672px;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 424px) {
     .main-banner--container {
         background-image: url("/src/assets/image/Img/Banner425px/Frame2.png");
         flex-direction: row;
@@ -142,21 +157,54 @@
     }
 }
 
+
+
 @media screen and (min-width: 449px) {
     .main-banner--container {
         background-image: url("/src/assets/image/Img/Banner425px/Frame2.png");
         padding-bottom: 95px;
     }
 }
-    
+
+@media screen and (min-width: 511px) {
+    .main-banner--container {
+        background-image: url("/src/assets/image/Img/Banner512px/512px.png");
+        padding-bottom: 95px;
+
+        .banner-text--containerTwo {
+            padding: 0 0 30px 35px;
+        }
+
+        .banner-img--container {
+            padding-right: 25px;
+            margin-bottom: 15px;
+        }
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .main-banner--container {
+        background-image: url("/src/assets/image/Img/Banner600px/600px.png");
+    }
+}
 
 
-@media screen and (min-width: 665px) {
+
+@media screen and (min-width: 664px) {
     .main-banner--container {
         background-image: url("/src/assets/image/Img/Banner768px/Frame2.png");
         flex-direction: row;
         align-items: end;
         justify-content: flex-end;
+
+        .banner-text--containerTwo {
+            padding: 0;
+        }
+
+        .banner-img--container {
+            margin: 0;
+            padding: 5px 15px 0 20px
+        }
     }
 
     .separador {
@@ -172,7 +220,6 @@
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-end;
-        padding: 20px;
 
         h1 {
             font-family: $titles;
@@ -212,8 +259,6 @@
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        padding: 10px;
-
 
         .git {
             margin: 20px 0;
@@ -221,8 +266,16 @@
     }
 }
 
+
 @media screen and (min-width: 832px) {
     .main-banner--container {
         background-image: url("/src/assets/image/Img/Banner834px/Frame1.png");
+    }
 }
+
+
+@media screen and (min-width: 1023px) {
+    .main-banner--container {
+        background-image: url("/src/assets/image/Img/Banner1024px/Component4.png");
+    }
 }
