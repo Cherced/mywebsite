@@ -18,7 +18,7 @@ const Header = () => {
             continuous learning as the most important added value of my profile,
             thanks for reading.
           </p>
-          <button class="button" type="text">MORE</button>
+          <a href="https://www.youtube.com/watch?v=2Z603ccaj74"><button class="button" type="text">MORE</button></a>
         </div>
         <ul class="menu_items" id="otroModo">
             <li><a class="active" href="#">Servicios</a></li>

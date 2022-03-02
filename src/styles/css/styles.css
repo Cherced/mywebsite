@@ -87,7 +87,7 @@ body {
   margin-left: -100px;
 }
 
-The dot .loader > .dot {
+.loader > .dot {
   position: absolute;
   top: 50%;
   left: 50%;
