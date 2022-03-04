@@ -55,18 +55,15 @@
     function showResume() {
       console.log("showResume");
       document.getElementById("resume").classList.toggle("show2");
+      if (document.getElementById("otroModo").classList.toggle("show", true)) {
+        document.getElementById("otroModo").classList.toggle("show", false);
+      }
     }
     function showMenu() {
       document.getElementById("otroModo").classList.toggle("show");
+      if (document.getElementById("resume").classList.toggle("show2", true)) {
+        document.getElementById("resume").classList.toggle("show2", false);
+      } 
     }
-    addEventListener("DOMContentLoaded", () => {
-      const btn_menu = document.querySelector(".btn_menu");
-      const resume = document.querySelector(".resume");
-      if (btn_menu) {
-        btn_menu.addEventListener("click", showMenu);
-      } else if (resume) {
-        resume.addEventListener("click", showResume);
-      }
-    });
   </script>
 </html>
