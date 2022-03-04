@@ -883,7 +883,7 @@ div.show2 {
   background-image: url("/src/assets/image/Img/firstBanner.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-y: -64px;
+  background-position: unset;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -931,6 +931,8 @@ div.show2 {
 @media screen and (min-width: 374px) {
   .main-banner--container {
     background-image: url("/src/assets/image/Img/secondBanner.png");
+    background-position: bottom;
+    background-size: cover;
   }
 }
 @media screen and (min-width: 374px) and (min-height: 812px) {
@@ -945,7 +947,7 @@ div.show2 {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    padding-bottom: 95px;
+    padding-bottom: 70px;
   }
 }
 @media screen and (min-width: 414px) and (max-height: 736px) {
@@ -958,6 +960,7 @@ div.show2 {
 @media screen and (min-width: 424px) {
   .main-banner--container {
     background-image: url("/src/assets/image/Img/Banner425px/Frame2.png");
+    background-size: cover;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -968,6 +971,7 @@ div.show2 {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    padding-bottom: 5px;
   }
 
   .separador {
@@ -1045,13 +1049,13 @@ div.show2 {
 @media screen and (min-width: 449px) {
   .main-banner--container {
     background-image: url("/src/assets/image/Img/Banner425px/Frame2.png");
-    padding-bottom: 95px;
+    padding-bottom: 5px;
   }
 }
 @media screen and (min-width: 511px) {
   .main-banner--container {
     background-image: url("/src/assets/image/Img/Banner512px/512px.png");
-    padding-bottom: 95px;
+    padding-bottom: 5px;
   }
   .main-banner--container .banner-text--containerTwo {
     padding: 0 0 30px 35px;
@@ -1064,6 +1068,18 @@ div.show2 {
 @media screen and (min-width: 600px) {
   .main-banner--container {
     background-image: url("/src/assets/image/Img/Banner600px/600px.png");
+  }
+}
+@media screen and (min-width: 600px) and (min-height: 728px) {
+  .main-banner--container {
+    background-image: url("/src/assets/image/Img/Banner600px/600px.png");
+    padding-bottom: 50px;
+  }
+}
+@media screen and (min-width: 600px) and (min-height: 1024px) {
+  .main-banner--container {
+    background-image: url("/src/assets/image/Img/Banner600px/600px.png");
+    padding-bottom: 55px;
   }
 }
 @media screen and (min-width: 664px) {
@@ -1158,13 +1174,36 @@ div.show2 {
     margin: 20px 0;
   }
 }
+@media screen and (min-width: 767px) {
+  .main-banner--container {
+    height: 543px;
+    background-image: url("/src/assets/image/Img/Banner768px/Frame2.png");
+  }
+}
 @media screen and (min-width: 832px) {
   .main-banner--container {
+    height: 543px;
     background-image: url("/src/assets/image/Img/Banner834px/Frame1.png");
   }
 }
 @media screen and (min-width: 1023px) {
   .main-banner--container {
-    background-image: url("/src/assets/image/Img/Banner1024px/Component4.png");
+    height: 100vh;
+    background-image: url("/src/assets/image/Img/Banner1024px/Desktop-3.png");
+  }
+}
+@media screen and (min-width: 1439px) {
+  .main-banner--container {
+    background-image: url("/src/assets/image/Img/Banner1440px/Component4.png");
+  }
+}
+@media screen and (min-width: 1920px) {
+  .main-banner--container {
+    background-image: url("/src/assets/image/Img/Banner1920px/Frame1.png");
+  }
+}
+@media screen and (min-width: 2559px) {
+  .main-banner--container {
+    background-image: url("/src/assets/image/Img/Banner2048px/Frame4.png");
   }
 }

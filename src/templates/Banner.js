@@ -20,7 +20,7 @@ const Banner = () => {
         <div class="banner-img--container">
             <a href="mailto:chernandezcediel@gmail.com"><img src="${mail}" alt="Mail"></a>
             <a href="https://github.com/Cherced"><img src="${github}" alt="GITHUB" class="git"></a>
-            <a href="www.linkedin.com/in/cherced"><img src="${linkedin}" alt="LINKEDIN"></a>        
+            <a href="https://linkedin.com/in/cherced"><img src="${linkedin}" alt="LINKEDIN"></a>        
         </div>                    
     </div>
 </section>`;

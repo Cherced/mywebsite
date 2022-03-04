@@ -18,7 +18,7 @@
     background-image: url("/src/assets/image/Img/firstBanner.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: -64px;
+    background-position: unset;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,6 +60,8 @@
 @media screen and (min-width: 374px) {
     .main-banner--container {
         background-image: url("/src/assets/image/Img/secondBanner.png");
+        background-position: bottom;
+        background-size: cover;
     }
 }
 
@@ -75,7 +77,7 @@
     .main-banner--container {
         background-image: url("/src/assets/image/Img/Banner414px/Component3.png");
         justify-content: flex-end;
-        padding-bottom: 95px;
+        padding-bottom: 70px;
     }
 }
 
@@ -90,9 +92,11 @@
 @media screen and (min-width: 424px) {
     .main-banner--container {
         background-image: url("/src/assets/image/Img/Banner425px/Frame2.png");
+        background-size: cover;
         flex-direction: row;
         align-items: end;
         justify-content: space-between;
+        padding-bottom: 5px;
     }
 
     .separador {
@@ -162,14 +166,14 @@
 @media screen and (min-width: 449px) {
     .main-banner--container {
         background-image: url("/src/assets/image/Img/Banner425px/Frame2.png");
-        padding-bottom: 95px;
+        padding-bottom: 5px;
     }
 }
 
 @media screen and (min-width: 511px) {
     .main-banner--container {
         background-image: url("/src/assets/image/Img/Banner512px/512px.png");
-        padding-bottom: 95px;
+        padding-bottom: 5px;
 
         .banner-text--containerTwo {
             padding: 0 0 30px 35px;
@@ -185,6 +189,20 @@
 @media screen and (min-width: 600px) {
     .main-banner--container {
         background-image: url("/src/assets/image/Img/Banner600px/600px.png");
+    }
+}
+
+@media screen and (min-width: 600px) and (min-height: 728px) {
+    .main-banner--container {
+        background-image: url("/src/assets/image/Img/Banner600px/600px.png");
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 600px) and (min-height: 1024px) {
+    .main-banner--container {
+        background-image: url("/src/assets/image/Img/Banner600px/600px.png");
+        padding-bottom: 55px;
     }
 }
 
@@ -267,8 +285,17 @@
 }
 
 
+@media screen and (min-width: 767px) {
+    .main-banner--container {
+        height: 543px;
+        background-image: url("/src/assets/image/Img/Banner768px/Frame2.png");
+    }
+}
+
+
 @media screen and (min-width: 832px) {
     .main-banner--container {
+        height: 543px;
         background-image: url("/src/assets/image/Img/Banner834px/Frame1.png");
     }
 }
@@ -276,6 +303,26 @@
 
 @media screen and (min-width: 1023px) {
     .main-banner--container {
-        background-image: url("/src/assets/image/Img/Banner1024px/Component4.png");
+        height: 100vh;
+        background-image: url("/src/assets/image/Img/Banner1024px/Desktop-3.png");
+    }
+}
+
+@media screen and (min-width: 1439px) {
+    .main-banner--container {
+        background-image: url("/src/assets/image/Img/Banner1440px/Component4.png");
+    }
+}
+
+
+@media screen and (min-width: 1920px) {
+    .main-banner--container {
+        background-image: url("/src/assets/image/Img/Banner1920px/Frame1.png");
+    }
+}
+
+@media screen and (min-width: 2559px) {
+    .main-banner--container {
+        background-image: url("/src/assets/image/Img/Banner2048px/Frame4.png");
     }
 }
