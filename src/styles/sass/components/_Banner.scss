@@ -68,6 +68,7 @@
 @media screen and (min-width: 374px) and (min-height: 812px) {
     .main-banner--container {
         background-image: url("/src/assets/image/Img/secondBanner.2.png");
+      
         height: 100vh;
     }
 }
@@ -77,6 +78,7 @@
     .main-banner--container {
         background-image: url("/src/assets/image/Img/Banner414px/Component3.png");
         justify-content: flex-end;
+        background-position: initial;
         padding-bottom: 70px;
     }
 }
@@ -189,13 +191,17 @@
 @media screen and (min-width: 600px) {
     .main-banner--container {
         background-image: url("/src/assets/image/Img/Banner600px/600px.png");
+        height: 100vh;
     }
 }
 
 @media screen and (min-width: 600px) and (min-height: 728px) {
     .main-banner--container {
         background-image: url("/src/assets/image/Img/Banner600px/600px.png");
-        padding-bottom: 50px;
+        .banner-img--container {
+            padding-right: 25px;
+            margin-bottom: -5px;
+        }
     }
 }
 
@@ -286,8 +292,7 @@
 
 
 @media screen and (min-width: 767px) {
-    .main-banner--container {
-        height: 543px;
+    .main-banner--container { 
         background-image: url("/src/assets/image/Img/Banner768px/Frame2.png");
     }
 }
@@ -295,7 +300,6 @@
 
 @media screen and (min-width: 832px) {
     .main-banner--container {
-        height: 543px;
         background-image: url("/src/assets/image/Img/Banner834px/Frame1.png");
     }
 }

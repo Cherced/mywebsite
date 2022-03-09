@@ -496,6 +496,7 @@ body {
 header {
   width: 100%;
   height: 64px;
+  position: fixed;
 }
 
 .menu {
@@ -842,6 +843,11 @@ div.show2 {
     margin: 5px 0 0 0;
   }
 }
+@media screen and (min-width: 835px) {
+  .resume {
+    display: none;
+  }
+}
 .section-main--one {
   width: 100%;
   height: 100%;
@@ -947,6 +953,7 @@ div.show2 {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
+    background-position: initial;
     padding-bottom: 70px;
   }
 }
@@ -1068,12 +1075,16 @@ div.show2 {
 @media screen and (min-width: 600px) {
   .main-banner--container {
     background-image: url("/src/assets/image/Img/Banner600px/600px.png");
+    height: 100vh;
   }
 }
 @media screen and (min-width: 600px) and (min-height: 728px) {
   .main-banner--container {
     background-image: url("/src/assets/image/Img/Banner600px/600px.png");
-    padding-bottom: 50px;
+  }
+  .main-banner--container .banner-img--container {
+    padding-right: 25px;
+    margin-bottom: -5px;
   }
 }
 @media screen and (min-width: 600px) and (min-height: 1024px) {
@@ -1176,13 +1187,11 @@ div.show2 {
 }
 @media screen and (min-width: 767px) {
   .main-banner--container {
-    height: 543px;
     background-image: url("/src/assets/image/Img/Banner768px/Frame2.png");
   }
 }
 @media screen and (min-width: 832px) {
   .main-banner--container {
-    height: 543px;
     background-image: url("/src/assets/image/Img/Banner834px/Frame1.png");
   }
 }
