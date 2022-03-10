@@ -18,6 +18,10 @@ $colorInputLetter: #8B8B8B;
 $opacityProyectLayers: linear-gradient(0deg, rgba(2, 2, 2, 0.42), rgba(2, 2, 2, 0.42)),
 url(IMAGENAOSCURESER);
 $opacityProyectIntro: linear-gradient(0deg, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.62));
+//cubes
+$hue: 185;
+$radius: 5.5;
+$size: 4;
 
 //mixins:
 @mixin whiteButton {
@@ -215,7 +219,7 @@ body {
         overflow: visible;
     }
 }
- 
+
 
 /* The loader container */
 .loader {
@@ -251,7 +255,7 @@ body {
     transform-style: preserve-3d;
 
     animation: dot1 3s cubic-bezier(.55, .3, .24, .99) infinite;
-} 
+}
 
 .loader>.dot:nth-child(2) {
     z-index: 11;
@@ -274,7 +278,7 @@ body {
     background-color: gray;
     animation-name: dot3;
 }
- 
+
 @keyframes dot1 {
 
     3%,
@@ -368,9 +372,9 @@ body {
         border-radius: 10px;
     }
 }
- 
 
- //atomStyle 
+
+//atomStyle 
 
 @keyframes atom {
     from {
@@ -410,7 +414,7 @@ body {
     to {
         transform: rotateY(60deg) rotateX(60deg) rotateZ(330deg);
     }
-} 
+}
 
 @keyframes electron2 {
     from {
@@ -494,8 +498,8 @@ body {
     border-radius: 4px;
     background: #666;
     transform-origin: 50% 50% 0;
-} 
- 
+}
+
 .atom .electron:nth-child(1) {
     transform: rotateY(70deg) rotateZ(20deg);
     animation: electron-circle1 3s linear infinite;
