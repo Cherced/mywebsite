@@ -1,15 +1,29 @@
 :root {
-    --hue: 185;
-    --radius: 5.5;
-    --size: 4;
+    --hue: -130;
+    --radius: 17;
+    --size: 14;
 }
 
 #community {
     min-height: 100vh;
-    background: hsl(var(--hue), 20%, 70%);
+    background: hsl(var(--hue), 50%, 0%);
     overflow: hidden;
     margin: 0;
     padding: 0;
+    z-index: -1;
+}
+
+#community h1 {
+    position: relative;
+    color: #ffffff;
+    font-family: "MONTSERRAT", "monospace";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    top: 160px;
 }
 
 [type='checkbox'] {
@@ -124,7 +138,7 @@
 .shadow {
     -webkit-animation: none;
     animation: none;
-    background: radial-gradient(#000, transparent);
+    background:white;
     transform: translate3d(calc((var(--x) * var(--radius)) * 1vmin), calc((var(--y) * var(--radius)) * -1vmin), calc(var(--size) * -0.5vmin)) scale(1);
     -webkit-animation: shadow 0.8s calc(var(--d) * 1s) infinite;
     animation: shadow 0.8s calc(var(--d) * 1s) infinite;

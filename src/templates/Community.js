@@ -1,6 +1,7 @@
 const Community = () => {
     const view = `
-    <div class="scene">
+    <h1>BUILD WITH ME</h1>
+    <div class="scene">    
   <div class="plane">
     <div class="cube cube--0">
       <div class="cube__side"></div>
@@ -75,7 +76,8 @@ const Community = () => {
     </div>
     <div class="shadow shadow--7"></div>
   </div>
-</div>`;
+</div>
+<p>lorem</p>`;
     return view;
 }
 
