@@ -1,6 +1,8 @@
 import HTML from "../assets/image/Group15.png";
 import CSS from "../assets/image/Group16.png";
 import SASS  from "../assets/image/Vector.png";
+import REACT from "../assets/image/REACT.png";
+import VANILLAJS from "../assets/image/VanillaJS.png";
 
 const Proyects = () => {
     const view = `
@@ -13,6 +15,10 @@ const Proyects = () => {
     <h1>CSS3</h1>
     <img src="${SASS}" alt="SASSICON" />
     <h1>SASS</h1>
+    <img src="${REACT}" alt="SASSICON" />
+    <h1>REACT</h1>
+    <img src="${VANILLAJS}" alt="SASSICON" />
+    <h1>JAVASCRIPT</h1>
   </div>
     <section class="section-main-three">
     <div class="main-proyect--container">

@@ -1870,7 +1870,10 @@ div.show2 {
 .section-main-three .main-proyect--container .proyect-nav--container li {
   display: inline-block;
   border-bottom: 1px #aaaaaa solid;
-  width: 178px;
+  width: 157px;
   text-align: center;
   padding: 10px;
+}
+.section-main-three .main-proyect--container .proyect-nav--container > li {
+  margin-top: 10px;
 }
