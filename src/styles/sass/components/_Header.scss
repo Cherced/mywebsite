@@ -61,10 +61,12 @@ li:active {
 
 ul.show{
     top: 64px;
+    z-index: 3;
 }
 
 div.show2{
     top: 64px;
+    z-index: 5;
 }
 // media queries
 

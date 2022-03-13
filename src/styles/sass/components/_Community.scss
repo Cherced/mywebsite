@@ -5,9 +5,8 @@
 }
 
 #community {
-    min-height: 100vh;
+    height: 600px;
     background: hsl(var(--hue), 50%, 0%);
-    overflow: hidden;
     margin: 0;
     padding: 0;
     z-index: -1;
@@ -23,21 +22,13 @@
     line-height: 39px;
     text-align: center;
     text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
-    top: 160px;
-}
-
-[type='checkbox'] {
-    position: absolute;
-    left: 100%;
-    opacity: 0;
-    height: 0;
-    width: 0;
+    top: 100px;
 }
 
 .scene {
     perspective: 800px;
     transform-style: preserve-3d;
-    height: 100vh;
+    height: 600px;
     width: 100vw;
     display: flex;
     align-items: center;
@@ -251,5 +242,14 @@
     15% {
         transform: translate3d(calc((var(--x) * var(--radius)) * 1vmin), calc((var(--y) * var(--radius)) * -1vmin), calc(var(--size) * -0.5vmin)) scale(0.85);
         opacity: 0.2;
+    }
+}
+
+@media screen and (min-width: 599px) {
+    #community {
+        height: 800px;
+    }
+    .scene {
+        height: 800px;
     }
 }

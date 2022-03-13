@@ -1,0 +1,862 @@
+.section-main--two {
+    width: 100%;
+    height: auto;
+    background: $colorFondoSectionOne;
+
+    .main-aboutme--containter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .titleBox {
+            @include titleBoxBlack;
+            padding: 10px 45px;
+            margin: 45px auto;
+        }
+        p {
+            font-family: $paragraf;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 12px;
+            line-height: 16px;
+            color: $colorTextTwo;
+            margin: 0px 62px;
+        }
+
+        .button {
+            @include blackButton;
+        }
+
+        img {
+            margin-bottom: 80px;
+        }
+    }
+
+    .main-skills--container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        margin-top: 10px;
+        margin-top: -80px;
+
+        img {
+            position: relative;
+            top: 115px;
+            left: 24px;
+        }
+
+        h1 {
+            padding: 0 60px 15px;
+        }
+
+        p {
+            font-family: $paragraf;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 13px;
+            line-height: 18px;
+            text-align: justify;
+            color: $colorTextTwo;
+        }
+    }
+
+    .main-skills--tech {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .titleBox {
+            @include titleBoxBlack;
+            margin: 45px auto;
+            padding: 10px 45px;
+        }
+
+        #unic {
+            margin: 25px 0 35px 0;
+        }
+
+        h1 {
+            margin: 17px 0 70px 0;
+        }
+    }
+}
+
+@media screen and (max-width: 393px) {
+    .section-main--two {
+        width: 100%;
+        height: auto;
+        background: $colorFondoSectionOne;
+
+        .main-aboutme--containter {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .titleBox {
+                @include titleBoxBlack;
+                padding: 10px 45px;
+                margin: 45px auto;
+            }
+
+            p {
+                font-family: $paragraf;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 12px;
+                line-height: 16px;
+                display: flex;
+                align-items: flex-end;
+                text-align: center;
+                color: $colorTextTwo;
+                margin: 0px 62px;
+            }
+
+            .button {
+                @include blackButton;
+            }
+
+            img {
+                margin-bottom: 80px;
+            }
+        }
+
+        .main-skills--container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            margin-top: 10px;
+            margin-top: -80px;
+
+            .des {}
+
+            .dev {}
+
+            .mant {}
+
+            img {
+                position: relative;
+                top: 115px;
+                left: 24px;
+            }
+
+            h1 {
+                padding: 0 60px 15px;
+            }
+
+            p {
+                font-family: $paragraf;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 13px;
+                line-height: 18px;
+                text-align: justify;
+                color: $colorTextTwo;
+            }
+        }
+
+        .main-skills--tech {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .titleBox {
+                @include titleBoxBlack;
+                margin: 45px auto;
+                padding: 10px 45px;
+            }
+
+            #unic {
+                margin: 25px 0 35px 0;
+            }
+
+            h1 {
+                margin: 17px 0 70px 0;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 412px) {
+    .section-main--two {
+        width: 100%;
+        height: auto;
+        background: $colorFondoSectionOne;
+
+        .main-aboutme--containter {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .titleBox {
+                @include titleBoxBlack;
+                padding: 10px 45px;
+                margin: 45px auto;
+            }
+
+            p {
+                font-family: $paragraf;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 12px;
+                line-height: 16px;
+                display: flex;
+                align-items: flex-end;
+                text-align: center;
+                color: $colorTextTwo;
+                margin: 0px 62px;
+            }
+
+            .button {
+                @include blackButton;
+            }
+
+            img {
+                margin-bottom: 80px;
+            }
+        }
+
+        .main-skills--container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            margin-top: 10px;
+            margin-top: -80px;
+
+            .des {}
+
+            .dev {}
+
+            .mant {}
+
+            img {
+                position: relative;
+                top: 115px;
+                left: 24px;
+            }
+
+            h1 {
+                padding: 0 60px 15px;
+            }
+
+            p {
+                font-family: $paragraf;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 13px;
+                line-height: 18px;
+                text-align: justify;
+                color: $colorTextTwo;
+            }
+        }
+
+        .main-skills--tech {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .titleBox {
+                @include titleBoxBlack;
+                margin: 45px auto;
+                padding: 10px 45px;
+            }
+
+            #unic {
+                margin: 25px 0 35px 0;
+            }
+
+            h1 {
+                margin: 17px 0 70px 0;
+            }
+        }
+    }
+
+    //Proyects
+}
+
+@media screen and (max-width: 425px) {
+    .section-main--two {
+        width: 100%;
+        height: auto;
+        background: $colorFondoSectionOne;
+
+        .main-aboutme--containter {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .titleBox {
+                @include titleBoxBlack;
+                padding: 10px 45px;
+                margin: 45px auto;
+            }
+
+            p {
+                font-family: $paragraf;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 12px;
+                line-height: 16px;
+                display: flex;
+                align-items: flex-end;
+                text-align: center;
+                color: $colorTextTwo;
+                margin: 0px 62px;
+            }
+
+            .button {
+                @include blackButton;
+            }
+
+            img {
+                margin-bottom: 80px;
+            }
+        }
+
+        .main-skills--container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            margin-top: 10px;
+            margin-top: -80px;
+
+            .des {}
+
+            .dev {}
+
+            .mant {}
+
+            img {
+                position: relative;
+                top: 115px;
+                left: 24px;
+            }
+
+            h1 {
+                padding: 0 60px 15px;
+            }
+
+            p {
+                font-family: $paragraf;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 13px;
+                line-height: 18px;
+                text-align: justify;
+                color: $colorTextTwo;
+            }
+        }
+
+        .main-skills--tech {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .titleBox {
+                @include titleBoxBlack;
+                margin: 45px auto;
+                padding: 10px 45px;
+            }
+
+            #unic {
+                margin: 25px 0 35px 0;
+            }
+
+            h1 {
+                margin: 17px 0 70px 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section-main--two {
+        width: 100%;
+        height: auto;
+        background: $colorFondoSectionOne;
+
+        .main-aboutme--containter {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .titleBox {
+                @include titleBoxBlack;
+                padding: 10px 45px;
+                margin: 45px auto;
+            }
+
+            p {
+                font-family: $paragraf;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 19px;
+                display: flex;
+                align-items: flex-end;
+                text-align: center;
+                color: $colorTextTwo;
+                margin: 0px 62px;
+            }
+
+            .button {
+                @include blackButton;
+            }
+
+            img {
+                margin-bottom: 80px;
+            }
+        }
+
+        .main-skills--container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-top: 10px;
+            margin-top: -80px;
+
+            img {
+                position: relative;
+                top: 115px;
+                left: 24px;
+            }
+
+            h1 {
+                padding: 0 60px 15px;
+            }
+
+            p {
+                font-family: $paragraf;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 13px;
+                line-height: 18px;
+                text-align: justify;
+                color: $colorTextTwo;
+            }
+        }
+
+        .main-skills--tech {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .titleBox {
+                @include titleBoxBlack;
+                margin: 45px auto;
+                padding: 10px 45px;
+            }
+
+            #unic {
+                margin: 25px 0 35px 0;
+            }
+
+            h1 {
+                margin: 17px 0 70px 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 834px) {
+    .section-main--two {
+        width: 100%;
+        height: auto;
+        background: $colorFondoSectionOne;
+
+        .main-aboutme--containter {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .titleBox {
+                @include titleBoxBlack;
+                padding: 10px 45px;
+                margin: 45px auto;
+            }
+
+            p {
+                font-family: $paragraf;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 12px;
+                line-height: 16px;
+                display: flex;
+                align-items: flex-end;
+                text-align: center;
+                color: $colorTextTwo;
+                margin: 0px 62px;
+            }
+
+            .button {
+                @include blackButton;
+            }
+
+            img {
+                margin-bottom: 80px;
+            }
+        }
+
+        .main-skills--container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            margin-top: 10px;
+            margin-top: -80px;
+
+            .des {}
+
+            .dev {}
+
+            .mant {}
+
+            img {
+                position: relative;
+                top: 115px;
+                left: 24px;
+            }
+
+            h1 {
+                padding: 0 60px 15px;
+            }
+
+            p {
+                font-family: $paragraf;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 13px;
+                line-height: 18px;
+                text-align: justify;
+                color: $colorTextTwo;
+            }
+        }
+
+        .main-skills--tech {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .titleBox {
+                @include titleBoxBlack;
+                margin: 45px auto;
+                padding: 10px 45px;
+            }
+
+            #unic {
+                margin: 25px 0 35px 0;
+            }
+
+            h1 {
+                margin: 17px 0 70px 0;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .section-main--two {
+        width: 100%;
+        height: auto;
+        background: $colorFondoSectionOne;
+
+        .main-aboutme--containter {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .titleBox {
+                @include titleBoxBlack;
+                padding: 10px 45px;
+                margin: 45px auto;
+            }
+
+            p {
+                font-family: $paragraf;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 20px;
+                display: flex;
+                align-items: flex-end;
+                text-align: center;
+                color: $colorTextTwo;
+                margin: 0px 62px;
+            }
+
+            .button {
+                @include blackButton;
+            }
+
+            img {
+                margin-bottom: 80px;
+            }
+        }
+
+        .main-skills--container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            margin-top: 10px;
+            margin-top: -80px;
+
+            .des {
+                width: 50%;
+                margin: 40px 10% 0 25%;
+            }
+
+            .dev {
+                width: 50%;
+            }
+
+            .mant {
+                width: 50%;
+            }
+
+            img {
+                position: relative;
+                top: 115px;
+                left: 24px;
+            }
+
+            h1 {
+                padding: 0 60px 15px;
+            }
+
+            p {
+                font-family: $paragraf;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 20px;
+                text-align: justify;
+                color: $colorTextTwo;
+            }
+        }
+
+        .main-skills--tech {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .titleBox {
+                @include titleBoxBlack;
+                margin: 45px auto;
+                padding: 10px 45px;
+            }
+
+            #unic {
+                margin: 25px 0 35px 0;
+            }
+
+            h1 {
+                margin: 17px 0 70px 0;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .section-main--two {
+        width: 100%;
+        height: auto;
+        background: $colorFondoSectionOne;
+
+        .main-aboutme--containter {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .titleBox {
+                @include titleBoxBlack;
+                padding: 10px 45px;
+                margin: 45px auto;
+            }
+
+            p {
+                font-family: $paragraf;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 20px;
+                display: flex;
+                align-items: flex-end;
+                text-align: center;
+                color: $colorTextTwo;
+                margin: 0px 62px;
+            }
+
+            .button {
+                @include blackButton;
+            }
+
+            img {
+                margin-bottom: 80px;
+            }
+        }
+
+        .main-skills--container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            margin-top: 10px;
+            margin-top: -80px;
+
+            .des {}
+
+            .dev {}
+
+            .mant {}
+
+            img {
+                position: relative;
+                top: 115px;
+                left: 24px;
+            }
+
+            h1 {
+                padding: 0 60px 15px;
+            }
+
+            p {
+                font-family: $paragraf;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 20px;
+                text-align: justify;
+                color: $colorTextTwo;
+            }
+        }
+
+        .main-skills--tech {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .titleBox {
+                @include titleBoxBlack;
+                margin: 45px auto;
+                padding: 10px 45px;
+            }
+
+            #unic {
+                margin: 25px 0 35px 0;
+            }
+
+            h1 {
+                margin: 17px 0 70px 0;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .section-main--two {
+        width: 100%;
+        height: auto;
+        background: $colorFondoSectionOne;
+
+        .main-aboutme--containter {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .titleBox {
+                @include titleBoxBlack;
+                padding: 10px 45px;
+                margin: 45px auto;
+            }
+
+            p {
+                font-family: $paragraf;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 20px;
+                display: flex;
+                align-items: flex-end;
+                text-align: center;
+                color: $colorTextTwo;
+                margin: 0px 62px;
+            }
+
+            .button {
+                @include blackButton;
+            }
+
+            img {
+                margin-bottom: 80px;
+            }
+        }
+
+        .main-skills--container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            margin-top: 10px;
+            margin-top: -80px;
+
+            .des {}
+
+            .dev {}
+
+            .mant {}
+
+            img {
+                position: relative;
+                top: 115px;
+                left: 24px;
+            }
+
+            h1 {
+                padding: 0 60px 15px;
+            }
+
+            p {
+                font-family: $paragraf;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 20px;
+                text-align: justify;
+                color: $colorTextTwo;
+            }
+        }
+
+        .main-skills--tech {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .titleBox {
+                @include titleBoxBlack;
+                margin: 45px auto;
+                padding: 10px 45px;
+            }
+
+            #unic {
+                margin: 25px 0 35px 0;
+            }
+
+            h1 {
+                margin: 17px 0 70px 0;
+            }
+        }
+    }
+}

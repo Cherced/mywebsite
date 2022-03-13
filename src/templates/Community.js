@@ -76,8 +76,7 @@ const Community = () => {
     </div>
     <div class="shadow shadow--7"></div>
   </div>
-</div>
-<p>lorem</p>`;
+</div>`;
     return view;
 }
 
