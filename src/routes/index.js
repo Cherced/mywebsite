@@ -4,6 +4,7 @@ import Banner from "../templates/Banner";
 import Community from "../templates/Community";
 import Intro from "../templates/Intro";
 import Proyects from "../templates/Proyects";
+import Footer from "../templates/Footer";
 
 const routes = {
     "/": Home,
@@ -15,11 +16,13 @@ const router = async () => {
     const community = null || document.getElementById("community");
     const intro = null || document.getElementById("intro");
     const proyects = null || document.getElementById("proyects");
+    const footer = null || document.getElementById("footer");
     header.innerHTML = await Header();
     banner.innerHTML = await Banner();
     community.innerHTML = await Community();
     intro.innerHTML = await Intro();
     proyects.innerHTML = await Proyects();
+    footer.innerHTML = await Footer();
     
 }
 

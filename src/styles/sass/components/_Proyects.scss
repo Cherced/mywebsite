@@ -1,0 +1,147 @@
+
+    .main-skills--tech {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .titleBox {
+            @include titleBoxBlack;
+            margin: 45px auto; 
+            padding: 10px 45px; 
+        }
+        #unic {
+            margin: 25px 0 35px 0;
+        }
+        h1 {
+            margin: 17px 0 70px 0;
+        }        
+    }   
+    
+    
+.section-main-three{
+    width: 100%;
+    height: auto;
+    .main-proyect--container {
+        display: flex;
+        flex-direction: column;
+        .proyect-button--container{
+            height: 187.5px;
+            background-image: url('/src/assets/image/Img/sectionmain1.png');
+            @include backgroundStrech;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .titleBox {
+                @include titleBoxBlack;
+                padding: 10px 45px;
+            }
+        }
+        .proyect-nav--container{
+            height: 156px;
+            background-color: $colorFondoSectioneTwo;
+            color: $colorTextOne;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            li {
+                display: inline-block;
+                border-bottom: 1px #aaaaaa solid;
+                width: 157px;
+                text-align: center;
+              
+                padding: 10px;
+            }
+            
+        }
+        .proyect-nav--container > li {
+            margin-top: 10px;
+        }
+    }
+    
+.proyect-carrusel--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .boxSample {
+        width: 100%;
+        height: 200px;
+        text-align: center;
+        background-color: #aaaaaa;
+        @include backgroundStrech;        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        p {
+            font-family: $titles;
+            font-style: italic;
+            font-weight: 600;
+            font-size: 10px;
+            line-height: 12px;
+            letter-spacing: 0.095em;    
+            color: $colorTextOne;
+        }
+        h1{
+            color: $colorTextOne;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 25px;
+            line-height: 127.9%;
+        }
+        .button {
+            @include whiteButton;
+        }  
+    }
+    
+    .footer-proyect--container{
+        width: 100%;
+        height: 60px;
+        background: $colorFondoSectioneTwo ;
+        font-family: $titles;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: $colorTextOne;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+}
+@media screen and (min-width: 449px) {
+    .boxSample {
+        width: 100%;
+        height: 200px;
+        text-align: center;
+        background-color: #aaaaaa;
+        @include backgroundStrech;        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        p {
+            font-family: $titles;
+            font-style: italic;
+            font-weight: 600;
+            font-size: 10px;
+            line-height: 12px;
+            letter-spacing: 0.095em;    
+            color: $colorTextOne;
+        }
+        h1{
+            color: $colorTextOne;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 25px;
+            line-height: 127.9%;
+        }
+        .button {
+            @include whiteButton;
+        }  
+    }    
+}

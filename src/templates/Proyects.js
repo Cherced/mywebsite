@@ -33,7 +33,7 @@ const Proyects = () => {
         <li>DESIGNED</li>
       </div>
       <aside class="proyect-carrusel--container">
-        <div class="one">
+        <div class="boxSample">
           <p>coded, designed</p>
           <h1>FULL-WEB</h1>
           <p>Landing Page, for a seos Company</p>
@@ -42,7 +42,7 @@ const Proyects = () => {
             <button class="button" type="text">MORE</button>
           </ul>
         </div>
-        <div class="two">
+        <div class="boxSample">
           <p>coded, designed</p>
           <h1>LOGOS IT</h1>
           <p>Digital services hosted in Colombia</p>
@@ -51,7 +51,7 @@ const Proyects = () => {
             <button class="button" type="text">MORE</button>
           </ul>
         </div>
-        <div class="three">
+        <div class="boxSample">
           <p>coded, designed</p>
           <h1>FULL-WEB</h1>
           <p>Landing Page, for a seos Company</p>
@@ -60,7 +60,7 @@ const Proyects = () => {
             <button class="button" type="text">MORE</button>
           </ul>
         </div>
-        <div class="four">
+        <div class="boxSample">
           <p>coded, designed</p>
           <h1>FULL-WEB</h1>
           <p>Landing Page, for a seos Company</p>
@@ -69,7 +69,7 @@ const Proyects = () => {
             <button class="button" type="text">MORE</button>
           </ul>
         </div>
-        <div class="five">
+        <div class="boxSample">
           <p>coded, designed</p>
           <h1>FULL-WEB</h1>
           <p>Landing Page, for a seos Company</p>
@@ -78,7 +78,7 @@ const Proyects = () => {
             <button class="button" type="text">MORE</button>
           </ul>
         </div>
-        <div class="six">
+        <div class="boxSample">
           <p>coded, designed</p>
           <h1>FULL-WEB</h1>
           <p>Landing Page, for a seos Company</p>
