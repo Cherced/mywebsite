@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -23,7 +25,6 @@
   "bugs": {
     "url": "https://github.com/Cherced/mywebsite/issues"
   },
-  "homepage": "https://github.com/Cherced/mywebsite#readme",
   "dependencies": {
     "create-next-app": "^12.1.5",
     "next": "^12.1.5",
@@ -33,5 +34,6 @@
   "devDependencies": {
     "gh-pages": "^3.2.3",
     "sass": "^1.51.0"
-  }
+  },
+  "homepage": "https://cherced.github.io/mywebsite/"
 }
