@@ -1,0 +1,255 @@
+//barra de navegacion PENDIENTE HACER EL HOVER DE MENU//
+
+header {
+    width: 100%;
+    height: 64px;
+    position: fixed;
+}
+
+@media screen and (max-width: 834px) {
+    .menu {
+       border-radius: 0 0 32px 0;
+    }
+}
+    
+
+// styling for mobile devices
+.menu {
+    background-color: $backgroundHeader;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.25);
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu span>img {
+    margin-right: 15px;
+}
+
+.menu>.logo>img {
+    margin-top: 55px;
+}
+
+.btn_menu {
+    cursor: pointer;
+    display: none;
+}
+
+// order of menu_items
+
+.menu_items {
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.menu_items li {
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+.menu_items li a {
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    text-transform: uppercase;
+    color: $colorTextOne;
+}
+
+.menu_items li:hover,
+li:active {
+    @include BackgroundBlackWitheAnimated;
+    background-size: 645px 40px;
+    border-radius: 40px;
+}
+
+ul.show {
+    top: 64px;
+    z-index: 3;
+}
+
+div.show2 {
+    top: 64px;
+    z-index: 5;
+}
+
+// media queries
+
+@media screen and (max-width: 952px) and (min-height: 675px) {
+    .menu_items li a {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 834px) {
+
+    .btn_menu {
+        display: inline-flex;
+    }
+
+    .resume {
+        position: fixed;
+        width: 100vw;
+        height: calc(100vh - 64px);
+        background-color: $backgroundHeader;
+        background-image: url("/src/assets/image/Img/bannerImg375.png");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        top: -100vh;
+        text-align: center;
+        transition: all 0.5s;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: $colorTextOne;
+
+        p {
+            font-family: 'open Sans', sans-serif;
+            font-size: 15px;
+            font-weight: normal;
+            font-style: normal;
+            line-height: 20px;
+            text-align: justify;
+            padding: 40px;
+            margin-top: 50px;
+        }
+
+        .button {
+            margin-top: 20px;
+            @include whiteButton;
+        }
+
+    }
+
+    .menu_items {
+        position: fixed;
+        width: 100vw;
+        height: calc(100vh - 64px);
+        background-color: $backgroundHeader;
+        top: -100vh;
+        text-align: center;
+        transition: all .4s;
+        flex-direction: column;
+    }
+
+    .menu_items li {
+        margin: 30px 0 0 0;
+        padding: 10px 0;
+        line-height: 30px;
+    }
+
+    .menu_items li:hover {
+        background: none;
+    }
+
+    .menu_items li a {
+        font-size: 20px;
+
+        font-weight: bold;
+    }
+
+    .menu_items li a:hover {
+        @include BackgroundBlackWitheAnimated;
+    }
+}
+
+@media screen and (max-width: 768px) and (orientation: landscape) {
+    .menu_items li {
+        margin: 5px 0 0 0;
+    }
+}
+
+
+//controling resumeMenu
+
+@media screen and (max-height: 670px) {
+    .btn_menu {
+        display: inline-flex;
+    }
+
+    .resume {
+        position: fixed;
+        width: 100vw;
+        height: calc(100vh - 64px);
+        background-color: $backgroundHeader;
+        background-image: url("/src/assets/image/Img/bannerImg375.png");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        top: -100vh;
+        text-align: center;
+        transition: all 0.5s;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: $colorTextOne;
+
+        p {
+            font-family: 'open Sans', sans-serif;
+            font-size: 15px;
+            font-weight: normal;
+            font-style: normal;
+            line-height: 20px;
+            text-align: justify;
+            padding: 105px 40px 40px 40px;
+            margin-top: 50px;
+        }
+
+        .button {
+            margin-top: 20px;
+            @include whiteButton;
+        }
+
+        img {
+            display: none;
+        }
+
+    }
+
+    .menu_items {
+        position: fixed;
+        width: 100vw;
+        height: calc(100vh - 64px);
+        background-color: $backgroundHeader;
+        top: -100vh;
+        text-align: center;
+        transition: all .4s;
+        flex-direction: column;
+    }
+
+    .menu_items li {
+        margin: 30px 0 0 0;
+        padding: 10px 0;
+        line-height: 30px;
+    }
+
+    .menu_items li:hover {
+        background: none;
+    }
+
+    .menu_items li a {
+        font-size: 20px;
+
+        font-weight: bold;
+    }
+
+    .menu_items li a:hover {
+        @include BackgroundBlackWitheAnimated;
+    }
+}
+
+@media screen and (max-width: 768px) and (orientation: landscape) {
+    .menu_items li {
+        margin: 5px 0 0 0;
+    }
+}
+
+@media screen and (min-width: 835px) {
+    .resume {
+        display: none;
+    }
+}
