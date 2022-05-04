@@ -5,7 +5,12 @@
 }
 
 .CommunityContainer{
-    background-color: black;
+    background: linear-gradient(181deg, #000000, #767676, #ffffff, #000000, #000000);
+    background-size: 1000% 1000%;
+
+    -webkit-animation: backgroundCommunty 30s ease infinite;
+    -moz-animation: backgroundCommunty 30s ease infinite;
+    animation: backgroundCommunty 30s ease infinite;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,6 +20,21 @@
     }
 }
 
+@-webkit-keyframes backgroundCommunty {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+@-moz-keyframes backgroundCommunty {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+@keyframes backgroundCommunty {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
 
 #community {
     height: 600px;
@@ -52,6 +72,8 @@
     width: 5vmin;
     transform-style: preserve-3d;
     transform: rotateX(-40deg) rotateY(-45deg) rotateX(90deg);
+    position: relative;
+    top: -115px;
 }
 
 .cube,
@@ -263,6 +285,6 @@
     }
 
     .scene {
-        height: 800px;
+        height: 950px;
     }
 }
