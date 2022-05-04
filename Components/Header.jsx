@@ -1,11 +1,35 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 export const Header = () => {
+const [resume, setResume] = useState(false)
+const [ menu, setMenu ] = useState(false)
+
+const handleClickShowResume = () => {
+  if (!menu) {
+    setResume(!resume)
+  } else {
+    setMenu(!menu)
+    setResume(!resume)
+  }
+}
+
+const handleClickShowMenu = () => {
+  console.log('clicked')
+  if (!resume) {
+    setMenu(!menu)
+  } else {
+    setResume(!resume)
+    setMenu(!menu)
+  }
+}
+
+
+  
   return (
 <header>
   <nav className="menu">
-    <span className="logo" onclick="showResume()"><img src="/assets/images/brand.png" alt="brand" /></span>
-    <div id="resume" className="resume">
+    <span className="logo" onClick={handleClickShowResume}><img src="/assets/images/brand.png" alt="brand" /></span>
+    <div className={`resume ${resume ? "show2" : ""}`}>
       <img src="/assets/images/brandIntro.png" alt="brandIntro" />
       <p>
         I am a professional in business administration, the last 8 years of
@@ -19,14 +43,14 @@ export const Header = () => {
       </p>
       <a href="https://www.youtube.com/watch?v=2Z603ccaj74"><button className="button" type="text">MORE</button></a>
     </div>
-    <ul className="menu_items" id="otroModo">
+    <ul className={`menu_items ${menu ? "show" : ""}`}>
       <li><a className="active" href="#">Servicios</a></li>
       <li><a href="#">Nosotros</a></li>
       <li><a href="#">Portafolio</a></li>
       <li><a href="#">Blog</a></li>
       <li><a href="#">Contáctenos</a></li>
     </ul>
-    <span className="btn_menu" onclick="showMenu()">
+    <span className="btn_menu" onClick={handleClickShowMenu}>
       <img src="/assets/images/Navbar.png" alt="Nav" />
     </span>
   </nav>
