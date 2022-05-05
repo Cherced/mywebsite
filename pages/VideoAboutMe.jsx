@@ -1,7 +1,7 @@
 import React , {useState} from 'react'
 import { MatrixAnimation } from '../Components/MatrixAnimation'
 
-const VideoAboutMe = () => {
+const videoAboutMe = () => {
 
 
 const [starterMore, setStarterMore] = useState(true)
@@ -53,4 +53,4 @@ setTimeout(() => {
   )
 }
 
-export default VideoAboutMe
+export default videoAboutMe

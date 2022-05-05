@@ -106,9 +106,6 @@ div.show2 {
         align-items: center;
         flex-direction: column;
         color: $colorTextOne;
-        img{
-            width: 100px;
-        }
 
         p {
             font-family: "open Sans", sans-serif;
@@ -117,8 +114,11 @@ div.show2 {
             font-style: oblique;
             line-height: 20px;
             text-align: justify;
-            padding: 20px 75px;
+            padding: 20px 50px;
             
+        }
+        :nth-child(1) {
+            margin-top: 40px;
         }
         :nth-child(5) {
             font-style: normal;
@@ -128,8 +128,61 @@ div.show2 {
             margin-top: 20px;
             @include whiteButton;
         }
+    }
+    @media screen and (min-height: 640px) {
+        .resume p{
+            margin-top: 0;
+            padding: 5px 25px;
+        }
+    }
+    @media screen and (min-height: 658px) {
+        .resume p{
+            margin-top: -8px;
+            padding: 5px 20px;
+        }
+    }
+    @media screen  and (min-height: 736px) {
+        .resume :nth-child(1) {
+            margin-top: 10px;
+        }           
+    }
+    @media screen  and (min-height: 740px) {
+        .resume {
+            p{
+                padding: 15px 35px;
+            }
+            :nth-child(1) {
+                margin-top: 15px;
+            }
+        }
 
     }
+    @media screen  and (min-height: 812px) {
+        .resume p{
+            padding: 20px 50px;
+        }
+        .resume :nth-child(1) {
+            margin-top: 33px;
+        }           
+    }
+    @media screen  and (min-height: 834px) {
+        .resume p{
+            padding: 20px 50px;
+        }
+        .resume :nth-child(1) {
+            margin-top: 40px;
+        }           
+    }
+    @media screen  and (min-height: 896px) {
+        .resume p{
+            padding: 25px 60px;
+        }
+        .resume :nth-child(1) {
+            margin-top: 40px;
+        }           
+    }
+  
+
 
     .menu_items {
         position: fixed;
@@ -175,7 +228,7 @@ div.show2 {
 
 //controling resumeMenu
 
-@media screen and (max-height: 670px) {
+@media screen and (max-height: 370px) {
     .btn_menu {
         display: inline-flex;
     }
