@@ -106,6 +106,9 @@ div.show2 {
         align-items: center;
         flex-direction: column;
         color: $colorTextOne;
+        img{
+            width: 100px;
+        }
 
         p {
             font-family: "open Sans", sans-serif;
