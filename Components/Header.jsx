@@ -1,8 +1,10 @@
 import React, {useState} from 'react'
+import {useRouter} from 'next/router'
 
 export const Header = () => {
 const [resume, setResume] = useState(false)
 const [ menu, setMenu ] = useState(false)
+const router = useRouter()
 
 const handleClickShowResume = () => {
   if (!menu) {
@@ -31,24 +33,18 @@ const handleClickShowMenu = () => {
     <span className="logo" onClick={handleClickShowResume}><img src="/assets/images/brand.png" alt="brand" /></span>
     <div className={`resume ${resume ? "show2" : ""}`}>
       <img src="/assets/images/brandIntro.png" alt="brandIntro" />
-      <p>
-        I am a professional in business administration, the last 8 years of
-        my life I have worked in all operational areas of a corporation,
-        leading a company of civil projects, there I learned about
-        programming, and I fell in love with the whole beautiful world
-        computer science, so I am looking for an opportunity to demonstrate
-        my capabilities and take my talents to another level, I believe in
-        continuous learning as the most important added value of my profile,
-        thanks for reading.
-      </p>
-      <a href="https://www.youtube.com/watch?v=2Z603ccaj74"><button className="button" type="text">MORE</button></a>
+      <p>Frontend developer, with a degree in business administration, Croosfiter, lover of motorSports, and all the mecaninc staff, traveller, i belive on the continuous learning as fundamental principle of life , I have worked around 6 years in the administration of public civil infrastructure projects, with the pandemic I wanted to do a big change on my professional life, and I take the decision to make the a switch of professional career .</p>
+      <p>I'm currently improving my technical skills in frontend technologies... HTML, CSS, JAVASCRIPT, a fan of Vercel and its Next.js framework, I am also currently in an intensive learning program to successfully meet that goal, his name is Platzi Master.</p>
+      <p>my goal is to never stop learning, and if on this industry we have unicorns, I want to be the same pegasus!</p>
+      <p>Thank You For Reading</p>
+      <a onClick={() => (router.push('/VideoAboutMe'))}><button className="button" type="text">MORE</button></a>
     </div>
     <ul className={`menu_items ${menu ? "show" : ""}`}>
-      <li><a className="active" href="#">Servicios</a></li>
-      <li><a href="#">Nosotros</a></li>
-      <li><a href="#">Portafolio</a></li>
+      <li><a className="active" href="#">Services</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Portfolio</a></li>
       <li><a href="#">Blog</a></li>
-      <li><a href="#">Contáctenos</a></li>
+      <li><a href="#">Contact Us</a></li>
     </ul>
     <span className="btn_menu" onClick={handleClickShowMenu}>
       <img src="/assets/images/Navbar.png" alt="Nav" />

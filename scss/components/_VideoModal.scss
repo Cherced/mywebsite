@@ -1,0 +1,117 @@
+.VideoSelection_Container{
+    color: $colorFondoSectionOne;
+    position: absolute;
+    font-family: 'Ubuntu', sans-serif;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    bottom: 50%;
+    z-index: 1;
+    .MenuSelection{
+       list-style: none;
+       display: flex;   
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       li:hover{
+           color: goldenrod;
+           cursor: pointer;
+       }
+    }
+    
+        transition: all 1.5s ease;
+        transform-style: preserve-3d;
+        background-color: transparent;
+        animation: dot1 3.5s cubic-bezier(.55, .3, .24, .99) forwards;
+    
+        @keyframes dot1 {
+    
+    
+            3% {
+                opacity: 0;
+            }
+    
+            30%,
+            36% {
+                opacity: 1;
+            }
+    
+            100% {
+                opacity: 2;
+            }
+        }
+    
+}
+
+.matrixContainer{
+    z-index: -1;
+    
+}
+
+@font-face {
+    font-family: Katakana;
+    src: url('https://s.cdpn.io/26175/MoonBeams-katakana_.TTF');
+}
+#matrix{
+    font-family: Katakana;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: #000;
+    background-image: gradient(linear, 0% 90%, 0% 100%, from(rgba(0, 255, 0, 0)), to(rgba(0, 255, 0, 0.1)));
+    color: rgba(0, 255, 0, .7);
+    text-shadow: rgba(255, 255, 255, .8) 0px 0px 4px;
+    position: relative;	
+}
+@keyframes fade{
+    0%   { opacity: 1; }
+    100% { opacity: 0; }
+}
+@keyframes fall{
+       from {top: -250px;}
+    to 	{top: 300px;}
+}
+
+
+#matrix div{
+    /* writing-mode: tb-rl; - ughh. doesn't work */
+    position: absolute;	
+    top: 0;
+    /* arrearance */
+    transform-origin: 0%;
+    transform: rotate(90deg); 
+    
+    /* animation */
+    animation-name: fall, fade;			
+    animation-iteration-count: infinite; /* use 0 to infinite */
+    animation-direction: normal; /* default is normal. use 'alternate' to reverse direction */
+    animation-timing-function: ease-out;
+}
+#matrix span{
+    color: rgb(0, 255, 0);
+    text-shadow: rgb(255, 255, 255) 0px 0px 5px;
+}
+.f1{
+    font-size: 1.2em;
+}
+.f2{
+    font-size: .9em;
+}
+.c1{
+    color: rgba(0, 255, 0, .5);
+}
+.d1{
+    animation-duration: 4s;
+}
+.d2{
+    animation-duration: 6s;
+}
+.d3{
+    animation-duration: 8s;
+}
+.d4{
+    animation-duration: 10s;
+}
+.de{	
+    animation-delay: 3s;
+}
