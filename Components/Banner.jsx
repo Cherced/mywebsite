@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Banner = () => {
   return (
- <section className="section-main--one">
+ <section className="section-main--one" id="Top">
   <div className="main-banner--container">                
     <div className="banner-text--containerOne">
       <h2>my Name is Camilo</h2>

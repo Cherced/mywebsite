@@ -1,19 +1,19 @@
 import React from 'react'
 import { Header } from '../Components/Header'
 import {Banner} from '../Components/Banner'
-import {Community} from '../Components/Community'
-import {Intro} from '../Components/Intro'
+import {AboutMe} from '../Components/AboutMe'
 import { Proyects } from '../Components/Proyects'
+import { Atom } from '../Components/Atom'
 import { Footer } from '../Components/Footer'
 
 const home = () => {
   return (
     <React.Fragment>
     <Header />
-    <Banner />  
-    <Community />
-    <Intro />
+    <Banner /> 
+    <AboutMe /> 
     <Proyects />
+    <Atom />
     <Footer />    
     </React.Fragment>
   )

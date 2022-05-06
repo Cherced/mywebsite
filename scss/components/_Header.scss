@@ -8,10 +8,10 @@ header {
 
 @media screen and (max-width: 834px) {
     .menu {
-       border-radius: 0 0 32px 0;
+        border-radius: 0 0 32px 0;
     }
 }
-    
+
 
 // styling for mobile devices
 .menu {
@@ -71,11 +71,6 @@ ul.show {
     z-index: 3;
 }
 
-div.show2 {
-    top: 64px;
-    z-index: 5;
-}
-
 // media queries
 
 @media screen and (max-width: 952px) and (min-height: 675px) {
@@ -89,100 +84,6 @@ div.show2 {
     .btn_menu {
         display: inline-flex;
     }
-
-    .resume {
-        position: fixed;
-        width: 100vw;
-        height: calc(100vh - 64px);
-        background-color: $backgroundHeader;
-        background-image: url("/src/assets/image/Img/bannerImg375.png");
-        background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
-        top: -100vh;
-        text-align: center;
-        transition: all 0.5s;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        color: $colorTextOne;
-
-        p {
-            font-family: "open Sans", sans-serif;
-            font-size: 15px;
-            font-weight: normal;
-            font-style: oblique;
-            line-height: 20px;
-            text-align: justify;
-            padding: 20px 50px;
-            
-        }
-        :nth-child(1) {
-            margin-top: 40px;
-        }
-        :nth-child(5) {
-            font-style: normal;
-        }
-
-        .button {
-            margin-top: 20px;
-            @include whiteButton;
-        }
-    }
-    @media screen and (min-height: 640px) {
-        .resume p{
-            margin-top: 0;
-            padding: 5px 25px;
-        }
-    }
-    @media screen and (min-height: 658px) {
-        .resume p{
-            margin-top: -8px;
-            padding: 5px 20px;
-        }
-    }
-    @media screen  and (min-height: 736px) {
-        .resume :nth-child(1) {
-            margin-top: 10px;
-        }           
-    }
-    @media screen  and (min-height: 740px) {
-        .resume {
-            p{
-                padding: 15px 35px;
-            }
-            :nth-child(1) {
-                margin-top: 15px;
-            }
-        }
-
-    }
-    @media screen  and (min-height: 812px) {
-        .resume p{
-            padding: 20px 50px;
-        }
-        .resume :nth-child(1) {
-            margin-top: 33px;
-        }           
-    }
-    @media screen  and (min-height: 834px) {
-        .resume p{
-            padding: 20px 50px;
-        }
-        .resume :nth-child(1) {
-            margin-top: 40px;
-        }           
-    }
-    @media screen  and (min-height: 896px) {
-        .resume p{
-            padding: 25px 60px;
-        }
-        .resume :nth-child(1) {
-            margin-top: 40px;
-        }           
-    }
-  
-
 
     .menu_items {
         position: fixed;
@@ -231,45 +132,6 @@ div.show2 {
 @media screen and (max-height: 370px) {
     .btn_menu {
         display: inline-flex;
-    }
-
-    .resume {
-        position: fixed;
-        width: 100vw;
-        height: calc(100vh - 64px);
-        background-color: $backgroundHeader;
-        background-image: url("/src/assets/image/Img/bannerImg375.png");
-        background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
-        top: -100vh;
-        text-align: center;
-        transition: all 0.5s;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        color: $colorTextOne;
-
-        p {
-            font-family: 'open Sans', sans-serif;
-            font-size: 15px;
-            font-weight: normal;
-            font-style: normal;
-            line-height: 20px;
-            text-align: justify;
-            padding: 105px 40px 40px 40px;
-            margin-top: 50px;
-        }
-
-        .button {
-            margin-top: 20px;
-            @include whiteButton;
-        }
-
-        img {
-            display: none;
-        }
-
     }
 
     .menu_items {

@@ -1,3 +1,378 @@
+.section-main--two {
+    width: 100%;
+    height: auto;
+    background: $colorFondoSectionOne;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .titleBox {
+        @include titleBoxBlack;
+        padding: 10px 45px;
+        margin: 45px;
+    }
+
+    p {
+        font-family: $paragraf;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        color: $colorTextTwo;
+        margin: 10px 40px;
+        text-align: center;
+    }
+
+    .button {
+        @include blackButton;
+    }
+
+    img {
+        margin-bottom: 80px;
+    }
+
+    .main-skills--container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        margin-top: 10px;
+        margin-top: -80px;
+
+        .box-model {
+            h1 {
+                padding: 0 60px 15px;
+            }
+
+            p {
+                font-family: $paragraf;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 16px;
+                text-align: justify;
+                color: $colorTextTwo;
+            }
+
+            img {
+                position: relative;
+                top: 115px;
+                left: 24px;
+            }
+        }
+
+
+    }
+}
+
+@media screen and (min-width: 423px) {
+    .main-skills--container {
+        .box-model {
+            p {
+                padding: 0 30px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .main-skills--container {
+        .box-model {
+            p {
+                padding: 0 40px;
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 600px) {
+    .section-main--two {
+        p {
+            padding: 0 40px;
+        }
+    }
+
+    .main-skills--container {
+        .box-model {
+            p {
+                padding: 0 70px;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (min-width: 643px) {
+    .section-main--two {
+        p {
+            padding: 0 50px;
+        }
+
+        .main-skills--container {
+            .box-model {
+                p {
+                    padding: 0 100px;
+                }
+
+                h1 {
+                    padding: 0 80px 25px;
+                }
+
+                img {
+                    left: 44px;
+                }
+            }
+        }
+    }
+
+
+}
+
+
+
+@media screen and (min-width: 766px) {
+    .section-main--two {
+        p {
+            padding: 0 70px;
+        }
+
+        .main-skills--container {
+            .box-model {
+                p {
+                    padding: 0 120px;
+                }
+
+                h1 {
+                    padding: 0 100px 25px;
+                }
+
+                img {
+                    left: 64px;
+                }
+            }
+        }
+    }
+
+
+}
+
+
+
+@media screen and (min-width: 834px) {
+    .section-main--two {
+        p {
+            padding: 0 90px;
+        }
+
+        .main-skills--container {
+            .box-model {
+                p {
+                    padding: 0 150px;
+                }
+
+                h1 {
+                    padding: 0 130px 25px;
+                }
+
+                img {
+                    left: 94px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:1023px) {
+    .section-main--two {
+        p {
+            padding: 0 120px;
+            font-size: 16px;
+        }
+
+        .main-skills--container {
+            .one {
+                width: 50%;
+
+                p {
+                    padding: 0 90px;
+                }
+
+                h1 {
+                    padding: 0 100px 25px;
+                }
+
+                img {
+                    left: 64px;
+                }
+
+            }
+
+            .two {
+                width: 50%;
+
+                p {
+                    padding: 0 90px;
+                }
+
+                h1 {
+                    padding: 0 100px 25px;
+                }
+
+                img {
+                    left: 64px;
+                }
+            }
+
+            .three {
+                width: 100%;
+
+                p {
+                    padding: 0 300px;
+                }
+
+                h1 {
+                    padding: 0 280px 25px;
+                }
+
+                img {
+                    left: 242px;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width:1439px) {
+    .section-main--two {
+        p {
+            padding: 0 120px;
+            font-size: 16px;
+        }
+
+        .main-skills--container {
+            .one {
+                width: 50%;
+
+                p {
+                    font-size: 16px;
+                    padding: 0 120px;
+                }
+
+                h1 {
+                    padding: 0 100px 25px;
+                }
+
+                img {
+                    left: 64px;
+                }
+
+            }
+
+            .two {
+                width: 50%;
+
+                p {
+                    font-size: 16px;
+                    padding: 0 120px;
+                }
+
+                h1 {
+                    padding: 0 100px 25px;
+                }
+
+                img {
+                    left: 64px;
+                }
+            }
+
+            .three {
+                width: 100%;
+
+                p {
+                    font-size: 16px;
+                    padding: 0 420px;
+                }
+
+                h1 {
+                    padding: 0 400px 25px;
+                }
+
+                img {
+                    left: 362px;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width:1920px) {
+    .section-main--two {
+        p {
+            padding: 0 420px;
+            font-size: 18px;
+        }
+
+        .main-skills--container {
+            .one {
+                width: 50%;
+
+                p {
+                    font-size: 16px;
+                    padding: 0 220px;
+                }
+
+                h1 {
+                    padding: 0 240px 25px;
+                }
+
+                img {
+                    left: 205px;
+                }
+
+            }
+
+            .two {
+                width: 50%;
+
+                p {
+                    font-size: 16px;
+                    padding: 0 220px;
+                }
+
+                h1 {
+                    padding: 0 240px 25px;
+                }
+
+                img {
+                    left: 205px;
+                }
+            }
+
+            .three {
+                width: 100%;
+
+                p {
+                    font-size: 16px;
+                    padding: 0 580px;
+                }
+
+                h1 {
+                    padding: 0 530px 25px;
+                }
+
+                img {
+                    left: 493px;
+                }
+            }
+        }
+    }
+}
+
 .main-skills--tech {
     margin-top: 20px;
     display: flex;
