@@ -9,7 +9,7 @@ export const AboutMe = () => {
       <p>I'm currently improving my technical skills in frontend technologies... HTML, CSS, JAVASCRIPT, a fan of Vercel and its Next.js framework, I am also currently in an intensive learning program to successfully meet that goal, his name is Platzi Master.</p>
       <p>My goal is to never stop learning, and if on this industry we have unicorns, I want to be the same as pegasus!</p>
       <p>Thanks For Reading</p>
-      <a onClick={() => (router.push('/videoAboutMe'))}><button className="button" type="text">MORE</button></a>
+      <a onClick={() => (router.push('/VideoAboutMe'))}><button className="button" type="text">MORE</button></a>
     </div>
   )
 }
