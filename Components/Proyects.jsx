@@ -2,9 +2,10 @@ import React from 'react'
 
 export const Proyects = () => {
   return (
-<div>
+    <React.Fragment>
 <section className="section-main--two" id="services">
 <div className="main-skills--container">
+<div className="titleBoxServices">SERVICES</div>
     <div className="box-model one">
       <img src="/assets/images/Desing.png" alt="desingIcon" />
       <h1>DESING</h1>
@@ -121,6 +122,6 @@ export const Proyects = () => {
       </aside>
     </div>
   </section>
-</div>
+  </React.Fragment>
   )
 }

@@ -1,6 +1,6 @@
 .section-main--two {
     width: 100%;
-    height: auto;
+    height: 100%;
     background: $colorFondoSectionOne;
     display: flex;
     flex-direction: column;
@@ -37,8 +37,15 @@
         flex-direction: row;
         flex-wrap: wrap;
         align-items: flex-start;
-        margin-top: 10px;
-        margin-top: -80px;
+        justify-content: center;
+
+        .titleBoxServices {
+            @include titleBoxBlack;
+            padding: 10px 45px;
+            margin: 45px;
+            margin-top: 84px;
+            margin-bottom: 20px;
+        }
 
         .box-model {
             h1 {
@@ -63,6 +70,17 @@
         }
 
 
+    }
+}
+
+@media screen and (min-width: 320px) {
+    .main-skills--container {
+        .box-model .one {
+
+            margin-top: 25px;
+
+
+        }
     }
 }
 
@@ -374,7 +392,7 @@
 }
 
 .main-skills--tech {
-    margin-top: 20px;
+    margin-top: 64px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -405,12 +423,13 @@
 
         .proyect-button--container {
             height: 187.5px;
-            background-image: url('/src/assets/image/Img/sectionmain1.png');
+            background-image: url('../../public/assets/images/Img/sectionmain1.png');
             @include backgroundStrech;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            margin-top: 60px;
 
             .titleBox {
                 @include titleBoxBlack;
