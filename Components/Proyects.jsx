@@ -1,12 +1,58 @@
 import React from 'react'
+import { CarruselContainer } from './CarruselContainer'
+import { design } from '../pages/api/designed.cherced'
 
 export const Proyects = () => {
+  
+  function next(){
+    console.log('next')
+    const slider = document.querySelector('#slider');
+    let sliderSection = document.querySelectorAll('.sliderContentItem__image');
+    let sliderSectionFirst = sliderSection[0];
+    console.log(sliderSectionFirst);
+    slider.style.marginLeft = "-200%";
+    slider.style.transition = "all 0.5s";
+    setTimeout(function(){
+    slider.style.transition = "none"; 
+    slider.insertAdjacentElement('beforeend', sliderSectionFirst);
+    slider.style.marginLeft = "-100%";
+}
+,500);
+}
+function prev(){
+    console.log('prev')
+    const slider = document.querySelector('#slider');
+    let sliderSection = document.querySelectorAll('.sliderContentItem__image');
+    let sliderSectionLength = sliderSection.length;
+    let sliderSectionLast = sliderSection[sliderSectionLength - 1];
+    console.log(sliderSectionLast);
+    slider.style.marginLeft = "0";
+    slider.style.transition = "all 0.5s";
+    setTimeout(function(){
+    slider.style.transition = "none"; 
+    slider.insertAdjacentElement('afterbegin', sliderSectionLast);
+    slider.style.marginLeft = "-100%";
+}
+,500);
+}
+
+const handleClickRight = () => {
+    console.log("click");
+    next();
+}
+
+const handleClickLeft = () => {
+    console.log("click");
+    prev();
+} 
+  const data = design;
   return (
     <React.Fragment>
 <section className="section-main--two" id="services">
 <div className="main-skills--container">
 <div className="titleBoxServices">SERVICES</div>
-    <div className="box-model one">
+<div className="main-skills--container--text">
+<div className="box-model one">
       <img src="/assets/images/Desing.png" alt="desingIcon" />
       <h1>DESING</h1>
       <p>
@@ -33,6 +79,8 @@ export const Proyects = () => {
         solutions.
       </p>
     </div>
+</div>
+    
   </div>
   </section>
   <div className="main-skills--tech">
@@ -62,60 +110,25 @@ export const Proyects = () => {
         <li>DESIGNED</li>
       </div>
       <aside className="proyect-carrusel--container">
-        <div className="boxSample">
-          <p>coded, designed</p>
-          <h1>FULL-WEB</h1>
-          <p>Landing Page, for a seos Company</p>
-          <ul>
-            <button className="button" type="text">DEMO</button>
-            <button className="button" type="text">MORE</button>
-          </ul>
+      <div className="sliderInfiniteMoviesContainer">
+        <div className="sliderContent" id="slider">
+          {
+            data.map((item, index) => {
+              return (
+                <CarruselContainer key={index} id={item.id} src={item.image}/>
+              )
+            })
+          }
         </div>
-        <div className="boxSample">
-          <p>coded, designed</p>
-          <h1>LOGOS IT</h1>
-          <p>Digital services hosted in Colombia</p>
-          <ul>
-            <button className="button" type="text">DEMO</button>
-            <button className="button" type="text">MORE</button>
-          </ul>
-        </div>
-        <div className="boxSample">
-          <p>coded, designed</p>
-          <h1>FULL-WEB</h1>
-          <p>Landing Page, for a seos Company</p>
-          <ul>
-            <button className="button" type="text">DEMO</button>
-            <button className="button" type="text">MORE</button>
-          </ul>
-        </div>
-        <div className="boxSample">
-          <p>coded, designed</p>
-          <h1>FULL-WEB</h1>
-          <p>Landing Page, for a seos Company</p>
-          <ul>
-            <button className="button" type="text">DEMO</button>
-            <button className="button" type="text">MORE</button>
-          </ul>
-        </div>
-        <div className="boxSample">
-          <p>coded, designed</p>
-          <h1>FULL-WEB</h1>
-          <p>Landing Page, for a seos Company</p>
-          <ul>
-            <button className="button" type="text">DEMO</button>
-            <button className="button" type="text">MORE</button>
-          </ul>
-        </div>
-        <div className="boxSample">
-          <p>coded, designed</p>
-          <h1>FULL-WEB</h1>
-          <p>Landing Page, for a seos Company</p>
-          <ul>
-            <button className="button" type="text">DEMO</button>
-            <button className="button" type="text">MORE</button>
-          </ul>
-        </div>
+      </div>
+      <div className="sliderBtnContainer">
+        <button onClick={handleClickLeft} className="slider--BTN btn--lf" id="btn-lf">
+            &#60;
+        </button>
+        <button onClick={handleClickRight} className="slider--BTN btn--rg" id="btn-rg">
+           &#62;
+        </button>
+      </div>
         <div className="footer-proyect--container">
           <p>And many more to come!</p>
         </div>

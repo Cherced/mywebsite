@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import { useRouter } from 'next/router'
-import { StarterPage } from '../Components/StarterPage'
+import { ChercedAnimation } from '../Components/ChercedAnimation'
 
 const App = () => {
     const [starter, setStarter] = useState(true);
@@ -17,7 +17,7 @@ const App = () => {
   return (
       <React.Fragment>
     {
-        starter ? <StarterPage /> : (goHome())
+        starter ? <ChercedAnimation /> : (goHome())
     }
     </React.Fragment>
   )

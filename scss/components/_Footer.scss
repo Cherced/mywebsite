@@ -4,8 +4,9 @@ footer{
 
 .section-footer--one {
     width: 100%;
-    height: auto;
+    height: 100vh;
     background: $colorLinearGradientFooter;
+    animation: loadPage 1s ease forwards;
 
     .footer-contactme--container {
         display: flex;

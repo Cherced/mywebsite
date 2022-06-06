@@ -8,14 +8,14 @@ import { Footer } from '../Components/Footer'
 
 const home = () => {
   return (
-    <React.Fragment>
+    <div className="homeContainer">
     <Header />
     <Banner /> 
     <AboutMe /> 
     <Proyects />
     <Atom />
     <Footer />    
-    </React.Fragment>
+    </div>
   )
 }
 

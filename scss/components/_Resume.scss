@@ -29,6 +29,38 @@
 
 }
 
-@media screen and (min-width: 320px) {
-    
+@media screen and (min-width: 1250px) {
+    .resume {
+        padding: 70px 100px;
+        p {
+            font-size: 15px;
+        }
+    }
+   
 }
+
+
+@media screen and (min-width: 1440px) {
+    .resume {
+        padding: 90px 200px;
+        p {
+            line-height: 30px;
+            font-size: 15px;
+        }
+    }
+   
+}
+
+
+@media screen and (min-width: 2559px) {
+    .resume {
+        padding: 250px 350px;
+        p {
+            line-height: 30px;
+            font-size: 22px;
+        }
+    }
+   
+}
+    
+    

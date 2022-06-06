@@ -174,3 +174,24 @@ $size: 4;
 body {
     font-family: $titles, $subTitles, $paragraf;
 }
+
+.homeContainer{
+    animation: loadPage 1s ease forwards;
+
+    @keyframes loadPage {
+        0% {
+            background-color: #000000;
+            background-position: 0% 50%;
+            opacity: 0;
+        }
+        50% {
+            background-color: #000000;
+            background-position: 50% 50%;
+            opacity: 0.5;
+        }
+        100% {
+            background-color: white;
+            opacity: 1;
+        }
+    }
+}
