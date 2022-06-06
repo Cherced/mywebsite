@@ -103,11 +103,7 @@ const handleClickLeft = () => {
         <div className="titleBox">PORTFOLIO</div>
       </div>
       <div className="proyect-nav--container">
-        <ul>
-          <li>ALL</li>
-          <li>CODED</li>
-        </ul>
-        <li>DESIGNED</li>
+       
       </div>
       <aside className="proyect-carrusel--container">
       <div className="sliderInfiniteMoviesContainer">
