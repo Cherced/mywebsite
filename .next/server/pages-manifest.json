@@ -1,5 +1,15 @@
 {
+  "/VideoAboutMe": "pages/VideoAboutMe.html",
   "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/api/projects/[id]": "pages/api/projects/[id].js",
+  "/api/projects/database/data": "pages/api/projects/database/data.js",
+  "/api/projects/database/db": "pages/api/projects/database/db.js",
+  "/api/projects": "pages/api/projects.js",
+  "/contactMe": "pages/contactMe.html",
+  "/home": "pages/home.html",
+  "/": "pages/index.html",
+  "/projects/[id]": "pages/projects/[id].html",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js"
+  "/404": "pages/404.html"
 }

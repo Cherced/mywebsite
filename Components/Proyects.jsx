@@ -1,8 +1,8 @@
 import React from 'react'
 import { CarruselContainer } from './CarruselContainer'
-import { design } from '../pages/api/designed.cherced'
 
 export const Proyects = () => {
+  const [projects, setProjects] = React.useState([])
   
   function next(){
     console.log('next')
@@ -45,7 +45,16 @@ const handleClickLeft = () => {
     console.log("click");
     prev();
 } 
-  const data = design;
+    React.useEffect(() => {
+      let mounted = true;
+      if (mounted) {
+        window.fetch('/api/projects').then(res => res.json()).then(data => {
+          setProjects(data)
+        })
+      }
+      return () => mounted = false;
+    }, [])
+      
   return (
     <React.Fragment>
 <section className="section-main--two" id="services">
@@ -56,7 +65,7 @@ const handleClickLeft = () => {
       <img src="/assets/images/Desing.png" alt="desingIcon" />
       <h1>DESING</h1>
       <p>
-        I can design the website based on your needs and suggestions. I
+        I can desing the website based on your needs and suggestions. I
         can also create it from scratch by consulting with you during
         work.
       </p>
@@ -109,7 +118,7 @@ const handleClickLeft = () => {
       <div className="sliderInfiniteMoviesContainer">
         <div className="sliderContent" id="slider">
           {
-            data.map((item, index) => {
+            projects.map((item, index) => {
               return (
                 <CarruselContainer key={index} id={item.id} src={item.image}/>
               )

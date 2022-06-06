@@ -4,7 +4,7 @@ import {useRouter} from 'next/router'
 export const CarruselContainer = (props) => {
     const router = useRouter();    
     function goToPage() {
-        router.push(`proyects/${props.id}`)
+        router.push(`projects/${props.id}`)
     }
     return (
     <button onClick={goToPage} className="sliderContentItem__image">

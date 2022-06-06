@@ -1,7 +1,7 @@
 import React,{useState, useEffect} from 'react'
 import { StarterPage } from '../Components/StarterPage'
 
-const contactMe = () => {
+const ContactMe = () => {
   const [starterAnimation, setStarterAnimation] = useState(true);
 
   useEffect(() => {
@@ -32,4 +32,4 @@ const contactMe = () => {
   )
 }
 
-export default contactMe;
+export default ContactMe;
