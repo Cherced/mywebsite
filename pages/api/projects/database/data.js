@@ -4,7 +4,7 @@ const allData = [
         "title": "Quantic Theathrum",
         "description": "As a result of my experience in the bootcamp, I decided to create a project on my own where I can apply all the designated tasks in each project sprint.",
         "image": "/assets/proyects/quanticTheatrum.png",
-        "link": "https://quantic-theatrum-k7v53cf09-cherced.vercel.app/",
+        "link": "https://quantic-theatrum.vercel.app/",
         "github": "https://github.com/Cherced/QuanticFilms",
         "technologies": [
             "HTML",
@@ -85,7 +85,7 @@ const allData = [
         "title": "Studio Ghibli BackOffice",
         "description": "It was my second project in the Platzi Master bootcamp, it is an account administration backoffice for Studio Ghibli clients, in which I developed the interface design, and the assembly of state and responsive design, I helped the backend to generate data fake, and to make the endpoints.",
         "image": "/assets/proyects/ghibliBackofice.png",
-        "link": "https://deploy-preview-9--studioghibli-backoffice.netlify.app/login",
+        "link": "https://deploy-preview-9--studioghibli-backoffice.netlify.app/",
         "github": "https://github.com/Platzi-Master-C10-LRR/User-Studio-Ghibli-Backoffice-Frontend",
         "technologies": [
             "HTML",
@@ -108,7 +108,7 @@ const allData = [
         "description": "A website (JUST DESING) for a Shopping Cart",
         "image": "/assets/proyects/Shoppy.png",
         "link": "https://www.figma.com/file/9V7LNk6FwHuspOXNCjkXTt/VirtualShop?node-id=0%3A1",
-        "github": "none",
+        "github": "https://github.com/Cherced/ShoppyApp.git",
         "technologies": [
             "HTML",
             "CSS",
@@ -122,8 +122,8 @@ const allData = [
         "title": "DO IT DONE",
         "description": "This is a personal task control project, so that the user can evaluate its effectiveness in different time scales, I plan to implement artificial intelligence models to evaluate its results and suggest relevant content so that the user can improve its weaknesses.",
         "image": "/assets/proyects/doItDone.png",
-        "link": "https://todo-list-app-cherced.vercel.app/",
-        "github": "none",
+        "link": "https://ge-it-done.vercel.app/",
+        "github": "https://github.com/Cherced/GeItDone.git",
         "technologies": [
             "HTML",
             "CSS",
@@ -143,8 +143,7 @@ const allData = [
         "title": "FULLWEB",
         "description": "A website for a FullWeb that is a CEO's Company from venezuela (JUST DESING)",
         "image": "/assets/proyects/fullWeb.png",
-        "link": "none",
-        "github": "none",
+        "github": "https://github.com/Cherced/ProyectoHernandez.git",
         "technologies": [
             "FIGMA"
         ]
