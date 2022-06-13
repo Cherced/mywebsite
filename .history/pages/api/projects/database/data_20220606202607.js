@@ -26,7 +26,7 @@ const allData = [
         "title": "My Website",
         "description": "This project has been my personal challenge, I built it in html and css in the first instance, now I have been transforming it, it was vanillaJs, and now it is React, using NextJs as a framework, in the future I want to make a Blog in it.",
         "image": "/assets/proyects/webSite.png",
-        "link": "https://mywebsite-peach.vercel.app/",
+        "link": "https://mywebsite-an44dvzlo-cherced.vercel.app/",
         "github": "https://github.com/Cherced/mywebsite",
         "technologies": [
             "HTML",
@@ -43,7 +43,7 @@ const allData = [
         "title": "BookingUI system",
         "description": "observing my dedication within the bootcamp, my project leader assigned me extra work with older students from the bootcamp, and this is a booking system similar to how an airbnb Clone",
         "image": "/assets/proyects/bookingUI.png",
-        "link": "https://booking-ui-ashen.vercel.app/",
+        "link": "https://booking-i0zvlxiwa-cherced.vercel.app/",
         "github": "https://github.com/Cherced/BookingUi",
         "technologies": [
             "HTML",

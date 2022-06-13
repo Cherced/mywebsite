@@ -26,7 +26,7 @@ const allData = [
         "title": "My Website",
         "description": "This project has been my personal challenge, I built it in html and css in the first instance, now I have been transforming it, it was vanillaJs, and now it is React, using NextJs as a framework, in the future I want to make a Blog in it.",
         "image": "/assets/proyects/webSite.png",
-        "link": "https://mywebsite-peach.vercel.app/",
+        "link": "https://mywebsite-an44dvzlo-cherced.vercel.app/",
         "github": "https://github.com/Cherced/mywebsite",
         "technologies": [
             "HTML",
