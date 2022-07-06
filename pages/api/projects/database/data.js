@@ -140,12 +140,19 @@ const allData = [
     },
     {
         "id": "8",
-        "title": "FULLWEB",
-        "description": "A website for a FullWeb that is a CEO's Company from venezuela (JUST DESING)",
-        "image": "/assets/proyects/fullWeb.png",
+        "title": "AIRLINE",
+        "description": "A Landing Page to an AIRLINE company built in NEXTJS, thats a nice Example to good practices",
+        "image": "/assets/proyects/page.png",
+        "link": "https://airlines-cherced.vercel.app/",
         "github": "https://github.com/Cherced/ProyectoHernandez.git",
         "technologies": [
-            "FIGMA"
+            "HTML",
+            "CSS",
+            "SASS",
+            "JAVASCRIPT",
+            "REACT",
+            "NEXTJS",
+            "FIGMA",
         ]
     },
 ]
