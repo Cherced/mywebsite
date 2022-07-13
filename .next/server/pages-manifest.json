@@ -3,6 +3,5 @@
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
   "/home": "pages/home.js",
-  "/api/projects": "pages/api/projects.js",
-  "/api/projects/[id]": "pages/api/projects/[id].js"
+  "/api/projects": "pages/api/projects.js"
 }

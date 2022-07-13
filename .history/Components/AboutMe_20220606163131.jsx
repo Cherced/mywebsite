@@ -11,7 +11,7 @@ export const AboutMe = () => {
           Im in an intensive learning program to successfully meet that goal, its name is Platzi Master.</p>
       <p>My goal is to never stop learning, and if on this industry we have unicorns, I want to be the same as pegasus!</p>
       <p>Thanks For Reading</p>
-      <button  onClick={() => (router.push('/VideoAboutMe'))} className="button" type="text">MORE</button>
+      <a onClick={() => (router.push('/VideoAboutMe'))}><button className="button" type="text">MORE</button></a>
     </div>
   )
 }

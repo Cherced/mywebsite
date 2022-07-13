@@ -23,7 +23,7 @@ const handleClickShowMenu = () => {
       <li><a href="#aboutMe"onClick={handleClickShowMenu}>About Me</a></li>
       <li><a href="#portfolio" onClick={handleClickShowMenu}>Portfolio</a></li>
       <li><a href="#" onClick={handleClickShowMenu}>Blog</a></li>
-      <li><a href="#"onClick={goContact}>Contact Me</a></li>
+      <li><a onClick={goContact}>Contact Me</a></li>
     </ul>
     <span className="btn_menu" onClick={handleClickShowMenu}>
       <img src="/assets/images/Navbar.png" alt="Nav" />
