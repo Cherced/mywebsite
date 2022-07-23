@@ -25,6 +25,11 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/contactMe": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/contactMe.js"
+    ],
     "/home": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
